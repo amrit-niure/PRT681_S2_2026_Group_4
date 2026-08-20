@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\717011b2-5ae9-4535-a6a6-fd2a1dc3128f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\031422f6-5fef-42bc-9a06-0ae4875ce9fc\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7C6C19-061E-1B98-DB27-89AC6F87A593}|authentication.AppHost\\authentication.AppHost.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7C6C19-061E-1B98-DB27-89AC6F87A593}|authentication.AppHost\\authentication.AppHost.csproj|solutionrelative:authentication.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\auth\\permissionresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\auth\\permissionresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\auth\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\auth\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\auth\\jwttokenfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\auth\\jwttokenfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\sameuserorpermissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\sameuserorpermissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\sameuserorpermissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\sameuserorpermissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\permissionauthorizationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\permissionpolicybuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\permissionpolicybuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\data\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\data\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\data\\applymigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\data\\applymigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\authorization\\customclaimtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\authorization\\customclaimtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\authentication\\authentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{209F5073-60F1-766D-38C7-2E1E0A347035}|authentication\\authentication.csproj|solutionrelative:authentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\717011b2-5ae9-4535-a6a6-fd2a1dc3128f\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\717011b2-5ae9-4535-a6a6-fd2a1dc3128f\\secrets.json",
+              "ToolTip": "C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\717011b2-5ae9-4535-a6a6-fd2a1dc3128f\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\717011b2-5ae9-4535-a6a6-fd2a1dc3128f\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-16T05:56:49.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication.AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "authentication.AppHost\\AppHost.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication.AppHost\\AppHost.cs",
+              "RelativeToolTip": "authentication.AppHost\\AppHost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:53:27.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "authentication\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "authentication\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAywD4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:31:36.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JwtTokenFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Auth\\JwtTokenFactory.cs",
+              "RelativeDocumentMoniker": "authentication\\Auth\\JwtTokenFactory.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Auth\\JwtTokenFactory.cs",
+              "RelativeToolTip": "authentication\\Auth\\JwtTokenFactory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:30:29.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\README.md",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\README.md",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\README.md",
+              "RelativeToolTip": "authentication\\Authorization\\README.md",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-08-16T05:06:15.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PermissionPolicyBuilderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\PermissionPolicyBuilderExtensions.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\PermissionPolicyBuilderExtensions.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\PermissionPolicyBuilderExtensions.cs",
+              "RelativeToolTip": "authentication\\Authorization\\PermissionPolicyBuilderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:05:14.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\appsettings.json",
+              "RelativeDocumentMoniker": "authentication\\appsettings.json",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\appsettings.json",
+              "RelativeToolTip": "authentication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T08:08:47.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\031422f6-5fef-42bc-9a06-0ae4875ce9fc\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\031422f6-5fef-42bc-9a06-0ae4875ce9fc\\secrets.json",
+              "ToolTip": "C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\031422f6-5fef-42bc-9a06-0ae4875ce9fc\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\031422f6-5fef-42bc-9a06-0ae4875ce9fc\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-15T08:11:34.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "authentication\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "authentication\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T13:22:15.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PermissionResolver.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Auth\\PermissionResolver.cs",
+              "RelativeDocumentMoniker": "authentication\\Auth\\PermissionResolver.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Auth\\PermissionResolver.cs",
+              "RelativeToolTip": "authentication\\Auth\\PermissionResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:30:31.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RefreshTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Auth\\RefreshTokenService.cs",
+              "RelativeDocumentMoniker": "authentication\\Auth\\RefreshTokenService.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Auth\\RefreshTokenService.cs",
+              "RelativeToolTip": "authentication\\Auth\\RefreshTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:30:38.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "authentication\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "authentication\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAIA6wFcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:30:47.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SameUserOrPermissionRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\SameUserOrPermissionRequirement.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\SameUserOrPermissionRequirement.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\SameUserOrPermissionRequirement.cs",
+              "RelativeToolTip": "authentication\\Authorization\\SameUserOrPermissionRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:02:29.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PermissionRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\PermissionRequirement.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\PermissionRequirement.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\PermissionRequirement.cs",
+              "RelativeToolTip": "authentication\\Authorization\\PermissionRequirement.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T04:59:49.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "authentication\\Data\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\RefreshToken.cs",
+              "RelativeToolTip": "authentication\\Data\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T04:59:41.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PermissionAuthorizationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\PermissionAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\PermissionAuthorizationHandler.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\PermissionAuthorizationHandler.cs",
+              "RelativeToolTip": "authentication\\Authorization\\PermissionAuthorizationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T04:57:09.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SameUserOrPermissionAuthorizationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\SameUserOrPermissionAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\SameUserOrPermissionAuthorizationHandler.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\SameUserOrPermissionAuthorizationHandler.cs",
+              "RelativeToolTip": "authentication\\Authorization\\SameUserOrPermissionAuthorizationHandler.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wBMAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T04:56:23.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\Extensions.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\Extensions.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\Extensions.cs",
+              "RelativeToolTip": "authentication\\Authorization\\Extensions.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wCIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T10:26:36.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\Permissions.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\Permissions.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\Permissions.cs",
+              "RelativeToolTip": "authentication\\Authorization\\Permissions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T10:23:19.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomClaimTypes.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\CustomClaimTypes.cs",
+              "RelativeDocumentMoniker": "authentication\\Authorization\\CustomClaimTypes.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Authorization\\CustomClaimTypes.cs",
+              "RelativeToolTip": "authentication\\Authorization\\CustomClaimTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T13:22:07.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\Roles.cs",
+              "RelativeDocumentMoniker": "authentication\\Data\\Roles.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\Roles.cs",
+              "RelativeToolTip": "authentication\\Data\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T13:09:49.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplyMigrations.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\ApplyMigrations.cs",
+              "RelativeDocumentMoniker": "authentication\\Data\\ApplyMigrations.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Data\\ApplyMigrations.cs",
+              "RelativeToolTip": "authentication\\Data\\ApplyMigrations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T10:36:18.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Program.cs",
+              "RelativeDocumentMoniker": "authentication\\Program.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\authentication\\Program.cs",
+              "RelativeToolTip": "authentication\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T08:02:07.249Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

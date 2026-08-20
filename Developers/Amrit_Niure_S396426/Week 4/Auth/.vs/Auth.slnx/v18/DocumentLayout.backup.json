@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\Auth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{851EDEB5-1736-58AA-CB2B-407FCB7986D0}|Auth.AppHost\\Auth.AppHost.csproj|c:\\users\\acer\\desktop\\charles darwin university\\s2 2026\\prt 681 software engineering practice\\prt681_s2026_developers\\amrit_niure_s396426\\week 4\\auth\\auth.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851EDEB5-1736-58AA-CB2B-407FCB7986D0}|Auth.AppHost\\Auth.AppHost.csproj|solutionrelative:auth.apphost\\apphost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\05bec00f-7f2a-4dde-a80c-c22069d3ab37\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\05bec00f-7f2a-4dde-a80c-c22069d3ab37\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\05bec00f-7f2a-4dde-a80c-c22069d3ab37\\secrets.json",
+              "ToolTip": "C:\\Users\\Acer\\AppData\\Roaming\\Microsoft\\UserSecrets\\05bec00f-7f2a-4dde-a80c-c22069d3ab37\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\05bec00f-7f2a-4dde-a80c-c22069d3ab37\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-16T05:57:02.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppHost.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\Auth\\Auth.AppHost\\AppHost.cs",
+              "RelativeDocumentMoniker": "Auth.AppHost\\AppHost.cs",
+              "ToolTip": "C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineering Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\Auth\\Auth.AppHost\\AppHost.cs",
+              "RelativeToolTip": "Auth.AppHost\\AppHost.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-16T05:53:00.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
