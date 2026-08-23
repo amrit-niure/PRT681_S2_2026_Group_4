@@ -1,0 +1,16 @@
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\bin\Debug\net10.0\Todo.exe
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\bin\Debug\net10.0\Todo.deps.json
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\bin\Debug\net10.0\Todo.runtimeconfig.json
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\bin\Debug\net10.0\Todo.dll
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\bin\Debug\net10.0\Todo.pdb
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.AssemblyInfoInputs.cache
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.AssemblyInfo.cs
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.csproj.CoreCompileInputs.cache
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.sourcelink.json
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.dll
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\refint\Todo.dll
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.pdb
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.genruntimeconfig.cache
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\ref\Todo.dll
+D:\PRT681_S2026_developers\Amrit_Niure_S396426\week_5\Todo\Todo\obj\Debug\net10.0\Todo.csproj.AssemblyReference.cache

@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "hdUV7o7N1Tc=",
+  "success": true,
+  "projectFilePath": "D:\\PRT681_S2_2026_Group_4\\Developers\\Amrit_Niure_S396426\\Week 5\\Todo\\Todo\\Todo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\codet\\.nuget\\packages\\microsoft.data.sqlite\\10.0.0\\microsoft.data.sqlite.10.0.0.nupkg.sha512",
+    "C:\\Users\\codet\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",
+    "C:\\Users\\codet\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\codet\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
+    "C:\\Users\\codet\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
+    "C:\\Users\\codet\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SQLitePCLRaw.lib.e_sqlite3' 2.1.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-2m69-gcr7-jv3q",
+      "projectPath": "D:\\PRT681_S2_2026_Group_4\\Developers\\Amrit_Niure_S396426\\Week 5\\Todo\\Todo\\Todo.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\PRT681_S2_2026_Group_4\\Developers\\Amrit_Niure_S396426\\Week 5\\Todo\\Todo\\Todo.csproj",
+      "libraryId": "SQLitePCLRaw.lib.e_sqlite3",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
