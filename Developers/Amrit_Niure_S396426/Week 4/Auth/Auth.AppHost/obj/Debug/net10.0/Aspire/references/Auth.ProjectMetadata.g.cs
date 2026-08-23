@@ -15,7 +15,7 @@ public class Auth : global::Aspire.Hosting.IProjectMetadata
     /// <summary>
     /// The path to the Auth project.
     /// </summary>
-    public string ProjectPath => """C:\Users\Acer\Desktop\Charles Darwin University\S2 2026\PRT 681 Software Engineering Practice\PRT681_S2026_developers\Amrit_Niure_S396426\Week 4\Auth\Auth\Auth.csproj""";
+    public string ProjectPath => """D:\PRT681_S2_2026_Group_4\Developers\Amrit_Niure_S396426\Week 4\Auth\Auth\Auth.csproj""";
 
     /// <summary>
     /// Gets a value indicating whether building the project before running it should be suppressed.

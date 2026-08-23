@@ -11,23 +11,21 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("717011b2-5ae9-4535-a6a6-fd2a1dc3128f")]
-[assembly: System.Reflection.AssemblyMetadata("dcpclipath", ("C:\\Users\\Acer\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.4.6\\tools\\d" +
-    "cp.exe"))]
-[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", ("C:\\Users\\Acer\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.4.6\\tools\\e" +
-    "xt\\"))]
-[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", ("C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineer" +
-    "ing Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\a" +
-    "uthentication.AppHost"))]
+[assembly: System.Reflection.AssemblyMetadata("dcpclipath", ("C:\\Users\\codet\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.4.6\\tools\\" +
+    "dcp.exe"))]
+[assembly: System.Reflection.AssemblyMetadata("dcpextensionpaths", ("C:\\Users\\codet\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\13.4.6\\tools\\" +
+    "ext\\"))]
+[assembly: System.Reflection.AssemblyMetadata("apphostprojectpath", ("D:\\PRT681_S2_2026_Group_4\\Developers\\Amrit_Niure_S396426\\Week 4\\authentication\\au" +
+    "thentication.AppHost"))]
 [assembly: System.Reflection.AssemblyMetadata("apphostprojectname", "authentication.AppHost.csproj")]
-[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\Acer\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.4.6\\tools\\Aspire.Da" +
-    "shboard.exe"))]
-[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", ("C:\\Users\\Acer\\Desktop\\Charles Darwin University\\S2 2026\\PRT 681 Software Engineer" +
-    "ing Practice\\PRT681_S2026_developers\\Amrit_Niure_S396426\\Week 4\\authentication\\a" +
-    "uthentication.AppHost\\obj\\"))]
+[assembly: System.Reflection.AssemblyMetadata("aspiredashboardpath", ("C:\\Users\\codet\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\13.4.6\\tools\\Aspire.D" +
+    "ashboard.exe"))]
+[assembly: System.Reflection.AssemblyMetadataAttribute("apphostprojectbaseintermediateoutputpath", ("D:\\PRT681_S2_2026_Group_4\\Developers\\Amrit_Niure_S396426\\Week 4\\authentication\\au" +
+    "thentication.AppHost\\obj\\"))]
 [assembly: System.Reflection.AssemblyCompanyAttribute("authentication.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa5192aac18758709fb5f9821fa5594010836d46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64da0d1251a7b39d4a63856749ffbd07630c334e")]
 [assembly: System.Reflection.AssemblyProductAttribute("authentication.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("authentication.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("authentication.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24ff0c63552b6d4d394da16f98ef696f6fc91cf0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64da0d1251a7b39d4a63856749ffbd07630c334e")]
 [assembly: System.Reflection.AssemblyProductAttribute("authentication.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("authentication.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

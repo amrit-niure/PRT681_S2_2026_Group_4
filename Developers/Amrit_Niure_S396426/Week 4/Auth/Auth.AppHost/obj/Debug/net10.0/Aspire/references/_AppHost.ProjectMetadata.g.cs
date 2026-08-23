@@ -17,5 +17,5 @@ public class Auth_AppHost
     /// <summary>
     /// The path to the Aspire Host project.
     /// </summary>
-    public static string ProjectPath => """C:\Users\Acer\Desktop\Charles Darwin University\S2 2026\PRT 681 Software Engineering Practice\PRT681_S2026_developers\Amrit_Niure_S396426\Week 4\Auth\Auth.AppHost""";
+    public static string ProjectPath => """D:\PRT681_S2_2026_Group_4\Developers\Amrit_Niure_S396426\Week 4\Auth\Auth.AppHost""";
 }
