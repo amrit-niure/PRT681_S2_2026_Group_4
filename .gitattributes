@@ -1,0 +1,34 @@
+# Normalize line endings: store text as LF in the repo, check out native on each OS.
+# This is what stops the "CRLF will be replaced by LF" warnings.
+* text=auto
+
+# Force specific endings where a tool cares
+*.sln           text eol=crlf
+*.csproj        text eol=crlf
+*.props         text eol=crlf
+*.targets       text eol=crlf
+*.cmd           text eol=crlf
+*.bat           text eol=crlf
+*.ps1           text eol=crlf
+*.sh            text eol=lf
+
+# Common source: leave to auto (LF in repo)
+*.cs            text
+*.json          text
+*.md            text
+*.yml           text
+*.yaml          text
+*.xml           text
+*.config        text
+
+# Binary — never touch
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.dll binary
+*.exe binary
+*.snk binary
