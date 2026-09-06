@@ -1,5 +1,16 @@
 import { Trash2 } from 'lucide-react'
 import type { TodoItem } from '../api/todos'
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from '@/components/ui/alert-dialog'
 import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Label } from '@/components/ui/label'
@@ -36,16 +47,38 @@ export function TodoList({ items, onToggle, onDelete }: TodoListProps) {
               {item.title}
             </span>
           </Label>
-          <Button
-            type="button"
-            variant="ghost"
-            size="icon-sm"
-            className="text-destructive hover:text-destructive"
-            onClick={() => onDelete(item.id)}
-            aria-label={`Delete ${item.title}`}
-          >
-            <Trash2 />
-          </Button>
+
+          <AlertDialog>
+            <AlertDialogTrigger asChild>
+              <Button
+                type="button"
+                variant="ghost"
+                size="icon-sm"
+                className="text-destructive hover:text-destructive"
+                aria-label={`Delete ${item.title}`}
+              >
+                <Trash2 />
+              </Button>
+            </AlertDialogTrigger>
+            <AlertDialogContent>
+              <AlertDialogHeader>
+                <AlertDialogTitle>Delete this task?</AlertDialogTitle>
+                <AlertDialogDescription>
+                  “{item.title}” will be permanently removed. This can’t be
+                  undone.
+                </AlertDialogDescription>
+              </AlertDialogHeader>
+              <AlertDialogFooter>
+                <AlertDialogCancel>Cancel</AlertDialogCancel>
+                <AlertDialogAction
+                  variant="destructive"
+                  onClick={() => onDelete(item.id)}
+                >
+                  Delete
+                </AlertDialogAction>
+              </AlertDialogFooter>
+            </AlertDialogContent>
+          </AlertDialog>
         </li>
       ))}
     </ul>

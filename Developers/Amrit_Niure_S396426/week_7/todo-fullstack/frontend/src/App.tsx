@@ -9,12 +9,6 @@ import {
 } from './api/todos'
 import { AddTodoForm } from './components/AddTodoForm'
 import { TodoList } from './components/TodoList'
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card'
 
 function App() {
   const [items, setItems] = useState<TodoItem[]>([])
@@ -48,35 +42,30 @@ function App() {
   }
 
   return (
-    <main className="mx-auto max-w-lg px-4 py-12">
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-xl">Tasks</CardTitle>
-        </CardHeader>
-        <CardContent className="flex flex-col gap-4">
-          <AddTodoForm onAdd={handleAdd} />
+    <main className="mx-auto flex max-w-lg flex-col gap-4 px-4 py-12">
+      <h1 className="text-xl font-semibold">Tasks</h1>
 
-          {loading && (
-            <p className="flex items-center gap-2 text-sm text-muted-foreground">
-              <Loader2 className="size-4 animate-spin" />
-              Loading…
-            </p>
-          )}
-          {error && (
-            <p className="flex items-center gap-2 text-sm text-destructive">
-              <CircleAlert className="size-4" />
-              {error}
-            </p>
-          )}
-          {!loading && !error && (
-            <TodoList
-              items={items}
-              onToggle={handleToggle}
-              onDelete={handleDelete}
-            />
-          )}
-        </CardContent>
-      </Card>
+      <AddTodoForm onAdd={handleAdd} />
+
+      {loading && (
+        <p className="flex items-center gap-2 text-sm text-muted-foreground">
+          <Loader2 className="size-4 animate-spin" />
+          Loading…
+        </p>
+      )}
+      {error && (
+        <p className="flex items-center gap-2 text-sm text-destructive">
+          <CircleAlert className="size-4" />
+          {error}
+        </p>
+      )}
+      {!loading && !error && (
+        <TodoList
+          items={items}
+          onToggle={handleToggle}
+          onDelete={handleDelete}
+        />
+      )}
     </main>
   )
 }
