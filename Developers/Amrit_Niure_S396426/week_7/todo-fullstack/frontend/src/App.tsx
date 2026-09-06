@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { CircleAlert, Loader2 } from 'lucide-react'
 import {
   addTodo,
   deleteTodo,
@@ -8,7 +9,12 @@ import {
 } from './api/todos'
 import { AddTodoForm } from './components/AddTodoForm'
 import { TodoList } from './components/TodoList'
-import './App.css'
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
 
 function App() {
   const [items, setItems] = useState<TodoItem[]>([])
@@ -42,19 +48,35 @@ function App() {
   }
 
   return (
-    <main className="app">
-      <h1>Tasks</h1>
-      <AddTodoForm onAdd={handleAdd} />
+    <main className="mx-auto max-w-lg px-4 py-12">
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-xl">Tasks</CardTitle>
+        </CardHeader>
+        <CardContent className="flex flex-col gap-4">
+          <AddTodoForm onAdd={handleAdd} />
 
-      {loading && <p>Loading…</p>}
-      {error && <p className="error">{error}</p>}
-      {!loading && !error && (
-        <TodoList
-          items={items}
-          onToggle={handleToggle}
-          onDelete={handleDelete}
-        />
-      )}
+          {loading && (
+            <p className="flex items-center gap-2 text-sm text-muted-foreground">
+              <Loader2 className="size-4 animate-spin" />
+              Loading…
+            </p>
+          )}
+          {error && (
+            <p className="flex items-center gap-2 text-sm text-destructive">
+              <CircleAlert className="size-4" />
+              {error}
+            </p>
+          )}
+          {!loading && !error && (
+            <TodoList
+              items={items}
+              onToggle={handleToggle}
+              onDelete={handleDelete}
+            />
+          )}
+        </CardContent>
+      </Card>
     </main>
   )
 }
