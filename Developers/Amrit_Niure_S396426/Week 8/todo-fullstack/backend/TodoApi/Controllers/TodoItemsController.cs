@@ -75,6 +75,12 @@ public class TodoItemsController : ControllerBase
             return NotFound();
         }
 
+        // A moved deadline or a reopened task should trigger a fresh reminder.
+        if (item.DueDate != request.DueDate || (item.IsComplete && !request.IsComplete))
+        {
+            item.ReminderSent = false;
+        }
+
         item.Title = request.Title.Trim();
         item.IsComplete = request.IsComplete;
         item.DueDate = request.DueDate;

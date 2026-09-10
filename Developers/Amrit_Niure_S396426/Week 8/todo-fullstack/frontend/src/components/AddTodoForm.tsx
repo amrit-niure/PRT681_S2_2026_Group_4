@@ -42,7 +42,7 @@ export function AddTodoForm({ onAdd }: AddTodoFormProps) {
       />
       <Input
         type="date"
-        className="w-auto"
+        className="w-36 shrink-0"
         value={dueDate}
         onChange={(e) => setDueDate(e.target.value)}
         aria-label="Due date"
