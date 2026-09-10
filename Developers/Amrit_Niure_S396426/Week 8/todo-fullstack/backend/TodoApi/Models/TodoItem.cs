@@ -7,6 +7,9 @@ public class TodoItem
 {
     public int Id { get; set; }
 
+    /// <summary>Id of the Identity user that owns this task (AspNetUsers.Id).</summary>
+    public string UserId { get; set; } = string.Empty;
+
     public string Title { get; set; } = string.Empty;
 
     public bool IsComplete { get; set; }

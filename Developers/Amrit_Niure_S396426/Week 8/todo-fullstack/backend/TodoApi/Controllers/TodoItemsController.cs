@@ -1,3 +1,5 @@
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Data;
@@ -8,6 +10,7 @@ namespace TodoApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class TodoItemsController : ControllerBase
 {
     private readonly TodoDbContext _db;
@@ -17,6 +20,9 @@ public class TodoItemsController : ControllerBase
         _db = db;
     }
 
+    /// <summary>Id of the signed-in user; every query is scoped to this.</summary>
+    private string UserId => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
+
     // GET: api/todoitems
     [HttpGet]
     public async Task<ActionResult<IEnumerable<TodoItemDto>>> GetAll()
@@ -24,6 +30,7 @@ public class TodoItemsController : ControllerBase
         // Unfinished tasks first, then soonest due date (tasks with no due date last),
         // and newest first as a tie-breaker.
         var items = await _db.TodoItems
+            .Where(t => t.UserId == UserId)
             .OrderBy(t => t.IsComplete)
             .ThenBy(t => t.DueDate == null)
             .ThenBy(t => t.DueDate)
@@ -38,7 +45,7 @@ public class TodoItemsController : ControllerBase
     [HttpGet("{id:int}")]
     public async Task<ActionResult<TodoItemDto>> GetById(int id)
     {
-        var item = await _db.TodoItems.FindAsync(id);
+        var item = await _db.TodoItems.FirstOrDefaultAsync(t => t.Id == id && t.UserId == UserId);
         if (item is null)
         {
             return NotFound();
@@ -53,6 +60,7 @@ public class TodoItemsController : ControllerBase
     {
         var item = new TodoItem
         {
+            UserId = UserId,
             Title = request.Title.Trim(),
             IsComplete = request.IsComplete,
             DueDate = request.DueDate,
@@ -69,7 +77,7 @@ public class TodoItemsController : ControllerBase
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(int id, SaveTodoItemRequest request)
     {
-        var item = await _db.TodoItems.FindAsync(id);
+        var item = await _db.TodoItems.FirstOrDefaultAsync(t => t.Id == id && t.UserId == UserId);
         if (item is null)
         {
             return NotFound();
@@ -93,7 +101,7 @@ public class TodoItemsController : ControllerBase
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {
-        var item = await _db.TodoItems.FindAsync(id);
+        var item = await _db.TodoItems.FirstOrDefaultAsync(t => t.Id == id && t.UserId == UserId);
         if (item is null)
         {
             return NotFound();

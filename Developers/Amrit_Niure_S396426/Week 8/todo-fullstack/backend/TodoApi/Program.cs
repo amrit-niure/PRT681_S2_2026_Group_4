@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Data;
@@ -7,15 +9,32 @@ var builder = WebApplication.CreateBuilder(args);
 
 const string FrontendCorsPolicy = "frontend";
 
+// Work out where the SQLite file lives so we can also keep the data-protection keys
+// (used to sign auth tokens) next to it. On Azure App Service this folder is /home,
+// which persists across restarts; without this every restart would sign everyone out.
+var connectionString = builder.Configuration.GetConnectionString("Default");
+var dbDirectory = ResolveDbDirectory(connectionString);
+if (!string.IsNullOrEmpty(dbDirectory))
+{
+    Directory.CreateDirectory(dbDirectory);
+    var keysDirectory = Directory.CreateDirectory(Path.Combine(dbDirectory, "dp-keys"));
+    builder.Services.AddDataProtection().PersistKeysToFileSystem(keysDirectory);
+}
+
 
 builder.Services.AddControllers();
 
-
 builder.Services.AddOpenApi();
 
-
 builder.Services.AddDbContext<TodoDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("Default")));
+    options.UseSqlite(connectionString));
+
+
+// Authentication & authorization: ASP.NET Core Identity with bearer-token API endpoints.
+builder.Services.AddAuthorization();
+builder.Services
+    .AddIdentityApiEndpoints<IdentityUser>()
+    .AddEntityFrameworkStores<TodoDbContext>();
 
 
 var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
@@ -34,19 +53,6 @@ builder.Services.AddHostedService<DueTaskReminderService>();
 
 var app = builder.Build();
 
-
-// Make sure the folder holding the SQLite file exists. On Azure App Service the
-// database lives under /home (persistent storage), which is not present in the image.
-var connectionString = builder.Configuration.GetConnectionString("Default");
-if (!string.IsNullOrWhiteSpace(connectionString))
-{
-    var dataSource = new SqliteConnectionStringBuilder(connectionString).DataSource;
-    var dbDirectory = Path.GetDirectoryName(Path.GetFullPath(dataSource));
-    if (!string.IsNullOrEmpty(dbDirectory))
-    {
-        Directory.CreateDirectory(dbDirectory);
-    }
-}
 
 using (var scope = app.Services.CreateScope())
 {
@@ -68,8 +74,24 @@ if (!app.Environment.IsDevelopment())
     app.UseHttpsRedirection();
 }
 
+app.UseAuthentication();
 app.UseAuthorization();
+
+// Identity endpoints: POST /api/auth/register, /api/auth/login, /api/auth/refresh, ...
+app.MapGroup("/api/auth").MapIdentityApi<IdentityUser>();
 
 app.MapControllers();
 
 app.Run();
+
+
+static string? ResolveDbDirectory(string? connectionString)
+{
+    if (string.IsNullOrWhiteSpace(connectionString))
+    {
+        return null;
+    }
+
+    var dataSource = new SqliteConnectionStringBuilder(connectionString).DataSource;
+    return Path.GetDirectoryName(Path.GetFullPath(dataSource));
+}

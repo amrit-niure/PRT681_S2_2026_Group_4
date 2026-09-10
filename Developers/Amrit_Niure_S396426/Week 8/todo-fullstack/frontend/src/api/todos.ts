@@ -1,8 +1,9 @@
-// Single place that knows how to talk to the Todo API.
-// The base URL comes from an env var so it can change per environment.
+// Talks to the Todo API. Every call carries the signed-in user's bearer token
+// via authFetch, so the server scopes the results to that user.
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:5258'
-const ENDPOINT = `${API_URL}/api/todoitems`
+import { authFetch, readJson } from './client'
+
+const ENDPOINT = '/api/todoitems'
 
 export interface TodoItem {
   id: number
@@ -18,36 +19,35 @@ export interface SaveTodoItem {
   dueDate: string | null
 }
 
-async function handle<T>(res: Response): Promise<T> {
-  if (!res.ok) {
-    throw new Error(`Request failed: ${res.status} ${res.statusText}`)
-  }
-  // 204 No Content has an empty body.
-  return (res.status === 204 ? undefined : await res.json()) as T
-}
-
 export function getTodos(): Promise<TodoItem[]> {
-  return fetch(ENDPOINT).then((r) => handle<TodoItem[]>(r))
+  return authFetch(ENDPOINT).then((r) => readJson<TodoItem[]>(r))
 }
 
 export function addTodo(input: SaveTodoItem): Promise<TodoItem> {
-  return fetch(ENDPOINT, {
+  return authFetch(ENDPOINT, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(input),
-  }).then((r) => handle<TodoItem>(r))
+  }).then((r) => readJson<TodoItem>(r))
 }
 
 export function updateTodo(id: number, input: SaveTodoItem): Promise<void> {
-  return fetch(`${ENDPOINT}/${id}`, {
+  return authFetch(`${ENDPOINT}/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(input),
-  }).then((r) => handle<void>(r))
+  }).then((r) => readJson<void>(r))
 }
 
 export function deleteTodo(id: number): Promise<void> {
-  return fetch(`${ENDPOINT}/${id}`, { method: 'DELETE' }).then((r) =>
-    handle<void>(r),
+  return authFetch(`${ENDPOINT}/${id}`, { method: 'DELETE' }).then((r) =>
+    readJson<void>(r),
+  )
+}
+
+/** Ask the server to email the signed-in user their overdue tasks now. */
+export function runReminders(): Promise<{ remindedCount: number }> {
+  return authFetch('/api/reminders/run', { method: 'POST' }).then((r) =>
+    readJson<{ remindedCount: number }>(r),
   )
 }
