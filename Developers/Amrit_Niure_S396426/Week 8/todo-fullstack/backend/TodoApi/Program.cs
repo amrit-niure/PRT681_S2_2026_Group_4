@@ -1,3 +1,4 @@
+using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Data;
 
@@ -24,6 +25,19 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+
+// Make sure the folder holding the SQLite file exists. On Azure App Service the
+// database lives under /home (persistent storage), which is not present in the image.
+var connectionString = builder.Configuration.GetConnectionString("Default");
+if (!string.IsNullOrWhiteSpace(connectionString))
+{
+    var dataSource = new SqliteConnectionStringBuilder(connectionString).DataSource;
+    var dbDirectory = Path.GetDirectoryName(Path.GetFullPath(dataSource));
+    if (!string.IsNullOrEmpty(dbDirectory))
+    {
+        Directory.CreateDirectory(dbDirectory);
+    }
+}
 
 using (var scope = app.Services.CreateScope())
 {

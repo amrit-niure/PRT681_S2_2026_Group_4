@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+**/.vs/
+**/.git/
+**/.gitignore
+**/*.user
+**/appsettings.Development.json
+**/todo.db
+**/todo.db-shm
+**/todo.db-wal
+Dockerfile
+.dockerignore
+README.Docker.md
