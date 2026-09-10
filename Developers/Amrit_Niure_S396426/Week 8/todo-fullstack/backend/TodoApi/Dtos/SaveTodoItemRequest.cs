@@ -12,4 +12,7 @@ public class SaveTodoItemRequest
     public string Title { get; set; } = string.Empty;
 
     public bool IsComplete { get; set; }
+
+    /// <summary>Optional due date. Omit or send null for no deadline.</summary>
+    public DateTime? DueDate { get; set; }
 }

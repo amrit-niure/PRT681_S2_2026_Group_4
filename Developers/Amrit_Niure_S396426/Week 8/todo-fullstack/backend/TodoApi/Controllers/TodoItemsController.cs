@@ -21,8 +21,13 @@ public class TodoItemsController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<IEnumerable<TodoItemDto>>> GetAll()
     {
+        // Unfinished tasks first, then soonest due date (tasks with no due date last),
+        // and newest first as a tie-breaker.
         var items = await _db.TodoItems
-            .OrderByDescending(t => t.CreatedAt)
+            .OrderBy(t => t.IsComplete)
+            .ThenBy(t => t.DueDate == null)
+            .ThenBy(t => t.DueDate)
+            .ThenByDescending(t => t.CreatedAt)
             .Select(t => TodoItemDto.FromEntity(t))
             .ToListAsync();
 
@@ -50,6 +55,7 @@ public class TodoItemsController : ControllerBase
         {
             Title = request.Title.Trim(),
             IsComplete = request.IsComplete,
+            DueDate = request.DueDate,
             CreatedAt = DateTime.UtcNow
         };
 
@@ -71,6 +77,7 @@ public class TodoItemsController : ControllerBase
 
         item.Title = request.Title.Trim();
         item.IsComplete = request.IsComplete;
+        item.DueDate = request.DueDate;
         await _db.SaveChangesAsync();
 
         return NoContent();

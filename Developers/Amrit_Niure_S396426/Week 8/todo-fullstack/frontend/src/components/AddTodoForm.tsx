@@ -4,15 +4,16 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
 interface AddTodoFormProps {
-  onAdd: (title: string) => Promise<void>
+  onAdd: (title: string, dueDate: string | null) => Promise<void>
 }
 
 /**
  * Controlled form for adding a task. Keeps its own input state and hands the
- * trimmed title up to the parent on submit.
+ * trimmed title and optional due date up to the parent on submit.
  */
 export function AddTodoForm({ onAdd }: AddTodoFormProps) {
   const [title, setTitle] = useState('')
+  const [dueDate, setDueDate] = useState('')
   const [busy, setBusy] = useState(false)
 
   async function handleSubmit(event: FormEvent) {
@@ -22,8 +23,9 @@ export function AddTodoForm({ onAdd }: AddTodoFormProps) {
 
     setBusy(true)
     try {
-      await onAdd(trimmed)
+      await onAdd(trimmed, dueDate || null)
       setTitle('')
+      setDueDate('')
     } finally {
       setBusy(false)
     }
@@ -37,6 +39,13 @@ export function AddTodoForm({ onAdd }: AddTodoFormProps) {
         value={title}
         onChange={(e) => setTitle(e.target.value)}
         aria-label="New task title"
+      />
+      <Input
+        type="date"
+        className="w-auto"
+        value={dueDate}
+        onChange={(e) => setDueDate(e.target.value)}
+        aria-label="Due date"
       />
       <Button type="submit" disabled={busy || title.trim() === ''}>
         {busy ? <Loader2 className="animate-spin" /> : <Plus />}

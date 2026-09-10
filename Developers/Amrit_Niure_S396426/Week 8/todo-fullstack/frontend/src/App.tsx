@@ -23,13 +23,17 @@ function App() {
       .finally(() => setLoading(false))
   }, [])
 
-  async function handleAdd(title: string) {
-    const created = await addTodo({ title, isComplete: false })
+  async function handleAdd(title: string, dueDate: string | null) {
+    const created = await addTodo({ title, isComplete: false, dueDate })
     setItems((prev) => [created, ...prev])
   }
 
   async function handleToggle(item: TodoItem) {
-    const next = { title: item.title, isComplete: !item.isComplete }
+    const next = {
+      title: item.title,
+      isComplete: !item.isComplete,
+      dueDate: item.dueDate,
+    }
     await updateTodo(item.id, next)
     setItems((prev) =>
       prev.map((t) => (t.id === item.id ? { ...t, ...next } : t)),

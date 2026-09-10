@@ -11,5 +11,8 @@ public class TodoItem
 
     public bool IsComplete { get; set; }
 
+    /// <summary>Optional date the task is due. Null means no deadline.</summary>
+    public DateTime? DueDate { get; set; }
+
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }

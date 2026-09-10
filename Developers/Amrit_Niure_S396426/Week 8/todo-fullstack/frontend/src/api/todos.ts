@@ -8,12 +8,14 @@ export interface TodoItem {
   id: number
   title: string
   isComplete: boolean
+  dueDate: string | null
   createdAt: string
 }
 
 export interface SaveTodoItem {
   title: string
   isComplete: boolean
+  dueDate: string | null
 }
 
 async function handle<T>(res: Response): Promise<T> {

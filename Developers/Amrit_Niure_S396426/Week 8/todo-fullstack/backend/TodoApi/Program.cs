@@ -18,7 +18,7 @@ builder.Services.AddDbContext<TodoDbContext>(options =>
 
 
 var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
-                     ?? ["http://localhost:5173"];
+                     ?? ["http://localhost:5173", "http://localhost:5174"];
 builder.Services.AddCors(options =>
     options.AddPolicy(FrontendCorsPolicy, policy =>
         policy.WithOrigins(allowedOrigins).AllowAnyHeader().AllowAnyMethod()));
