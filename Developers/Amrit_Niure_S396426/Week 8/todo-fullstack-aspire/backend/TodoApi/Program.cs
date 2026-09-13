@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using TodoApi.Data;
@@ -19,25 +18,18 @@ builder.Host.UseSerilog((context, services, configuration) => configuration
 
 const string FrontendCorsPolicy = "frontend";
 
-// Work out where the SQLite file lives so we can also keep the data-protection keys
-// (used to sign auth tokens) next to it. On Azure App Service this folder is /home,
-// which persists across restarts; without this every restart would sign everyone out.
-var connectionString = builder.Configuration.GetConnectionString("Default");
-var dbDirectory = ResolveDbDirectory(connectionString);
-if (!string.IsNullOrEmpty(dbDirectory))
-{
-    Directory.CreateDirectory(dbDirectory);
-    var keysDirectory = Directory.CreateDirectory(Path.Combine(dbDirectory, "dp-keys"));
-    builder.Services.AddDataProtection().PersistKeysToFileSystem(keysDirectory);
-}
+// Persist data-protection keys (used to sign auth tokens) next to the app so a restart
+// doesn't sign everyone out. On Azure App Service this folder is /home, which persists
+// across restarts.
+var keysDirectory = Directory.CreateDirectory(Path.Combine(builder.Environment.ContentRootPath, "dp-keys"));
+builder.Services.AddDataProtection().PersistKeysToFileSystem(keysDirectory);
 
 
 builder.Services.AddControllers();
 
 builder.Services.AddOpenApi();
 
-builder.Services.AddDbContext<TodoDbContext>(options =>
-    options.UseSqlite(connectionString));
+builder.AddNpgsqlDbContext<TodoDbContext>("tododb");
 
 
 // Authentication & authorization: ASP.NET Core Identity with bearer-token API endpoints.
@@ -96,15 +88,3 @@ app.MapGroup("/api/auth").MapIdentityApi<IdentityUser>();
 app.MapControllers();
 
 app.Run();
-
-
-static string? ResolveDbDirectory(string? connectionString)
-{
-    if (string.IsNullOrWhiteSpace(connectionString))
-    {
-        return null;
-    }
-
-    var dataSource = new SqliteConnectionStringBuilder(connectionString).DataSource;
-    return Path.GetDirectoryName(Path.GetFullPath(dataSource));
-}
