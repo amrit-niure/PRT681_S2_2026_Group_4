@@ -12,6 +12,7 @@ import { AddTodoForm } from './components/AddTodoForm'
 import { AuthForm } from './components/AuthForm'
 import { TodoList } from './components/TodoList'
 import { Button } from '@/components/ui/button'
+import { Dialog, DialogContent } from '@/components/ui/dialog'
 import { useAuth } from './auth/AuthContext'
 
 function TasksScreen() {
@@ -99,7 +100,7 @@ function TasksScreen() {
               type="button"
               variant="ghost"
               size="sm"
-              onClick={() => setShowAuth((v) => !v)}
+              onClick={() => setShowAuth(true)}
             >
               <LogIn />
               Sign in
@@ -113,18 +114,11 @@ function TasksScreen() {
           : 'Using as guest — sign in to get email reminders for due tasks.'}
       </p>
 
-      {showAuth && !isAuthenticated && (
-        <div className="flex flex-col items-center gap-2">
+      <Dialog open={showAuth} onOpenChange={setShowAuth}>
+        <DialogContent className="border-none bg-transparent p-0 shadow-none ring-0">
           <AuthForm />
-          <button
-            type="button"
-            className="text-sm text-muted-foreground underline-offset-4 hover:underline"
-            onClick={() => setShowAuth(false)}
-          >
-            Continue as guest
-          </button>
-        </div>
-      )}
+        </DialogContent>
+      </Dialog>
 
       <AddTodoForm onAdd={handleAdd} />
 

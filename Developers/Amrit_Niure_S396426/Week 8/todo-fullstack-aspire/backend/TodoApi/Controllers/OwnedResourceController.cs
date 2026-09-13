@@ -17,6 +17,10 @@ public abstract class OwnedResourceController : ControllerBase, IActionFilter
 
     protected string OwnerId { get; private set; } = string.Empty;
 
+    // [NonAction] keeps [ApiController]'s convention-based routing from treating these
+    // IActionFilter methods as controller actions themselves (they'd otherwise collide
+    // with the real GET/PUT/DELETE routes on every derived controller).
+    [NonAction]
     public void OnActionExecuting(ActionExecutingContext context)
     {
         if (User.Identity?.IsAuthenticated == true)
@@ -35,6 +39,7 @@ public abstract class OwnedResourceController : ControllerBase, IActionFilter
         }
     }
 
+    [NonAction]
     public void OnActionExecuted(ActionExecutedContext context)
     {
     }
