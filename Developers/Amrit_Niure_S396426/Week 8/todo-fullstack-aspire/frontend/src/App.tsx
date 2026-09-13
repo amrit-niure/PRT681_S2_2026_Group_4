@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { BellRing, CircleAlert, Loader2, LogOut } from 'lucide-react'
+import { BellRing, CircleAlert, LogIn, Loader2, LogOut } from 'lucide-react'
 import {
   addTodo,
   deleteTodo,
@@ -15,12 +15,18 @@ import { Button } from '@/components/ui/button'
 import { useAuth } from './auth/AuthContext'
 
 function TasksScreen() {
-  const { email, signOut } = useAuth()
+  const { email, isAuthenticated, signOut } = useAuth()
   const [items, setItems] = useState<TodoItem[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [reminding, setReminding] = useState(false)
   const [notice, setNotice] = useState<string | null>(null)
+  const [showAuth, setShowAuth] = useState(false)
+
+  // Close the sign-in panel automatically once it succeeds.
+  useEffect(() => {
+    if (isAuthenticated) setShowAuth(false)
+  }, [isAuthenticated])
 
   useEffect(() => {
     getTodos()
@@ -71,23 +77,54 @@ function TasksScreen() {
       <header className="flex items-center justify-between gap-2">
         <h1 className="text-xl font-semibold">Tasks</h1>
         <div className="flex items-center gap-2">
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            onClick={handleRemindNow}
-            disabled={reminding}
-          >
-            {reminding ? <Loader2 className="animate-spin" /> : <BellRing />}
-            Remind me
-          </Button>
-          <Button type="button" variant="ghost" size="sm" onClick={signOut}>
-            <LogOut />
-            Sign out
-          </Button>
+          {isAuthenticated && (
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              onClick={handleRemindNow}
+              disabled={reminding}
+            >
+              {reminding ? <Loader2 className="animate-spin" /> : <BellRing />}
+              Remind me
+            </Button>
+          )}
+          {isAuthenticated ? (
+            <Button type="button" variant="ghost" size="sm" onClick={signOut}>
+              <LogOut />
+              Sign out
+            </Button>
+          ) : (
+            <Button
+              type="button"
+              variant="ghost"
+              size="sm"
+              onClick={() => setShowAuth((v) => !v)}
+            >
+              <LogIn />
+              Sign in
+            </Button>
+          )}
         </div>
       </header>
-      <p className="-mt-2 text-sm text-muted-foreground">{email}</p>
+      <p className="-mt-2 text-sm text-muted-foreground">
+        {isAuthenticated
+          ? email
+          : 'Using as guest — sign in to get email reminders for due tasks.'}
+      </p>
+
+      {showAuth && !isAuthenticated && (
+        <div className="flex flex-col items-center gap-2">
+          <AuthForm />
+          <button
+            type="button"
+            className="text-sm text-muted-foreground underline-offset-4 hover:underline"
+            onClick={() => setShowAuth(false)}
+          >
+            Continue as guest
+          </button>
+        </div>
+      )}
 
       <AddTodoForm onAdd={handleAdd} />
 
@@ -113,17 +150,6 @@ function TasksScreen() {
 }
 
 function App() {
-  const { isAuthenticated } = useAuth()
-
-  if (!isAuthenticated) {
-    return (
-      <main className="mx-auto flex max-w-lg flex-col gap-4 px-4 py-12">
-        <h1 className="text-xl font-semibold">Tasks</h1>
-        <AuthForm />
-      </main>
-    )
-  }
-
   return <TasksScreen />
 }
 

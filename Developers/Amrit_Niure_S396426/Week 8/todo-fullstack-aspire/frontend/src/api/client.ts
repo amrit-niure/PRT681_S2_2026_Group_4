@@ -1,9 +1,11 @@
 // Shared HTTP client: knows the API base URL, stores the auth tokens, attaches the
-// bearer header, and transparently refreshes an expired access token once.
+// bearer header (or a per-browser anonymous id when signed out), and transparently
+// refreshes an expired access token once.
 
 export const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:5258'
 
 const STORAGE_KEY = 'todo.auth'
+const ANON_ID_KEY = 'todo.anonId'
 
 export interface Auth {
   accessToken: string
@@ -51,6 +53,26 @@ export function onAuthChange(fn: (auth: Auth | null) => void): () => void {
   return () => listeners.delete(fn)
 }
 
+/**
+ * A stable id for this browser, used to own tasks created without signing in.
+ * Lets people use the app without an account; signing up just adds email reminders.
+ */
+let sessionAnonId: string | null = null
+function getAnonId(): string {
+  try {
+    let id = localStorage.getItem(ANON_ID_KEY)
+    if (!id) {
+      id = crypto.randomUUID()
+      localStorage.setItem(ANON_ID_KEY, id)
+    }
+    return id
+  } catch {
+    // Storage unavailable (private mode etc.) - fall back to one id for this session.
+    sessionAnonId ??= crypto.randomUUID()
+    return sessionAnonId
+  }
+}
+
 async function tryRefresh(): Promise<boolean> {
   if (!auth) return false
   try {
@@ -68,14 +90,17 @@ async function tryRefresh(): Promise<boolean> {
   }
 }
 
-/** fetch() with the bearer token attached and a one-shot refresh on 401. */
+/**
+ * fetch() with the caller's identity attached: a bearer token when signed in, otherwise
+ * this browser's anonymous id, so tasks work either way. Refreshes an expired token once.
+ */
 export async function authFetch(path: string, init: RequestInit = {}): Promise<Response> {
   const call = () =>
     fetch(`${API_URL}${path}`, {
       ...init,
       headers: {
         ...init.headers,
-        ...(auth ? { Authorization: `Bearer ${auth.accessToken}` } : {}),
+        ...(auth ? { Authorization: `Bearer ${auth.accessToken}` } : { 'X-Anon-Id': getAnonId() }),
       },
     })
 
