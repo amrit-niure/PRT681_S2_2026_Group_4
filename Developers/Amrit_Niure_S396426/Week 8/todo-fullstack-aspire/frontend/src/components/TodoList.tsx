@@ -86,16 +86,18 @@ export function TodoList({ items, onToggle, onDelete }: TodoListProps) {
             </Label>
 
             <AlertDialog>
-              <AlertDialogTrigger asChild>
-                <Button
-                  type="button"
-                  variant="ghost"
-                  size="icon-sm"
-                  className="text-destructive hover:text-destructive"
-                  aria-label={`Delete ${item.title}`}
-                >
-                  <Trash2 />
-                </Button>
+              <AlertDialogTrigger
+                render={
+                  <Button
+                    type="button"
+                    variant="ghost"
+                    size="icon-sm"
+                    className="text-destructive hover:text-destructive"
+                    aria-label={`Delete ${item.title}`}
+                  />
+                }
+              >
+                <Trash2 />
               </AlertDialogTrigger>
               <AlertDialogContent>
                 <AlertDialogHeader>
