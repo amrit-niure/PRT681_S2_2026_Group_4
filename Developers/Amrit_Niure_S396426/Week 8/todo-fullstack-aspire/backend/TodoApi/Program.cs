@@ -2,10 +2,20 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using TodoApi.Data;
 using TodoApi.Notifications;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.AddServiceDefaults();
+
+builder.Host.UseSerilog((context, services, configuration) => configuration
+    .ReadFrom.Configuration(context.Configuration)
+    .ReadFrom.Services(services)
+    .Enrich.FromLogContext()
+    .WriteTo.Console()
+    .WriteTo.Seq(context.Configuration.GetConnectionString("seq") ?? "http://localhost:5341"));
 
 const string FrontendCorsPolicy = "frontend";
 
@@ -53,6 +63,9 @@ builder.Services.AddHostedService<DueTaskReminderService>();
 
 var app = builder.Build();
 
+app.UseSerilogRequestLogging();
+
+app.MapDefaultEndpoints();
 
 using (var scope = app.Services.CreateScope())
 {
