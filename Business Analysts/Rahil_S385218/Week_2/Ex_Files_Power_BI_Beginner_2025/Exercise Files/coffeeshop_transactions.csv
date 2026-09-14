@@ -1,0 +1,1634 @@
+Date,Item,Quantity,Unit Price,Total Price,Payment Method,Customer Type,Loyalty Member,Order Type,Tip Amount,Discount Applied,Discount Amount,Barista Name,Prep Time (min),Category,Sub-Category,Weather,Event Day,Gift Card Used,Mobile App Order,Month
+1/04/2025,Croissant,3,3,9.36,Mobile Pay,Regular,No,Delivery,1.07,Yes,0.71,Alex,2,Food,Pastry,Rainy,No,Yes,No,2025-04
+1/04/2025,Cappuccino,3,4.25,13.57,Cash,Regular,No,Takeaway,0.82,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+1/04/2025,Cold Brew,2,5,11.43,Credit Card,New,Yes,Dine-In,1.43,No,0,Jamie,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+1/04/2025,Americano,3,3.5,10,Credit Card,New,Yes,Delivery,1.07,Yes,1.57,Alex,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+,Latte,2,4.5,8.06,Cash,Regular,Yes,Takeaway,,Yes,1.46,Sam,3,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+,Cold Brew,1,5,6.14,Credit Card,Regular,No,Delivery,1.14,No,0,Alex,6,,Cold Drink,Rainy,No,Yes,Yes,2025-04
+,Croissant,2,3,6.45,Mobile Pay,New,No,Takeaway,0.45,No,0,Sam,6,Food,Pastry,Sunny,,No,Yes,2025-04
+,Americano,2,,,,New,No,Dine-In,0.46,Yes,1.71,Alex,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+1/04/2025,Flat White,2,,,,Regular,No,Delivery,0.52,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+1/04/2025,Bagel,1,,,,New,Yes,Delivery,0.65,Yes,1.23,Alex,6,Food,Sandwich,Sunny,No,No,Yes,2025-04
+1/04/2025,Muffin,2,,,,New,No,Delivery,1.4,Yes,0.65,Sam,5,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+1/04/2025,Muffin,3,2.75,9.62,Cash,New,No,Delivery,1.37,No,0,Sam,3,Food,Pastry,Cloudy,No,Yes,No,2025-04
+1/04/2025,Muffin,1,2.75,2.05,Credit Card,New,Yes,Dine-In,0.68,Yes,1.38,Jamie,7,Food,Pastry,Cloudy,No,No,Yes,2025-04
+1/04/2025,Bagel,3,2.5,8.21,Cash,Regular,Yes,Delivery,1.86,Yes,1.15,Jamie,5,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+1/04/2025,Cold Brew,1,5,5.08,Cash,New,No,Dine-In,0.08,No,0,Alex,6,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-04
+1/04/2025,Cappuccino,2,4.25,9.47,Credit Card,Regular,Yes,,,,,Jamie,6,Drink,Hot Drink,Cloudy,No,No,Yes,
+1/04/2025,Muffin,1,2.75,3.64,Mobile Pay,Regular,No,,,,,Jamie,3,Food,Pastry,Rainy,No,Yes,No,2025-04
+1/04/2025,Latte,1,4.5,5.86,Cash,New,Yes,,,,,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+1/04/2025,Iced Latte,3,5,16.9,Credit Card,Regular,Yes,,,,,Alex,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+1/04/2025,Latte,1,4.5,4.48,,Regular,Yes,,,,,Alex,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+1/04/2025,Chai Latte,3,4.75,15.2,Cash,Regular,No,,,,,Alex,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+1/04/2025,Bagel,3,2.5,6.13,Credit Card,Regular,No,Delivery,0.48,Yes,1.85,Sam,7,Food,Sandwich,Rainy,Yes,No,No,2025-04
+1/04/2025,Latte,3,4.5,13.18,Mobile Pay,New,No,Dine-In,0.48,Yes,0.8,Sam,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+1/04/2025,Americano,2,3.5,7.2,Mobile Pay,Regular,Yes,Takeaway,0.2,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+1/04/2025,Cold Brew,3,5,14.61,Cash,Regular,Yes,Dine-In,1.4,Yes,1.79,Sam,3,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+1/04/2025,Iced Latte,2,5,10.63,Cash,New,No,Delivery,0.63,No,0,Jamie,6,,,,,No,No,2025-04
+1/04/2025,Cappuccino,3,4.25,13.12,Cash,Regular,No,Takeaway,0.37,No,0,Sam,2,,,,,Yes,Yes,2025-04
+1/04/2025,Americano,2,3.5,7.11,Credit Card,New,No,Delivery,0.93,Yes,0.82,Sam,6,,,,,,No,2025-04
+1/04/2025,Croissant,1,3,1.56,Mobile Pay,Regular,No,Takeaway,0.09,Yes,1.53,Alex,5,Food,Pastry,Rainy,No,No,No,2025-04
+1/04/2025,Iced Latte,1,5,5.39,Credit Card,New,Yes,Takeaway,0.39,No,0,Alex,3,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+1/04/2025,Muffin,3,2.75,7.05,Mobile Pay,New,Yes,Dine-In,0.54,Yes,1.74,Sam,3,Food,Pastry,Cloudy,Yes,No,No,2025-04
+1/04/2025,Latte,2,4.5,9.95,Credit Card,New,,Dine-In,1.6,Yes,0.65,Sam,2,Drink,Hot Drink,Sunny,No,No,No,2025-04
+1/04/2025,Chai Latte,3,4.75,13.63,Credit Card,Regular,No,Delivery,0.45,Yes,1.07,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+1/04/2025,Espresso,1,3,1.73,Credit Card,Regular,Yes,Takeaway,0.05,Yes,1.32,Alex,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+1/04/2025,Chai Latte,,4.75,9.66,Credit Card,New,,Takeaway,0.72,Yes,0.56,Jamie,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+1/04/2025,Croissant,2,3,7.96,Cash,New,Yes,Takeaway,1.96,No,0,Alex,5,Food,Pastry,,No,No,No,2025-04
+1/04/2025,Iced Latte,3,5,15.37,Credit Card,Regular,Yes,Takeaway,0.37,No,0,,6,Drink,Cold Drink,Rainy,No,No,No,2025-04
+1/04/2025,Bagel,2,2.5,6.32,Credit Card,New,Yes,Takeaway,1.32,No,0,Alex,5,Food,Sandwich,Rainy,No,No,No,2025-04
+1/04/2025,Flat White,2,4.25,8.09,Cash,New,Yes,Takeaway,0.34,Yes,0.75,Jamie,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+1/04/2025,Flat White,3,4.25,14.68,Mobile Pay,New,Yes,Delivery,1.93,No,0,Sam,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+1/04/2025,Flat White,3,4.25,13.01,Credit Card,Regular,No,Takeaway,0.26,No,0,Jamie,5,Drink,Hot Drink,Sunny,,No,Yes,2025-04
+1/04/2025,Espresso,3,3,10.27,Credit Card,Regular,No,Dine-In,1.27,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+1/04/2025,Americano,,3.5,9.88,Cash,New,Yes,Dine-In,0.2,Yes,0.82,Sam,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+1/04/2025,Cold Brew,1,5,5.18,Cash,New,No,Takeaway,0.18,No,0,Sam,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+1/04/2025,Americano,1,3.5,4.01,Credit Card,New,No,Dine-In,1.19,Yes,0.68,Alex,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+1/04/2025,Latte,1,4.5,5.09,Mobile Pay,Regular,,Delivery,1.98,Yes,1.39,Sam,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+1/04/2025,Flat White,3,4.25,13.79,Credit Card,Regular,Yes,Takeaway,1.04,No,0,Sam,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+1/04/2025,Bagel,2,2.5,5.48,Cash,Regular,No,Delivery,0.48,No,0,Jamie,5,Food,Sandwich,Rainy,No,Yes,No,2025-04
+1/04/2025,Flat White,3,4.25,13.04,Cash,Regular,No,Delivery,0.29,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+1/04/2025,Muffin,3,2.75,8.37,Cash,New,Yes,Dine-In,1.92,Yes,1.8,Sam,5,Food,Pastry,Sunny,Yes,No,Yes,2025-04
+1/04/2025,Croissant,1,3,,,,,,,,,,,,,,,,No,2025-04
+1/04/2025,Cold Brew,1,5,,,,,,,,,,,,,,,,No,2025-04
+1/04/2025,Muffin,2,2.75,,,,,,,,,,,,,,,,No,2025-04
+1/04/2025,Flat White,1,4.25,,,,,,,,,,,,,,,,No,2025-04
+1/04/2025,Bagel,2,2.5,,,,,,,,,,,,,,,,Yes,2025-04
+1/04/2025,Croissant,2,3,,,,,,,,,,,,,,,,Yes,2025-04
+1/04/2025,Bagel,3,2.5,,,,,,,,,,,,,,,,No,2025-04
+1/04/2025,Cappuccino,1,4.25,,,,,,,,,,,,,,,,No,2025-04
+1/04/2025,Americano,1,3.5,,,,,,,,,,,,,,,,No,2025-04
+2/04/2025,Cold Brew,2,5,10.3,Mobile Pay,Regular,Yes,Delivery,0.3,No,0,Sam,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+2/04/2025,Latte,1,4.5,3,Cash,Regular,Yes,Delivery,0.32,Yes,1.82,Alex,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+2/04/2025,Bagel,3,2.5,6.31,Credit Card,Regular,No,Dine-In,0.53,Yes,1.72,Jamie,3,Food,Sandwich,Sunny,No,Yes,No,2025-04
+2/04/2025,Croissant,3,3,9.28,Credit Card,Regular,No,Delivery,0.28,No,0,Alex,3,Food,Pastry,Cloudy,No,Yes,Yes,2025-04
+2/04/2025,Cappuccino,1,4.25,5.74,Credit Card,New,No,Delivery,1.49,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,No,No,2025-04
+2/04/2025,Americano,3,3.5,10.29,Mobile Pay,New,Yes,Delivery,1.76,Yes,1.97,Alex,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+2/04/2025,Latte,3,4.5,13.8,Cash,Regular,Yes,Dine-In,1.56,Yes,1.26,Sam,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+2/04/2025,Iced Latte,2,5,11.7,Mobile Pay,Regular,No,Takeaway,1.7,No,0,Sam,2,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+2/04/2025,Iced Latte,2,5,8.68,Mobile Pay,Regular,No,Delivery,0.66,Yes,1.98,Jamie,3,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+2/04/2025,Croissant,1,3,3.62,Mobile Pay,New,Yes,Takeaway,1.91,Yes,1.29,Jamie,2,Food,Pastry,Cloudy,Yes,No,No,2025-04
+2/04/2025,Chai Latte,1,4.75,5.55,Cash,Regular,No,Delivery,1.57,Yes,0.77,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+2/04/2025,Americano,1,3.5,4.47,Cash,New,Yes,Takeaway,0.97,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+2/04/2025,Cold Brew,2,5,10.7,Credit Card,New,No,Dine-In,1.96,Yes,1.26,Sam,5,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+2/04/2025,Bagel,1,2.5,3.66,Credit Card,Regular,Yes,Takeaway,1.16,No,0,Alex,2,Food,Sandwich,Cloudy,No,No,No,2025-04
+2/04/2025,Muffin,1,2.75,3.84,Cash,Regular,No,Takeaway,1.09,No,0,Alex,3,Food,Pastry,Rainy,No,No,Yes,2025-04
+2/04/2025,Muffin,1,2.75,1.98,Cash,Regular,Yes,Dine-In,0.85,Yes,1.62,Jamie,5,Food,Pastry,Rainy,No,Yes,No,2025-04
+2/04/2025,Chai Latte,1,4.75,5.35,Mobile Pay,Regular,Yes,Takeaway,1.74,Yes,1.14,Alex,2,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+2/04/2025,Croissant,1,3,4.62,Credit Card,New,No,Takeaway,1.62,No,0,Alex,2,Food,Pastry,Sunny,No,Yes,No,2025-04
+2/04/2025,Chai Latte,3,4.75,13.9,Cash,Regular,No,Takeaway,0.54,Yes,0.89,Sam,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+2/04/2025,Chai Latte,2,4.75,9.2,Mobile Pay,Regular,No,Takeaway,1.58,Yes,1.88,Sam,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+2/04/2025,Iced Latte,3,5,16.67,Cash,Regular,No,Delivery,1.67,No,0,Sam,4,Drink,Cold Drink,Rainy,No,No,No,2025-04
+2/04/2025,Mocha,3,4.75,15.84,Mobile Pay,New,Yes,Delivery,1.59,No,0,Alex,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+2/04/2025,Flat White,3,4.25,13.05,Cash,New,Yes,Delivery,1.3,Yes,1,Sam,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+2/04/2025,Mocha,2,4.75,10.51,Cash,New,No,Takeaway,1.01,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+2/04/2025,Bagel,2,2.5,4.7,Mobile Pay,Regular,No,Dine-In,1.44,Yes,1.74,Alex,4,Food,Sandwich,Rainy,No,No,Yes,2025-04
+2/04/2025,Flat White,2,4.25,10.05,Mobile Pay,New,Yes,Delivery,1.55,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+2/04/2025,Cappuccino,2,4.25,10.25,Cash,New,No,Dine-In,1.75,No,0,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+2/04/2025,Flat White,3,4.25,12.36,Credit Card,New,Yes,Delivery,0.59,Yes,0.98,Jamie,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+2/04/2025,Mocha,3,4.75,13.41,Credit Card,Regular,Yes,Dine-In,0.66,Yes,1.5,Sam,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+2/04/2025,Muffin,2,2.75,5.85,Mobile Pay,Regular,No,Takeaway,0.35,No,0,Alex,6,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+2/04/2025,Muffin,1,2.75,3.98,Mobile Pay,New,Yes,Takeaway,1.23,No,0,Alex,4,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+2/04/2025,Iced Latte,2,5,10.58,Mobile Pay,Regular,No,Delivery,0.58,No,0,Sam,2,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+2/04/2025,Cappuccino,2,4.25,8.87,Credit Card,New,Yes,Dine-In,0.95,Yes,0.58,Alex,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+2/04/2025,Cold Brew,2,5,10.72,Mobile Pay,Regular,Yes,Dine-In,0.72,No,0,Alex,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+2/04/2025,Muffin,2,2.75,7.44,Mobile Pay,Regular,Yes,Dine-In,1.94,No,0,Sam,7,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+2/04/2025,Cold Brew,3,5,15.92,Credit Card,Regular,Yes,Dine-In,1.68,Yes,0.76,Sam,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+2/04/2025,Americano,1,3.5,5.48,Cash,New,Yes,Delivery,1.98,No,0,Sam,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+2/04/2025,Muffin,2,2.75,5.47,Mobile Pay,New,Yes,Delivery,0.78,Yes,0.81,Sam,2,Food,Pastry,Sunny,No,No,No,2025-04
+3/04/2025,Cold Brew,1,5,5.36,Cash,New,Yes,Delivery,1.5,Yes,1.14,Jamie,3,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+3/04/2025,Croissant,1,3,3.99,Credit Card,New,No,Delivery,0.99,No,0,Alex,6,Food,Pastry,Cloudy,No,No,Yes,2025-04
+3/04/2025,Croissant,3,3,10.1,Mobile Pay,New,No,Delivery,1.65,Yes,0.55,Alex,7,Food,Pastry,Sunny,No,Yes,No,2025-04
+3/04/2025,Latte,1,4.5,3.84,Credit Card,New,Yes,Takeaway,1,Yes,1.66,Alex,5,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+3/04/2025,Espresso,2,3,6.07,Credit Card,Regular,No,Takeaway,1.01,Yes,0.94,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+3/04/2025,Cappuccino,3,4.25,11.57,Credit Card,New,No,Delivery,0.09,Yes,1.27,Alex,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+3/04/2025,Croissant,1,3,2.64,Cash,Regular,Yes,Dine-In,1.46,Yes,1.82,Alex,5,Food,Pastry,Rainy,Yes,No,No,2025-04
+3/04/2025,Mocha,3,4.75,15.54,Mobile Pay,New,No,Takeaway,1.29,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+3/04/2025,Espresso,3,3,9.53,Cash,Regular,Yes,Takeaway,0.53,No,0,Jamie,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+3/04/2025,Americano,1,3.5,1.97,Credit Card,Regular,Yes,Takeaway,0.01,Yes,1.54,Sam,3,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+3/04/2025,Flat White,3,4.25,14.42,Cash,New,No,Dine-In,1.67,No,0,Sam,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+3/04/2025,Latte,1,4.5,3.57,Cash,New,No,Takeaway,0,Yes,0.93,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+3/04/2025,Mocha,2,4.75,11.22,Mobile Pay,New,No,Takeaway,1.72,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+3/04/2025,Cappuccino,1,4.25,4.64,Mobile Pay,Regular,No,Dine-In,0.39,No,0,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+3/04/2025,Cappuccino,2,4.25,9.44,Cash,New,No,Delivery,0.94,No,0,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+3/04/2025,Cappuccino,1,4.25,6.02,Credit Card,Regular,Yes,Dine-In,1.77,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+3/04/2025,Chai Latte,1,4.75,6.53,Mobile Pay,Regular,No,Dine-In,1.78,No,0,Alex,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+3/04/2025,Cappuccino,1,4.25,4.39,Mobile Pay,New,Yes,Dine-In,0.14,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+3/04/2025,Bagel,2,2.5,5.27,Cash,New,Yes,Delivery,1.77,Yes,1.5,Sam,2,Food,Sandwich,Sunny,No,Yes,No,2025-04
+3/04/2025,Muffin,2,2.75,6.06,Credit Card,New,No,Dine-In,0.56,No,0,Alex,4,Food,Pastry,Sunny,Yes,No,Yes,2025-04
+3/04/2025,Cold Brew,2,5,11.34,Mobile Pay,Regular,No,Takeaway,1.34,No,0,Alex,3,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+3/04/2025,Mocha,2,4.75,7.91,Credit Card,Regular,Yes,Delivery,0.01,Yes,1.6,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+3/04/2025,Mocha,3,4.75,14.47,Credit Card,Regular,Yes,Delivery,0.22,No,0,Sam,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+3/04/2025,Flat White,2,4.25,7.05,Credit Card,New,No,Dine-In,0.25,Yes,1.7,Sam,3,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+3/04/2025,Croissant,1,3,4.06,Credit Card,New,No,Delivery,1.06,No,0,Jamie,4,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+3/04/2025,Iced Latte,2,5,10.28,Cash,New,No,Takeaway,0.28,No,0,Jamie,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+3/04/2025,Muffin,2,2.75,5.78,Mobile Pay,Regular,No,Delivery,1.88,Yes,1.6,Sam,7,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+3/04/2025,Bagel,3,2.5,8.32,Mobile Pay,New,Yes,Takeaway,0.82,No,0,Alex,2,Food,Sandwich,Rainy,No,No,No,2025-04
+3/04/2025,Bagel,2,2.5,5.12,Mobile Pay,New,Yes,Takeaway,1.92,Yes,1.8,Jamie,4,Food,Sandwich,Sunny,No,Yes,No,2025-04
+3/04/2025,Bagel,3,2.5,6.31,Credit Card,Regular,No,Takeaway,0.19,Yes,1.38,Jamie,3,Food,Sandwich,Sunny,No,Yes,No,2025-04
+3/04/2025,Cold Brew,1,5,4.36,Credit Card,New,Yes,Takeaway,0.53,Yes,1.17,Sam,5,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+4/04/2025,Cold Brew,2,5,11.46,Credit Card,Regular,Yes,Dine-In,1.46,No,0,Alex,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+4/04/2025,Muffin,3,2.75,8.27,Credit Card,Regular,Yes,Dine-In,0.02,No,0,Sam,5,Food,Pastry,Cloudy,No,Yes,No,2025-04
+4/04/2025,Iced Latte,1,5,4.66,Mobile Pay,New,Yes,Delivery,1.53,Yes,1.87,Sam,2,Drink,Cold Drink,Sunny,No,No,No,2025-04
+4/04/2025,Croissant,1,3,4.89,Cash,New,No,Delivery,1.89,No,0,Sam,5,Food,Pastry,Rainy,No,No,Yes,2025-04
+4/04/2025,Latte,3,4.5,13.69,Credit Card,Regular,No,Delivery,1.72,Yes,1.53,Alex,4,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+4/04/2025,Americano,3,3.5,11.57,Credit Card,New,Yes,Delivery,1.07,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+4/04/2025,Chai Latte,2,4.75,9.62,Mobile Pay,Regular,No,Takeaway,0.12,No,0,Alex,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+4/04/2025,Cappuccino,1,4.25,5.77,Credit Card,New,No,Dine-In,1.52,No,0,Sam,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+4/04/2025,Chai Latte,3,4.75,14.61,Mobile Pay,New,No,Delivery,0.36,No,0,Alex,5,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+4/04/2025,Flat White,3,4.25,12.08,Cash,New,Yes,Dine-In,1.32,Yes,1.99,Alex,2,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+4/04/2025,Cappuccino,3,4.25,13.56,Mobile Pay,New,Yes,Dine-In,0.81,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+4/04/2025,Muffin,1,2.75,4.11,Mobile Pay,Regular,Yes,Dine-In,1.36,No,0,Sam,6,Food,Pastry,Cloudy,No,No,Yes,2025-04
+4/04/2025,Muffin,2,2.75,5.43,Mobile Pay,New,Yes,Takeaway,1.1,Yes,1.17,Alex,4,Food,Pastry,Rainy,No,No,No,2025-04
+4/04/2025,Chai Latte,3,4.75,14.27,Mobile Pay,New,Yes,Dine-In,0.02,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+4/04/2025,Bagel,1,2.5,3.2,Credit Card,Regular,No,Dine-In,1.9,Yes,1.2,Sam,4,Food,Sandwich,Rainy,Yes,No,No,2025-04
+4/04/2025,Muffin,1,2.75,4.1,Credit Card,Regular,No,Delivery,1.35,No,0,Sam,5,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+4/04/2025,Cold Brew,2,5,11.67,Cash,New,Yes,Takeaway,1.67,No,0,Alex,5,Drink,Cold Drink,Rainy,No,No,No,2025-04
+4/04/2025,Americano,1,3.5,3.68,Credit Card,Regular,Yes,Dine-In,0.18,No,0,Alex,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+4/04/2025,Cold Brew,1,5,3.96,Mobile Pay,New,Yes,Delivery,0.17,Yes,1.21,Alex,7,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+4/04/2025,Bagel,3,2.5,7.79,Credit Card,New,Yes,Dine-In,0.29,No,0,Sam,2,Food,Sandwich,Rainy,No,Yes,No,2025-04
+4/04/2025,Iced Latte,1,5,5.29,Mobile Pay,New,Yes,Takeaway,0.96,Yes,0.67,Jamie,6,Drink,Cold Drink,Rainy,No,No,No,2025-04
+4/04/2025,Cold Brew,1,5,6.56,Credit Card,New,No,Delivery,1.56,No,0,Sam,7,Drink,Cold Drink,Cloudy,No,No,Yes,2025-04
+4/04/2025,Cold Brew,3,5,15.01,Cash,New,Yes,Delivery,0.01,No,0,Alex,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+4/04/2025,Espresso,3,3,8.79,Cash,New,Yes,Takeaway,0.95,Yes,1.16,Alex,7,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+4/04/2025,Croissant,2,3,5.72,Cash,New,No,Dine-In,1.1,Yes,1.38,Alex,6,Food,Pastry,Sunny,No,No,No,2025-04
+4/04/2025,Bagel,1,2.5,4.16,Credit Card,Regular,No,Takeaway,1.66,No,0,Alex,2,Food,Sandwich,Cloudy,No,Yes,Yes,2025-04
+4/04/2025,Espresso,2,3,7.12,Mobile Pay,New,No,Takeaway,1.12,No,0,Jamie,4,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+4/04/2025,Flat White,2,4.25,9.62,Cash,New,No,Dine-In,1.12,No,0,Alex,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+4/04/2025,Mocha,2,4.75,10.95,Credit Card,Regular,Yes,Delivery,1.45,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+4/04/2025,Cold Brew,1,5,4.69,Credit Card,New,No,Dine-In,0.69,Yes,1,Alex,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+4/04/2025,Bagel,1,2.5,1.29,Cash,Regular,No,Takeaway,0.66,Yes,1.87,Jamie,4,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+4/04/2025,Flat White,2,4.25,8.83,Mobile Pay,New,No,Delivery,0.33,No,0,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+4/04/2025,Bagel,1,2.5,2.36,Credit Card,New,Yes,Dine-In,1.29,Yes,1.43,Jamie,7,Food,Sandwich,Rainy,No,Yes,No,2025-04
+4/04/2025,Americano,2,3.5,7.58,Credit Card,New,Yes,Dine-In,1.43,Yes,0.85,Sam,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+4/04/2025,Latte,3,4.5,15.47,Cash,Regular,Yes,Delivery,1.97,No,0,Jamie,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+5/04/2025,Bagel,1,2.5,4.47,Mobile Pay,Regular,No,Delivery,1.97,No,0,Alex,4,Food,Sandwich,Rainy,No,No,No,2025-04
+5/04/2025,Chai Latte,1,4.75,6.11,Mobile Pay,New,No,Takeaway,1.36,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+5/04/2025,Espresso,3,3,8.68,Mobile Pay,New,No,Delivery,1.22,Yes,1.54,Alex,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+5/04/2025,Latte,1,4.5,4.66,Cash,Regular,Yes,Dine-In,0.16,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+5/04/2025,Cold Brew,3,5,16.1,Credit Card,New,Yes,Dine-In,1.1,No,0,Alex,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+5/04/2025,Croissant,3,3,10.27,Cash,Regular,Yes,Delivery,1.27,No,0,Jamie,2,Food,Pastry,Sunny,No,No,No,2025-04
+5/04/2025,Muffin,3,2.75,9.71,Credit Card,New,Yes,Delivery,1.46,No,0,Jamie,6,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+5/04/2025,Muffin,1,2.75,2.44,Mobile Pay,New,Yes,Dine-In,1.13,Yes,1.44,Alex,7,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+5/04/2025,Espresso,2,3,7.4,Credit Card,New,Yes,Delivery,1.4,No,0,Sam,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+5/04/2025,Cappuccino,2,4.25,8.29,Credit Card,Regular,No,Dine-In,1.43,Yes,1.64,Jamie,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+5/04/2025,Iced Latte,1,5,4.37,Cash,Regular,Yes,Delivery,1.02,Yes,1.65,Jamie,2,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+5/04/2025,Cappuccino,3,4.25,14.41,Cash,New,Yes,Delivery,1.66,No,0,Sam,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+5/04/2025,Iced Latte,3,5,15.23,Mobile Pay,Regular,Yes,Dine-In,0.23,No,0,Sam,3,Drink,Cold Drink,Sunny,Yes,Yes,Yes,2025-04
+5/04/2025,Flat White,3,4.25,11.95,Cash,Regular,Yes,Takeaway,0.49,Yes,1.29,Jamie,2,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+5/04/2025,Bagel,1,2.5,2.59,Mobile Pay,Regular,Yes,Takeaway,0.7,Yes,0.61,Alex,6,Food,Sandwich,Rainy,No,No,Yes,2025-04
+5/04/2025,Espresso,2,3,5.59,Credit Card,Regular,Yes,Dine-In,0.82,Yes,1.23,Alex,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+5/04/2025,Espresso,3,3,9.37,Mobile Pay,New,No,Dine-In,0.37,No,0,Sam,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+5/04/2025,Flat White,1,4.25,2.78,Credit Card,Regular,Yes,Dine-In,0.12,Yes,1.59,Alex,4,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+5/04/2025,Latte,3,4.5,14.48,Cash,New,No,Takeaway,0.98,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+5/04/2025,Bagel,2,2.5,4.09,Credit Card,New,Yes,Delivery,0.51,Yes,1.42,Alex,2,Food,Sandwich,Rainy,No,No,Yes,2025-04
+5/04/2025,Americano,2,3.5,7.84,Mobile Pay,Regular,Yes,Dine-In,0.84,No,0,Sam,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+5/04/2025,Americano,3,3.5,10.09,Mobile Pay,Regular,Yes,Takeaway,1.4,Yes,1.81,Sam,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+5/04/2025,Iced Latte,1,5,6.28,Mobile Pay,Regular,Yes,Dine-In,1.28,No,0,Alex,7,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+5/04/2025,Espresso,2,3,5.66,Cash,New,No,Takeaway,0.98,Yes,1.32,Alex,5,Drink,Hot Drink,Cloudy,Yes,Yes,No,2025-04
+5/04/2025,Bagel,1,2.5,1.56,Cash,New,Yes,Dine-In,0.31,Yes,1.25,Sam,2,Food,Sandwich,Cloudy,No,No,No,2025-04
+6/04/2025,Cappuccino,2,4.25,8.79,Credit Card,New,Yes,Dine-In,1.55,Yes,1.26,Sam,6,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+6/04/2025,Cappuccino,3,4.25,14.13,Cash,Regular,Yes,Delivery,1.38,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+6/04/2025,Croissant,1,3,1.65,Cash,Regular,Yes,Takeaway,0.39,Yes,1.74,Alex,5,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+6/04/2025,Americano,3,3.5,11.69,Credit Card,New,Yes,Dine-In,1.19,No,0,Jamie,5,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+6/04/2025,Muffin,3,2.75,9.97,Cash,New,Yes,Delivery,1.72,No,0,Jamie,4,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+6/04/2025,Flat White,3,4.25,14.03,Cash,Regular,No,Dine-In,1.28,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+6/04/2025,Croissant,2,3,6.22,Cash,New,No,Delivery,1.82,Yes,1.6,Jamie,5,Food,Pastry,Sunny,No,Yes,No,2025-04
+6/04/2025,Cold Brew,2,5,11.24,Credit Card,New,No,Takeaway,1.24,No,0,Alex,2,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+6/04/2025,Americano,3,3.5,10.68,Mobile Pay,Regular,Yes,Dine-In,1.01,Yes,0.83,Alex,3,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+6/04/2025,Muffin,1,2.75,1.95,Cash,Regular,No,Takeaway,0.83,Yes,1.63,Sam,6,Food,Pastry,Sunny,No,No,Yes,2025-04
+6/04/2025,Iced Latte,1,5,6.64,Credit Card,New,Yes,Delivery,1.64,No,0,Jamie,7,Drink,Cold Drink,Cloudy,Yes,Yes,Yes,2025-04
+6/04/2025,Bagel,3,2.5,8.07,Credit Card,Regular,Yes,Dine-In,0.57,No,0,Sam,2,Food,Sandwich,Rainy,No,Yes,No,2025-04
+6/04/2025,Iced Latte,3,5,15.12,Credit Card,New,No,Takeaway,0.12,No,0,Jamie,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+6/04/2025,Flat White,1,4.25,5.09,Credit Card,Regular,Yes,Dine-In,1.57,Yes,0.73,Alex,3,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+6/04/2025,Muffin,3,2.75,8.28,Cash,New,Yes,Delivery,1.76,Yes,1.73,Sam,7,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+6/04/2025,Americano,1,3.5,4.24,Cash,Regular,Yes,Dine-In,0.74,No,0,Sam,4,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+6/04/2025,Cold Brew,1,5,6.68,Cash,Regular,Yes,Dine-In,1.68,No,0,Sam,3,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+6/04/2025,Espresso,1,3,2.76,Cash,New,No,Takeaway,0.97,Yes,1.21,Alex,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+6/04/2025,Croissant,3,3,9,Mobile Pay,Regular,No,Dine-In,1.61,Yes,1.61,Jamie,3,Food,Pastry,Cloudy,No,No,No,2025-04
+6/04/2025,Chai Latte,2,4.75,9.74,Cash,Regular,Yes,Delivery,0.81,Yes,0.57,Alex,5,Drink,Hot Drink,Cloudy,Yes,Yes,No,2025-04
+6/04/2025,Americano,3,3.5,12,Credit Card,New,Yes,Dine-In,1.5,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+6/04/2025,Espresso,2,3,6.51,Credit Card,New,No,Delivery,1.15,Yes,0.64,Alex,3,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+6/04/2025,Bagel,2,2.5,5.37,Mobile Pay,New,Yes,Delivery,1.97,Yes,1.6,Jamie,6,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+6/04/2025,Croissant,3,3,10.67,Cash,Regular,No,Dine-In,1.67,No,0,Alex,4,Food,Pastry,Cloudy,No,No,No,2025-04
+6/04/2025,Latte,2,4.5,9.26,Credit Card,New,No,Delivery,1.03,Yes,0.77,Sam,4,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+6/04/2025,Bagel,2,2.5,5.35,Mobile Pay,Regular,Yes,Dine-In,1.57,Yes,1.22,Sam,4,Food,Sandwich,Sunny,No,No,No,2025-04
+6/04/2025,Americano,1,3.5,2.31,Mobile Pay,New,Yes,Takeaway,0.12,Yes,1.31,Jamie,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+6/04/2025,Latte,1,4.5,3.93,Mobile Pay,New,Yes,Takeaway,0.52,Yes,1.09,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+6/04/2025,Latte,1,4.5,5.38,Mobile Pay,Regular,No,Takeaway,1.78,Yes,0.9,Jamie,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+6/04/2025,Croissant,2,3,7.26,Credit Card,Regular,No,Delivery,1.26,No,0,Jamie,2,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+6/04/2025,Bagel,1,2.5,2.83,Cash,Regular,Yes,Delivery,1.36,Yes,1.03,Sam,6,Food,Sandwich,Sunny,No,No,No,2025-04
+6/04/2025,Flat White,2,4.25,8.05,Credit Card,New,No,Dine-In,1.33,Yes,1.78,Sam,5,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+6/04/2025,Chai Latte,3,4.75,15.35,Credit Card,Regular,Yes,Delivery,1.1,No,0,Jamie,5,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+6/04/2025,Cold Brew,2,5,11.4,Mobile Pay,New,No,Delivery,1.4,No,0,Sam,4,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+6/04/2025,Cold Brew,2,5,10.56,Credit Card,Regular,Yes,Delivery,0.56,No,0,Sam,3,Drink,Cold Drink,Sunny,Yes,No,No,2025-04
+6/04/2025,Muffin,2,2.75,4.01,Credit Card,Regular,No,Dine-In,0.03,Yes,1.52,Sam,6,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+6/04/2025,Iced Latte,1,5,5.24,Mobile Pay,Regular,No,Delivery,0.83,Yes,0.59,Alex,2,Drink,Cold Drink,Rainy,Yes,Yes,Yes,2025-04
+6/04/2025,Croissant,2,3,7.64,Mobile Pay,New,No,Dine-In,1.64,No,0,Alex,5,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+6/04/2025,Flat White,2,4.25,7.75,Mobile Pay,New,No,Takeaway,0.9,Yes,1.65,Jamie,7,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+6/04/2025,Mocha,1,4.75,5.91,Mobile Pay,Regular,No,Delivery,1.16,No,0,Alex,5,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+6/04/2025,Flat White,3,4.25,13.1,Credit Card,Regular,Yes,Takeaway,1.66,Yes,1.31,Sam,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+6/04/2025,Cappuccino,1,4.25,3.36,Mobile Pay,Regular,Yes,Takeaway,0.21,Yes,1.1,Sam,3,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+6/04/2025,Chai Latte,3,4.75,14.94,Cash,New,No,Takeaway,0.69,No,0,Sam,4,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+6/04/2025,Americano,1,3.5,5.27,Mobile Pay,Regular,Yes,Takeaway,1.77,No,0,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+7/04/2025,Cappuccino,3,4.25,12.98,Mobile Pay,Regular,Yes,Takeaway,1.38,Yes,1.15,Jamie,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+7/04/2025,Cappuccino,1,4.25,3.07,Credit Card,Regular,No,Dine-In,0.3,Yes,1.48,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+7/04/2025,Americano,3,3.5,12.27,Credit Card,Regular,No,Takeaway,1.77,No,0,Alex,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+7/04/2025,Iced Latte,1,5,6.24,Mobile Pay,New,No,Takeaway,1.95,Yes,0.71,Jamie,4,Drink,Cold Drink,Rainy,Yes,No,No,2025-04
+7/04/2025,Cappuccino,2,4.25,8.89,Mobile Pay,Regular,Yes,Dine-In,1.64,Yes,1.25,Jamie,2,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+7/04/2025,Cold Brew,1,5,5.73,Cash,Regular,No,Delivery,0.73,No,0,Alex,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+7/04/2025,Iced Latte,3,5,16.76,Mobile Pay,New,No,Delivery,1.76,No,0,Jamie,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+7/04/2025,Cold Brew,3,5,15.15,Cash,Regular,Yes,Takeaway,1.89,Yes,1.74,Alex,6,Drink,Cold Drink,Rainy,Yes,No,No,2025-04
+7/04/2025,Americano,2,3.5,8.44,Credit Card,Regular,No,Dine-In,1.44,No,0,Sam,3,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+7/04/2025,Iced Latte,3,5,15.29,Mobile Pay,New,No,Dine-In,1.59,Yes,1.3,Sam,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+7/04/2025,Mocha,2,4.75,11.46,Mobile Pay,New,Yes,Takeaway,1.96,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+7/04/2025,Espresso,3,3,7.77,Mobile Pay,New,No,Takeaway,0.22,Yes,1.45,Sam,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+7/04/2025,Croissant,1,3,4.09,Credit Card,Regular,Yes,Dine-In,1.09,No,0,Alex,4,Food,Pastry,Sunny,Yes,No,No,2025-04
+7/04/2025,Muffin,2,2.75,6.08,Mobile Pay,New,No,Delivery,0.58,No,0,Jamie,3,Food,Pastry,Rainy,Yes,No,No,2025-04
+7/04/2025,Americano,3,3.5,10.88,Mobile Pay,New,Yes,Delivery,1.35,Yes,0.97,Jamie,6,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+7/04/2025,Mocha,1,4.75,6.23,Credit Card,Regular,Yes,Takeaway,1.48,No,0,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+7/04/2025,Croissant,2,3,6.37,Mobile Pay,New,No,Takeaway,0.37,No,0,Alex,4,Food,Pastry,Rainy,No,No,No,2025-04
+7/04/2025,Iced Latte,2,5,10.64,Credit Card,Regular,Yes,Dine-In,0.64,No,0,Jamie,6,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+7/04/2025,Flat White,1,4.25,3.29,Credit Card,Regular,No,Takeaway,1.02,Yes,1.98,Alex,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+7/04/2025,Chai Latte,3,4.75,13.49,Cash,Regular,No,Delivery,0.56,Yes,1.32,Sam,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+7/04/2025,Cold Brew,3,5,15.3,Credit Card,New,Yes,Delivery,0.3,No,0,Sam,7,Drink,Cold Drink,Cloudy,No,No,Yes,2025-04
+7/04/2025,Bagel,2,2.5,4.5,Cash,Regular,No,Takeaway,0.73,Yes,1.23,Jamie,3,Food,Sandwich,Cloudy,No,Yes,No,2025-04
+7/04/2025,Espresso,3,3,8.47,Cash,New,No,Takeaway,0.8,Yes,1.33,Sam,2,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+7/04/2025,Mocha,3,4.75,14.66,Credit Card,Regular,Yes,Dine-In,0.41,No,0,Alex,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+7/04/2025,Bagel,2,2.5,4.5,Cash,New,No,Takeaway,0.76,Yes,1.26,Alex,6,Food,Sandwich,Rainy,Yes,Yes,No,2025-04
+7/04/2025,Iced Latte,1,5,5.73,Credit Card,Regular,No,Dine-In,1.6,Yes,0.87,Sam,2,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+7/04/2025,Cold Brew,2,5,9.18,Mobile Pay,Regular,Yes,Delivery,0.59,Yes,1.41,Alex,3,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+7/04/2025,Mocha,2,4.75,9.23,Mobile Pay,New,Yes,Takeaway,0.46,Yes,0.73,Sam,5,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+7/04/2025,Chai Latte,2,4.75,11.1,Credit Card,Regular,No,Takeaway,1.6,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,No,No,2025-04
+7/04/2025,Espresso,3,3,10.88,Mobile Pay,Regular,No,Dine-In,1.88,No,0,Jamie,5,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+7/04/2025,Americano,1,3.5,5.26,Cash,New,No,Dine-In,1.76,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Iced Latte,3,5,16.5,Credit Card,Regular,No,Delivery,1.5,No,0,Jamie,6,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+8/04/2025,Espresso,3,3,9.59,Mobile Pay,New,Yes,Delivery,0.59,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+8/04/2025,Latte,2,4.5,9.14,Cash,New,No,Takeaway,0.65,Yes,0.51,Alex,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+8/04/2025,Croissant,3,3,9.69,Credit Card,New,Yes,Delivery,0.69,No,0,Sam,5,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+8/04/2025,Chai Latte,3,4.75,15.61,Cash,New,Yes,Delivery,1.36,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+8/04/2025,Chai Latte,2,4.75,9.62,Cash,New,No,Takeaway,0.12,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+8/04/2025,Latte,2,4.5,9.49,Cash,New,Yes,Dine-In,0.49,No,0,Alex,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+8/04/2025,Flat White,3,4.25,14.21,Credit Card,New,Yes,Delivery,1.46,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+8/04/2025,Cold Brew,2,5,10.05,Mobile Pay,Regular,Yes,Takeaway,1.63,Yes,1.58,Alex,7,Drink,Cold Drink,Rainy,No,No,No,2025-04
+8/04/2025,Croissant,2,3,7.86,Credit Card,New,No,Delivery,1.86,No,0,Sam,5,Food,Pastry,Cloudy,No,No,No,2025-04
+8/04/2025,Cold Brew,2,5,9.88,Cash,New,Yes,Dine-In,1.61,Yes,1.73,Alex,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+8/04/2025,Cold Brew,1,5,5.75,Credit Card,Regular,No,Dine-In,1.86,Yes,1.11,Jamie,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+8/04/2025,Muffin,2,2.75,7.09,Mobile Pay,New,No,Dine-In,1.59,No,0,Alex,5,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+8/04/2025,Espresso,3,3,9.22,Credit Card,New,Yes,Dine-In,1.56,Yes,1.34,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+8/04/2025,Cold Brew,2,5,9.13,Cash,New,No,Delivery,0.33,Yes,1.2,Alex,2,Drink,Cold Drink,Rainy,No,No,No,2025-04
+8/04/2025,Cappuccino,3,4.25,13.09,Mobile Pay,Regular,Yes,Takeaway,1.68,Yes,1.34,Alex,5,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+8/04/2025,Muffin,1,2.75,3.7,Mobile Pay,Regular,No,Dine-In,1.56,Yes,0.61,Jamie,2,Food,Pastry,Rainy,No,No,Yes,2025-04
+8/04/2025,Bagel,2,2.5,5.9,Credit Card,New,Yes,Dine-In,0.9,No,0,Alex,2,Food,Sandwich,Rainy,No,No,Yes,2025-04
+8/04/2025,Americano,2,3.5,7.74,Cash,New,No,Delivery,0.74,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Mocha,2,4.75,9.98,Mobile Pay,New,No,Delivery,0.48,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+8/04/2025,Latte,3,4.5,11.96,Mobile Pay,New,Yes,Takeaway,0.3,Yes,1.84,Jamie,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+8/04/2025,Mocha,1,4.75,6.27,Credit Card,New,Yes,Takeaway,1.52,No,0,Sam,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Mocha,1,4.75,5.55,Credit Card,Regular,Yes,Takeaway,1.96,Yes,1.16,Sam,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+8/04/2025,Flat White,3,4.25,12.71,Cash,New,No,Takeaway,0.75,Yes,0.79,Alex,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+8/04/2025,Croissant,2,3,6.75,Cash,Regular,Yes,Takeaway,0.75,No,0,Alex,7,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+8/04/2025,Espresso,2,3,7.73,Mobile Pay,Regular,Yes,Dine-In,1.73,No,0,Alex,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+8/04/2025,Mocha,2,4.75,10.14,Mobile Pay,New,No,Delivery,0.64,No,0,Alex,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Americano,3,3.5,11.33,Mobile Pay,New,Yes,Delivery,0.83,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+8/04/2025,Cold Brew,2,5,10.61,Mobile Pay,Regular,No,Delivery,1.54,Yes,0.93,Sam,3,Drink,Cold Drink,Sunny,No,No,No,2025-04
+8/04/2025,Americano,1,3.5,4.75,Cash,New,No,Dine-In,1.25,No,0,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+8/04/2025,Chai Latte,2,4.75,9.67,Credit Card,Regular,Yes,Takeaway,1.29,Yes,1.12,Alex,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+8/04/2025,Flat White,1,4.25,5.76,Cash,Regular,Yes,Takeaway,1.51,No,0,Sam,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+8/04/2025,Mocha,2,4.75,10.7,Credit Card,Regular,Yes,Takeaway,1.2,No,0,Jamie,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+8/04/2025,Bagel,2,2.5,4.7,Cash,Regular,Yes,Dine-In,1.57,Yes,1.87,Jamie,7,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Croissant,2,3,6.95,Mobile Pay,New,Yes,Takeaway,0.95,No,0,Alex,7,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Muffin,3,2.75,9.23,Credit Card,New,No,Takeaway,0.98,No,0,Alex,7,Food,Pastry,Sunny,No,No,Yes,2025-04
+8/04/2025,Flat White,2,4.25,9.17,Cash,Regular,No,Delivery,1.6,Yes,0.93,Sam,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+8/04/2025,Cold Brew,1,5,5.97,Cash,New,No,Delivery,0.97,No,0,Jamie,4,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+8/04/2025,Flat White,1,4.25,4.45,Cash,New,Yes,Delivery,0.2,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+8/04/2025,Iced Latte,3,5,15.17,Cash,Regular,No,Dine-In,1.27,Yes,1.1,Sam,2,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Muffin,1,2.75,3.2,Mobile Pay,Regular,Yes,Delivery,0.45,No,0,Sam,6,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+8/04/2025,Chai Latte,3,4.75,15.85,Credit Card,New,No,Delivery,1.6,No,0,Sam,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+8/04/2025,Croissant,3,3,8.64,Mobile Pay,New,Yes,Delivery,1.2,Yes,1.56,Jamie,3,Food,Pastry,Sunny,No,No,Yes,2025-04
+8/04/2025,Americano,3,3.5,10.21,Credit Card,New,No,Delivery,0.21,Yes,0.5,Alex,3,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+8/04/2025,Bagel,3,2.5,8.33,Credit Card,New,No,Takeaway,0.83,No,0,Sam,6,Food,Sandwich,Sunny,Yes,No,No,2025-04
+8/04/2025,Mocha,1,4.75,5.15,Credit Card,Regular,Yes,Takeaway,1.52,Yes,1.12,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+8/04/2025,Latte,3,4.5,15.21,Cash,Regular,No,Dine-In,1.71,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+9/04/2025,Cappuccino,1,4.25,5.18,Credit Card,Regular,Yes,Takeaway,0.93,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+9/04/2025,Muffin,1,2.75,2.61,Credit Card,New,Yes,Dine-In,1.14,Yes,1.28,Sam,6,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+9/04/2025,Bagel,3,2.5,7.17,Mobile Pay,Regular,No,Dine-In,0.87,Yes,1.2,Sam,6,Food,Sandwich,Cloudy,No,Yes,No,2025-04
+9/04/2025,Cold Brew,2,5,10.91,Credit Card,Regular,Yes,Delivery,1.9,Yes,0.99,Alex,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+9/04/2025,Flat White,2,4.25,8.32,Mobile Pay,Regular,No,Delivery,0.44,Yes,0.62,Alex,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+9/04/2025,Latte,1,4.5,4.67,Credit Card,Regular,No,Dine-In,1.37,Yes,1.2,Alex,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+9/04/2025,Mocha,1,4.75,5.73,Mobile Pay,Regular,Yes,Takeaway,0.98,No,0,Sam,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+9/04/2025,Cold Brew,3,5,15.17,Cash,New,Yes,Takeaway,0.17,No,0,Alex,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+9/04/2025,Muffin,3,2.75,8.17,Cash,New,Yes,Takeaway,0.82,Yes,0.9,Jamie,6,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+9/04/2025,Mocha,3,4.75,13.38,Mobile Pay,Regular,No,Delivery,0.65,Yes,1.52,Jamie,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+9/04/2025,Chai Latte,2,4.75,8.39,Mobile Pay,New,Yes,Delivery,0.28,Yes,1.39,Sam,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+9/04/2025,Bagel,3,2.5,7.75,Mobile Pay,Regular,No,Takeaway,1.94,Yes,1.69,Sam,3,Food,Sandwich,Cloudy,No,No,Yes,2025-04
+9/04/2025,Muffin,1,2.75,4.3,Mobile Pay,Regular,No,Delivery,1.55,No,0,Sam,3,Food,Pastry,Cloudy,No,No,Yes,2025-04
+9/04/2025,Chai Latte,1,4.75,3.95,Mobile Pay,New,Yes,Dine-In,1.13,Yes,1.93,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+9/04/2025,Cappuccino,2,4.25,9.98,Mobile Pay,New,Yes,Delivery,1.48,No,0,Sam,7,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+9/04/2025,Mocha,3,4.75,14.37,Credit Card,New,Yes,Dine-In,1.92,Yes,1.8,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+9/04/2025,Espresso,3,3,8.67,Credit Card,Regular,Yes,Dine-In,1.37,Yes,1.7,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+9/04/2025,Americano,1,3.5,3.53,Credit Card,New,No,Takeaway,0.03,No,0,Alex,4,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+9/04/2025,Cold Brew,3,5,15.06,Credit Card,New,Yes,Takeaway,1.63,Yes,1.57,Sam,5,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+9/04/2025,Croissant,2,3,7.61,Cash,New,No,Dine-In,1.61,No,0,Alex,2,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+9/04/2025,Muffin,1,2.75,4.08,Mobile Pay,New,Yes,Takeaway,1.33,No,0,Sam,2,Food,Pastry,Rainy,No,No,Yes,2025-04
+9/04/2025,Chai Latte,2,4.75,9.65,Credit Card,New,No,Dine-In,1.39,Yes,1.24,Jamie,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+9/04/2025,Americano,2,3.5,7.58,Credit Card,Regular,No,Dine-In,0.58,No,0,Sam,6,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+9/04/2025,Chai Latte,3,4.75,14.78,Mobile Pay,New,No,Takeaway,1.58,Yes,1.05,Alex,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+9/04/2025,Iced Latte,1,5,6.79,Cash,New,No,Takeaway,1.79,No,0,Alex,3,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+9/04/2025,Americano,3,3.5,9.8,Credit Card,New,No,Dine-In,1.21,Yes,1.91,Alex,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+9/04/2025,Mocha,2,4.75,9.56,Mobile Pay,Regular,Yes,Delivery,0.06,No,0,Sam,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+9/04/2025,Mocha,1,4.75,3.5,Credit Card,Regular,No,Delivery,0.02,Yes,1.27,Sam,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+9/04/2025,Espresso,1,3,3.33,Mobile Pay,New,No,Dine-In,0.33,No,0,Sam,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+9/04/2025,Chai Latte,3,4.75,15.76,Mobile Pay,New,No,Dine-In,1.51,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+9/04/2025,Flat White,2,4.25,9.39,Cash,New,Yes,Dine-In,0.89,No,0,Alex,3,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+9/04/2025,Espresso,3,3,10.9,Mobile Pay,New,No,Delivery,1.9,No,0,Jamie,4,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+9/04/2025,Bagel,2,2.5,5.52,Cash,New,Yes,Takeaway,0.52,No,0,Sam,7,Food,Sandwich,Sunny,No,No,Yes,2025-04
+9/04/2025,Espresso,2,3,5.23,Mobile Pay,Regular,Yes,Takeaway,0.78,Yes,1.55,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+10/04/2025,Muffin,2,2.75,6.19,Credit Card,New,No,Dine-In,0.69,No,0,Alex,3,Food,Pastry,Sunny,No,No,No,2025-04
+10/04/2025,Cold Brew,2,5,8.53,Cash,Regular,Yes,Takeaway,0.09,Yes,1.56,Alex,3,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+10/04/2025,Bagel,3,2.5,7.12,Cash,New,Yes,Takeaway,1.19,Yes,1.57,Jamie,5,Food,Sandwich,Rainy,Yes,Yes,No,2025-04
+10/04/2025,Latte,3,4.5,14.16,Credit Card,New,Yes,Takeaway,1.4,Yes,0.74,Alex,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+10/04/2025,Muffin,1,2.75,3.79,Credit Card,Regular,Yes,Dine-In,1.04,No,0,Alex,5,Food,Pastry,Cloudy,No,Yes,No,2025-04
+10/04/2025,Cold Brew,1,5,4.55,Credit Card,New,Yes,Dine-In,1.05,Yes,1.5,Sam,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Espresso,2,3,6.64,Cash,New,Yes,Dine-In,0.64,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+10/04/2025,Cappuccino,2,4.25,9.5,Mobile Pay,Regular,No,Dine-In,1,No,0,Alex,3,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+10/04/2025,Mocha,3,4.75,15.61,Cash,New,No,Dine-In,1.36,No,0,Sam,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Cold Brew,1,5,5.57,Cash,Regular,Yes,Dine-In,0.57,No,0,Alex,2,Drink,Cold Drink,Rainy,No,No,No,2025-04
+10/04/2025,Americano,2,3.5,8.61,Credit Card,Regular,No,Delivery,1.61,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+10/04/2025,Espresso,2,3,6.26,Cash,Regular,Yes,Delivery,0.26,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+10/04/2025,Bagel,1,2.5,2.36,Cash,New,Yes,Takeaway,1.69,Yes,1.83,Alex,2,Food,Sandwich,Sunny,No,Yes,No,2025-04
+10/04/2025,Flat White,3,4.25,11.85,Credit Card,New,Yes,Takeaway,0.92,Yes,1.82,Sam,5,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+10/04/2025,Cold Brew,3,5,16.58,Credit Card,New,No,Delivery,1.58,No,0,Sam,5,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Flat White,1,4.25,3.37,Mobile Pay,New,No,Dine-In,0.99,Yes,1.87,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+10/04/2025,Latte,2,4.5,7.44,Cash,New,No,Delivery,0.21,Yes,1.77,Sam,2,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+10/04/2025,Cold Brew,2,5,11.85,Cash,Regular,No,Takeaway,1.85,No,0,Jamie,2,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+10/04/2025,Cold Brew,2,5,10.68,Cash,Regular,No,Takeaway,0.68,No,0,Sam,5,Drink,Cold Drink,Rainy,No,No,No,2025-04
+10/04/2025,Bagel,1,2.5,4.45,Cash,New,Yes,Takeaway,1.95,No,0,Alex,6,Food,Sandwich,Rainy,No,Yes,No,2025-04
+10/04/2025,Flat White,2,4.25,9.71,Cash,Regular,No,Delivery,1.21,No,0,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+10/04/2025,Muffin,1,2.75,4.07,Mobile Pay,New,No,Dine-In,1.32,No,0,Jamie,7,Food,Pastry,Sunny,No,No,No,2025-04
+10/04/2025,Bagel,1,2.5,2.03,Mobile Pay,Regular,Yes,Takeaway,1.4,Yes,1.87,Alex,3,Food,Sandwich,Sunny,No,No,Yes,2025-04
+10/04/2025,Iced Latte,1,5,5.48,Cash,Regular,No,Delivery,1.8,Yes,1.32,Jamie,3,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Americano,3,3.5,10.93,Credit Card,New,Yes,Takeaway,0.43,No,0,Sam,4,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+10/04/2025,Americano,1,3.5,2.71,Mobile Pay,Regular,Yes,Dine-In,0.4,Yes,1.19,Alex,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Iced Latte,1,5,5.53,Cash,Regular,No,Delivery,0.53,No,0,Jamie,7,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+10/04/2025,Americano,1,3.5,3.94,Cash,Regular,Yes,Takeaway,1.11,Yes,0.67,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+10/04/2025,Croissant,1,3,3.92,Mobile Pay,Regular,No,Delivery,1.94,Yes,1.02,Alex,4,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+10/04/2025,Flat White,3,4.25,14.19,Credit Card,Regular,Yes,Takeaway,1.44,No,0,Sam,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+10/04/2025,Mocha,1,4.75,5.41,Cash,Regular,No,Takeaway,0.66,No,0,Sam,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Chai Latte,1,4.75,5.18,Mobile Pay,Regular,No,Delivery,1.73,Yes,1.3,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+10/04/2025,Iced Latte,3,5,14.7,Cash,New,Yes,Takeaway,0.62,Yes,0.92,Sam,3,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Flat White,2,4.25,8.34,Credit Card,New,No,Delivery,1.8,Yes,1.96,Alex,3,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+10/04/2025,Mocha,1,4.75,5.31,Cash,Regular,Yes,Takeaway,0.56,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+10/04/2025,Cappuccino,3,4.25,11.49,Mobile Pay,Regular,Yes,Dine-In,0.64,Yes,1.9,Alex,5,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+10/04/2025,Americano,3,3.5,11.48,Mobile Pay,New,Yes,Takeaway,0.98,No,0,Sam,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+10/04/2025,Flat White,1,4.25,5.28,Credit Card,Regular,No,Delivery,1.03,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Bagel,3,2.5,7.69,Credit Card,New,Yes,Dine-In,1.77,Yes,1.58,Jamie,2,Food,Sandwich,Rainy,No,No,No,2025-04
+10/04/2025,Croissant,3,3,8.27,Credit Card,Regular,Yes,Delivery,0.28,Yes,1.01,Sam,4,Food,Pastry,Rainy,No,No,No,2025-04
+10/04/2025,Croissant,2,3,4.35,Cash,New,No,Takeaway,0,Yes,1.65,Sam,3,Food,Pastry,Sunny,No,No,Yes,2025-04
+10/04/2025,Americano,3,3.5,9.7,Mobile Pay,New,No,Takeaway,0.81,Yes,1.61,Jamie,2,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+10/04/2025,Americano,2,3.5,8,Mobile Pay,Regular,No,Takeaway,1.57,Yes,0.57,Alex,2,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+10/04/2025,Flat White,2,4.25,8.43,Cash,Regular,Yes,Takeaway,0.48,Yes,0.55,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+10/04/2025,Mocha,3,4.75,14.12,Cash,New,Yes,Dine-In,1.1,Yes,1.23,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+10/04/2025,Bagel,1,2.5,3.31,Mobile Pay,Regular,No,Delivery,0.81,No,0,Alex,5,Food,Sandwich,Sunny,No,No,Yes,2025-04
+11/04/2025,Latte,2,4.5,9.99,Credit Card,New,Yes,Dine-In,0.99,No,0,Alex,6,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+11/04/2025,Americano,3,3.5,10.55,Mobile Pay,Regular,No,Takeaway,0.05,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+11/04/2025,Americano,2,3.5,5.42,Mobile Pay,Regular,Yes,Dine-In,0.36,Yes,1.94,Alex,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+11/04/2025,Americano,1,3.5,3.68,Cash,New,Yes,Dine-In,0.18,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+11/04/2025,Espresso,1,3,3.47,Cash,New,Yes,Dine-In,1.78,Yes,1.31,Jamie,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+11/04/2025,Croissant,1,3,2.47,Mobile Pay,Regular,No,Dine-In,0.66,Yes,1.19,Alex,5,Food,Pastry,Sunny,No,No,No,2025-04
+11/04/2025,Chai Latte,3,4.75,13.21,Cash,New,Yes,Delivery,0.28,Yes,1.32,Jamie,5,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+11/04/2025,Bagel,3,2.5,7.94,Cash,New,Yes,Takeaway,0.44,No,0,Sam,6,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+11/04/2025,Iced Latte,1,5,5.39,Cash,Regular,No,Dine-In,0.39,No,0,Sam,2,Drink,Cold Drink,Cloudy,No,No,Yes,2025-04
+11/04/2025,Bagel,2,2.5,5.89,Cash,Regular,Yes,Dine-In,0.89,No,0,Jamie,2,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+11/04/2025,Chai Latte,1,4.75,6.19,Cash,New,No,Dine-In,1.44,No,0,Jamie,4,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+11/04/2025,Cappuccino,1,4.25,5.05,Mobile Pay,Regular,No,Dine-In,0.8,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+11/04/2025,Croissant,2,3,6.72,Mobile Pay,New,Yes,Delivery,0.72,No,0,Jamie,4,Food,Pastry,Sunny,No,Yes,No,2025-04
+11/04/2025,Flat White,1,4.25,6.19,Cash,Regular,Yes,Delivery,1.94,No,0,Sam,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+11/04/2025,Bagel,2,2.5,6.51,Cash,Regular,No,Dine-In,1.51,No,0,Sam,5,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+11/04/2025,Espresso,1,3,3.08,Mobile Pay,New,Yes,Delivery,1.09,Yes,1.01,Jamie,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+11/04/2025,Iced Latte,2,5,10.65,Credit Card,Regular,Yes,Delivery,0.65,No,0,Jamie,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+11/04/2025,Americano,2,3.5,8.04,Mobile Pay,New,Yes,Takeaway,1.04,No,0,Sam,6,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+11/04/2025,Cold Brew,2,5,9.98,Credit Card,Regular,No,Takeaway,1.63,Yes,1.65,Alex,7,Drink,Cold Drink,Sunny,No,No,No,2025-04
+11/04/2025,Chai Latte,2,4.75,9.78,Cash,New,Yes,Dine-In,1.45,Yes,1.17,Alex,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+11/04/2025,Iced Latte,2,5,11.12,Mobile Pay,New,No,Dine-In,1.12,No,0,Sam,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+11/04/2025,Muffin,2,2.75,4.99,Cash,Regular,Yes,Takeaway,1.08,Yes,1.59,Sam,6,Food,Pastry,Sunny,No,No,No,2025-04
+11/04/2025,Flat White,1,4.25,4.03,Mobile Pay,New,No,Dine-In,0.51,Yes,0.73,Jamie,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+11/04/2025,Latte,1,4.5,5.71,Credit Card,Regular,No,Dine-In,1.21,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+11/04/2025,Mocha,2,4.75,8.56,Cash,Regular,Yes,Takeaway,0.85,Yes,1.79,Alex,4,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+11/04/2025,Bagel,3,2.5,7.85,Cash,New,No,Delivery,1.07,Yes,0.72,Sam,2,Food,Sandwich,Sunny,No,No,Yes,2025-04
+11/04/2025,Iced Latte,1,5,5.22,Cash,Regular,Yes,Takeaway,0.22,No,0,Sam,6,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+11/04/2025,Latte,3,4.5,13.75,Cash,New,No,Dine-In,0.95,Yes,0.7,Alex,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+11/04/2025,Americano,1,3.5,5.04,Cash,New,No,Takeaway,1.54,No,0,Sam,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+11/04/2025,Cappuccino,3,4.25,12.8,Mobile Pay,New,No,Delivery,0.05,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+11/04/2025,Bagel,1,2.5,2.2,Cash,New,Yes,Delivery,1.53,Yes,1.83,Alex,7,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+11/04/2025,Flat White,1,4.25,5.36,Mobile Pay,New,Yes,Dine-In,1.11,No,0,Sam,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+11/04/2025,Chai Latte,3,4.75,15.35,Credit Card,Regular,Yes,Delivery,1.62,Yes,0.52,Sam,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+11/04/2025,Chai Latte,2,4.75,10.62,Mobile Pay,Regular,Yes,Dine-In,1.12,No,0,Jamie,5,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+11/04/2025,Iced Latte,1,5,5,Credit Card,New,Yes,Delivery,0,No,0,Sam,3,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+11/04/2025,Cappuccino,1,4.25,4.82,Credit Card,New,No,Takeaway,0.57,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+11/04/2025,Bagel,2,2.5,4.26,Credit Card,New,No,Delivery,1.04,Yes,1.78,Alex,5,Food,Sandwich,Rainy,No,No,Yes,2025-04
+11/04/2025,Bagel,3,2.5,7.7,Credit Card,New,No,Takeaway,1.2,Yes,1,Sam,3,Food,Sandwich,Cloudy,No,No,No,2025-04
+11/04/2025,Cold Brew,3,5,16.73,Cash,New,Yes,Dine-In,1.73,No,0,Sam,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+11/04/2025,Cold Brew,2,5,11.52,Cash,Regular,Yes,Takeaway,1.52,No,0,Sam,3,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+11/04/2025,Americano,3,3.5,11.18,Cash,New,No,Dine-In,1.51,Yes,0.83,Jamie,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+11/04/2025,Mocha,1,4.75,5.11,Cash,Regular,No,Delivery,1.16,Yes,0.8,Alex,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+11/04/2025,Mocha,1,4.75,6.26,Credit Card,Regular,Yes,Dine-In,1.51,No,0,Jamie,5,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+11/04/2025,Mocha,1,4.75,4.85,Mobile Pay,Regular,No,Dine-In,1.99,Yes,1.89,Alex,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+12/04/2025,Bagel,2,2.5,5.96,Cash,New,No,Dine-In,0.96,No,0,Sam,4,Food,Sandwich,Cloudy,No,No,Yes,2025-04
+12/04/2025,Cold Brew,1,5,4.21,Cash,Regular,No,Takeaway,0.76,Yes,1.55,Sam,3,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+12/04/2025,Bagel,3,2.5,7.63,Cash,New,No,Delivery,0.13,No,0,Jamie,3,Food,Sandwich,Cloudy,No,No,No,2025-04
+12/04/2025,Chai Latte,3,4.75,14.53,Mobile Pay,Regular,No,Takeaway,1.29,Yes,1.01,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+12/04/2025,Cold Brew,2,5,10.87,Mobile Pay,New,No,Delivery,0.87,No,0,Jamie,5,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+12/04/2025,Latte,3,4.5,14.19,Mobile Pay,New,No,Delivery,1.43,Yes,0.74,Sam,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+12/04/2025,Chai Latte,1,4.75,4.31,Credit Card,Regular,No,Delivery,1.27,Yes,1.71,Sam,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+12/04/2025,Bagel,3,2.5,6.1,Mobile Pay,New,No,Dine-In,0.46,Yes,1.86,Jamie,5,Food,Sandwich,Cloudy,No,No,No,2025-04
+12/04/2025,Espresso,2,3,6.02,Mobile Pay,New,No,Takeaway,0.82,Yes,0.8,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+12/04/2025,Americano,3,3.5,11.23,Mobile Pay,New,No,Takeaway,1.36,Yes,0.63,Sam,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+12/04/2025,Latte,2,4.5,9.61,Cash,Regular,No,Takeaway,1.34,Yes,0.73,Jamie,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+12/04/2025,Latte,1,4.5,2.95,Cash,Regular,No,Delivery,0.06,Yes,1.61,Sam,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+12/04/2025,Croissant,3,3,9,Mobile Pay,Regular,Yes,Takeaway,0,No,0,Sam,5,Food,Pastry,Rainy,No,Yes,No,2025-04
+12/04/2025,Chai Latte,2,4.75,9.57,Mobile Pay,New,No,Dine-In,0.81,Yes,0.74,Sam,3,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+12/04/2025,Croissant,2,3,6.92,Mobile Pay,Regular,Yes,Delivery,1.76,Yes,0.84,Alex,5,Food,Pastry,Rainy,No,No,No,2025-04
+12/04/2025,Bagel,3,2.5,8.97,Mobile Pay,Regular,Yes,Dine-In,1.47,No,0,Jamie,5,Food,Sandwich,Rainy,No,No,No,2025-04
+12/04/2025,Iced Latte,3,5,13.51,Cash,Regular,Yes,Takeaway,0.26,Yes,1.75,Sam,3,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+12/04/2025,Americano,3,3.5,10.61,Cash,New,Yes,Takeaway,0.11,No,0,Alex,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+12/04/2025,Americano,3,3.5,10.76,Cash,New,Yes,Delivery,1.75,Yes,1.49,Sam,5,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+12/04/2025,Americano,1,3.5,4.06,Mobile Pay,Regular,Yes,Dine-In,0.56,No,0,Sam,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+12/04/2025,Espresso,2,3,7.53,Credit Card,Regular,Yes,Takeaway,1.53,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+12/04/2025,Cold Brew,3,5,16.2,Cash,Regular,No,Delivery,1.2,No,0,Sam,4,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+12/04/2025,Flat White,2,4.25,8.07,Credit Card,New,Yes,Takeaway,0.92,Yes,1.35,Sam,2,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+12/04/2025,Espresso,2,3,7.72,Cash,New,Yes,Dine-In,1.72,No,0,Alex,2,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+12/04/2025,Espresso,3,3,10.77,Mobile Pay,New,Yes,Dine-In,1.77,No,0,Alex,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+12/04/2025,Espresso,2,3,6.3,Mobile Pay,New,Yes,Dine-In,0.3,No,0,Sam,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+12/04/2025,Espresso,1,3,2.12,Mobile Pay,New,Yes,Delivery,0.16,Yes,1.04,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+12/04/2025,Cappuccino,3,4.25,14.01,Mobile Pay,Regular,No,Delivery,1.26,No,0,Sam,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+12/04/2025,Espresso,3,3,8.26,Credit Card,Regular,No,Dine-In,0.55,Yes,1.29,Alex,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+12/04/2025,Cold Brew,2,5,10.71,Credit Card,Regular,Yes,Dine-In,0.71,No,0,Sam,7,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+12/04/2025,Mocha,1,4.75,6.08,Credit Card,New,Yes,Delivery,1.33,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+12/04/2025,Americano,1,3.5,4.07,Mobile Pay,New,No,Delivery,1.22,Yes,0.65,Alex,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+12/04/2025,Chai Latte,2,4.75,8.97,Cash,Regular,Yes,Dine-In,0.43,Yes,0.96,Jamie,6,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+12/04/2025,Flat White,1,4.25,3.92,Cash,New,Yes,Dine-In,0.19,Yes,0.52,Sam,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+12/04/2025,Bagel,2,2.5,5.66,Cash,New,No,Dine-In,0.66,No,0,Jamie,5,Food,Sandwich,Cloudy,No,Yes,No,2025-04
+12/04/2025,Bagel,3,2.5,7.97,Credit Card,New,Yes,Dine-In,1.93,Yes,1.46,Sam,6,Food,Sandwich,Rainy,No,No,No,2025-04
+12/04/2025,Bagel,1,2.5,2.64,Cash,New,Yes,Delivery,0.14,No,0,Sam,2,Food,Sandwich,Cloudy,No,Yes,No,2025-04
+12/04/2025,Muffin,2,2.75,6.11,Mobile Pay,Regular,No,Dine-In,0.61,No,0,Sam,5,Food,Pastry,Sunny,No,No,Yes,2025-04
+12/04/2025,Bagel,1,2.5,3.96,Cash,New,No,Delivery,1.46,No,0,Sam,2,Food,Sandwich,Cloudy,Yes,No,No,2025-04
+12/04/2025,Bagel,2,2.5,3.49,Mobile Pay,Regular,No,Dine-In,0.47,Yes,1.98,Sam,7,Food,Sandwich,Rainy,No,No,No,2025-04
+12/04/2025,Flat White,1,4.25,4.71,Credit Card,New,No,Delivery,1.51,Yes,1.05,Jamie,7,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+12/04/2025,Chai Latte,1,4.75,4.77,Credit Card,Regular,Yes,Dine-In,0.98,Yes,0.96,Jamie,4,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+12/04/2025,Flat White,3,4.25,14.18,Mobile Pay,New,Yes,Takeaway,1.43,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+12/04/2025,Iced Latte,1,5,4.71,Mobile Pay,New,No,Delivery,1.24,Yes,1.53,Jamie,3,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+12/04/2025,Croissant,2,3,6.2,Credit Card,New,Yes,Dine-In,0.2,No,0,Alex,3,Food,Pastry,Cloudy,No,Yes,No,2025-04
+12/04/2025,Espresso,1,3,2.05,Cash,New,Yes,Delivery,0.62,Yes,1.57,Sam,7,Drink,Hot Drink,Cloudy,Yes,Yes,No,2025-04
+12/04/2025,Croissant,3,3,8.76,Cash,Regular,No,Dine-In,1.45,Yes,1.69,Alex,5,Food,Pastry,Sunny,No,No,Yes,2025-04
+12/04/2025,Latte,1,4.5,4.79,Mobile Pay,New,Yes,Takeaway,0.29,No,0,Sam,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+12/04/2025,Muffin,2,2.75,6.53,Credit Card,New,Yes,Dine-In,1.03,No,0,Sam,4,Food,Pastry,Rainy,No,No,No,2025-04
+12/04/2025,Espresso,2,3,4.82,Mobile Pay,New,No,Dine-In,0.24,Yes,1.42,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+12/04/2025,Latte,3,4.5,14.18,Mobile Pay,New,No,Takeaway,1.53,Yes,0.85,Sam,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+12/04/2025,Chai Latte,2,4.75,9.84,Credit Card,Regular,Yes,Delivery,0.34,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+13/04/2025,Americano,3,3.5,10.43,Credit Card,New,No,Dine-In,0.82,Yes,0.89,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+13/04/2025,Flat White,1,4.25,3.94,Mobile Pay,New,Yes,Delivery,1.56,Yes,1.87,Jamie,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+13/04/2025,Bagel,2,2.5,6.78,Cash,Regular,Yes,Delivery,1.78,No,0,Alex,7,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+13/04/2025,Muffin,3,2.75,8.65,Credit Card,Regular,Yes,Delivery,0.4,No,0,Sam,7,Food,Pastry,Cloudy,Yes,Yes,No,2025-04
+13/04/2025,Americano,3,3.5,11.86,Credit Card,New,Yes,Dine-In,1.36,No,0,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+13/04/2025,Americano,2,3.5,8.93,Mobile Pay,Regular,Yes,Takeaway,1.93,No,0,Sam,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+13/04/2025,Croissant,2,3,6.23,Mobile Pay,Regular,No,Delivery,1.26,Yes,1.03,Sam,7,Food,Pastry,Rainy,No,No,No,2025-04
+13/04/2025,Iced Latte,2,5,8.57,Credit Card,Regular,No,Delivery,0.35,Yes,1.78,Alex,7,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+13/04/2025,Flat White,1,4.25,4.58,Credit Card,New,Yes,Takeaway,0.33,No,0,Alex,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+13/04/2025,Espresso,1,3,3.42,Credit Card,Regular,Yes,Takeaway,1.46,Yes,1.04,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+13/04/2025,Iced Latte,2,5,9.66,Cash,Regular,Yes,Takeaway,0.37,Yes,0.71,Jamie,6,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+13/04/2025,Mocha,2,4.75,10.07,Mobile Pay,Regular,No,Dine-In,1.63,Yes,1.06,Alex,3,Drink,Hot Drink,Cloudy,Yes,No,Yes,2025-04
+13/04/2025,Muffin,1,2.75,3.61,Mobile Pay,New,Yes,Delivery,0.86,No,0,Jamie,4,Food,Pastry,Cloudy,Yes,Yes,Yes,2025-04
+13/04/2025,Cappuccino,3,4.25,12.92,Credit Card,Regular,No,Takeaway,1.88,Yes,1.71,Jamie,6,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+13/04/2025,Cappuccino,3,4.25,12.66,Mobile Pay,New,Yes,Dine-In,1.78,Yes,1.87,Alex,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+13/04/2025,Espresso,2,3,7.2,Mobile Pay,Regular,No,Takeaway,1.2,No,0,Alex,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+13/04/2025,Flat White,1,4.25,5.28,Mobile Pay,New,Yes,Takeaway,1.03,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+13/04/2025,Cappuccino,2,4.25,9.53,Cash,Regular,No,Takeaway,1.03,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+13/04/2025,Americano,2,3.5,6.16,Mobile Pay,New,Yes,Takeaway,0.57,Yes,1.41,Sam,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+13/04/2025,Mocha,3,4.75,16.09,Cash,New,Yes,Delivery,1.84,No,0,Alex,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+13/04/2025,Cappuccino,3,4.25,14.23,Cash,New,Yes,Delivery,1.48,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+13/04/2025,Cappuccino,1,4.25,4.22,Mobile Pay,New,No,Takeaway,1.64,Yes,1.67,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+13/04/2025,Bagel,1,2.5,1.7,Cash,Regular,Yes,Dine-In,1.19,Yes,1.99,Sam,3,Food,Sandwich,Rainy,Yes,Yes,No,2025-04
+13/04/2025,Mocha,2,4.75,8.78,Mobile Pay,Regular,Yes,Takeaway,0.09,Yes,0.81,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+13/04/2025,Croissant,1,3,2.88,Cash,Regular,Yes,Delivery,0.82,Yes,0.94,Jamie,3,Food,Pastry,Sunny,No,No,Yes,2025-04
+13/04/2025,Mocha,3,4.75,16.14,Mobile Pay,Regular,No,Delivery,1.89,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+13/04/2025,Americano,1,3.5,5.06,Cash,Regular,No,Dine-In,1.56,No,0,Alex,3,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+13/04/2025,Flat White,1,4.25,5.9,Cash,New,Yes,Delivery,1.65,No,0,Jamie,6,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+13/04/2025,Iced Latte,2,5,11.85,Mobile Pay,Regular,No,Takeaway,1.85,No,0,Alex,5,Drink,Cold Drink,Rainy,Yes,Yes,Yes,2025-04
+13/04/2025,Americano,2,3.5,8.5,Mobile Pay,New,No,Dine-In,1.5,No,0,Alex,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+13/04/2025,Americano,1,3.5,4.96,Credit Card,Regular,Yes,Delivery,1.46,No,0,Alex,5,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+14/04/2025,Mocha,3,4.75,13.06,Credit Card,New,Yes,Takeaway,0.72,Yes,1.91,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+14/04/2025,Chai Latte,2,4.75,11.15,Cash,Regular,Yes,Dine-In,1.65,No,0,Sam,2,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+14/04/2025,Muffin,3,2.75,8.63,Credit Card,New,Yes,Dine-In,0.38,No,0,Alex,4,Food,Pastry,Sunny,Yes,Yes,No,2025-04
+14/04/2025,Muffin,2,2.75,7.22,Credit Card,New,No,Dine-In,1.72,No,0,Alex,7,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+14/04/2025,Chai Latte,1,4.75,6.33,Credit Card,Regular,No,Dine-In,1.58,No,0,Sam,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+14/04/2025,Iced Latte,3,5,15.08,Mobile Pay,Regular,No,Dine-In,0.08,No,0,Jamie,3,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+14/04/2025,Latte,2,4.5,9.99,Cash,Regular,Yes,Takeaway,1.63,Yes,0.64,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+14/04/2025,Bagel,2,2.5,6.65,Cash,Regular,No,Delivery,1.65,No,0,Sam,3,Food,Sandwich,Cloudy,No,No,Yes,2025-04
+14/04/2025,Croissant,2,3,6.96,Cash,Regular,Yes,Takeaway,1.73,Yes,0.77,Alex,5,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+14/04/2025,Cappuccino,1,4.25,4.37,Mobile Pay,Regular,Yes,Delivery,0.12,No,0,Alex,2,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+14/04/2025,Mocha,3,4.75,13.06,Mobile Pay,Regular,No,Delivery,0.08,Yes,1.27,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+14/04/2025,Croissant,2,3,7.63,Mobile Pay,Regular,No,Dine-In,1.63,No,0,Alex,7,Food,Pastry,Sunny,No,No,No,2025-04
+14/04/2025,Americano,1,3.5,5.24,Mobile Pay,Regular,No,Dine-In,1.74,No,0,Sam,3,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+14/04/2025,Cappuccino,1,4.25,5.51,Mobile Pay,New,Yes,Delivery,1.26,No,0,Alex,5,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+14/04/2025,Flat White,1,4.25,6.01,Mobile Pay,Regular,Yes,Delivery,1.76,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+14/04/2025,Flat White,3,4.25,13.62,Mobile Pay,New,No,Delivery,0.87,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+14/04/2025,Mocha,2,4.75,10.03,Mobile Pay,Regular,No,Takeaway,1.73,Yes,1.2,Alex,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+14/04/2025,Muffin,2,2.75,6.15,Credit Card,Regular,Yes,Dine-In,0.65,No,0,Jamie,4,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+14/04/2025,Croissant,1,3,3.31,Cash,Regular,No,Dine-In,0.31,No,0,Sam,3,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+14/04/2025,Chai Latte,2,4.75,8.97,Mobile Pay,New,No,Takeaway,0.22,Yes,0.75,Alex,2,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+14/04/2025,Latte,2,4.5,8.4,Mobile Pay,New,Yes,Dine-In,0.63,Yes,1.23,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+14/04/2025,Mocha,2,4.75,11.11,Credit Card,New,No,Dine-In,1.61,No,0,Sam,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+15/04/2025,Chai Latte,3,4.75,15.74,Credit Card,New,Yes,Takeaway,1.49,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+15/04/2025,Croissant,3,3,9.4,Mobile Pay,Regular,Yes,Dine-In,0.4,No,0,Sam,6,Food,Pastry,Rainy,No,No,No,2025-04
+15/04/2025,Chai Latte,2,4.75,9.34,Mobile Pay,New,Yes,Delivery,0.47,Yes,0.63,Alex,3,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+15/04/2025,Cappuccino,2,4.25,7.16,Mobile Pay,New,Yes,Dine-In,0.04,Yes,1.38,Jamie,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+15/04/2025,Mocha,2,4.75,9.56,Cash,New,Yes,Delivery,0.58,Yes,0.52,Sam,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+15/04/2025,Cold Brew,3,5,15.26,Cash,New,Yes,Delivery,1.77,Yes,1.51,Sam,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+15/04/2025,Iced Latte,2,5,9.21,Mobile Pay,Regular,No,Delivery,0.47,Yes,1.26,Alex,6,Drink,Cold Drink,Rainy,No,No,No,2025-04
+15/04/2025,Cold Brew,1,5,5.88,Mobile Pay,Regular,Yes,Dine-In,1.51,Yes,0.63,Alex,7,Drink,Cold Drink,Rainy,No,No,No,2025-04
+15/04/2025,Flat White,1,4.25,3.77,Mobile Pay,New,No,Takeaway,0.43,Yes,0.91,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+15/04/2025,Americano,1,3.5,3.83,Cash,New,Yes,Dine-In,0.33,No,0,Alex,4,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+15/04/2025,Latte,2,4.5,10.38,Credit Card,Regular,No,Delivery,1.38,No,0,Alex,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+15/04/2025,Croissant,2,3,6.24,Cash,New,Yes,Delivery,0.24,No,0,Alex,2,Food,Pastry,Rainy,No,Yes,No,2025-04
+15/04/2025,Latte,1,4.5,5.81,Mobile Pay,Regular,No,Delivery,1.31,No,0,Alex,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+15/04/2025,Chai Latte,3,4.75,14.52,Mobile Pay,New,Yes,Takeaway,1.23,Yes,0.96,Sam,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+15/04/2025,Iced Latte,2,5,10.29,Mobile Pay,New,Yes,Delivery,1.36,Yes,1.07,Alex,4,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+15/04/2025,Muffin,3,2.75,9.68,Mobile Pay,New,Yes,Takeaway,1.43,No,0,Alex,3,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+15/04/2025,Latte,2,4.5,8.43,Mobile Pay,New,No,Takeaway,0.32,Yes,0.89,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+15/04/2025,Bagel,1,2.5,1.57,Credit Card,Regular,Yes,Delivery,0.44,Yes,1.37,Sam,2,Food,Sandwich,Rainy,No,No,Yes,2025-04
+15/04/2025,Chai Latte,2,4.75,11.39,Credit Card,Regular,No,Delivery,1.89,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+15/04/2025,Chai Latte,3,4.75,14.74,Credit Card,New,Yes,Takeaway,0.49,No,0,Alex,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+15/04/2025,Iced Latte,3,5,13.89,Cash,Regular,No,Dine-In,0.78,Yes,1.89,Alex,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+15/04/2025,Mocha,3,4.75,15.77,Credit Card,Regular,Yes,Dine-In,1.52,No,0,Sam,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+15/04/2025,Cold Brew,1,5,4.45,Credit Card,New,No,Delivery,0.35,Yes,0.9,Alex,6,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+15/04/2025,Espresso,2,3,7.1,Mobile Pay,New,No,Takeaway,1.1,No,0,Alex,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+15/04/2025,Iced Latte,1,5,4.7,Mobile Pay,Regular,No,Takeaway,0.73,Yes,1.03,Sam,7,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+15/04/2025,Iced Latte,1,5,6.4,Credit Card,New,Yes,Delivery,1.4,No,0,Alex,7,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+15/04/2025,Cold Brew,3,5,14.8,Credit Card,New,Yes,Delivery,1.25,Yes,1.45,Sam,4,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+15/04/2025,Cold Brew,3,5,13.92,Credit Card,Regular,No,Takeaway,0.57,Yes,1.65,Alex,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+15/04/2025,Muffin,1,2.75,2.77,Cash,Regular,No,Dine-In,0.02,No,0,Sam,7,Food,Pastry,Cloudy,No,Yes,No,2025-04
+15/04/2025,Chai Latte,3,4.75,15.97,Cash,Regular,Yes,Delivery,1.72,No,0,Alex,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+15/04/2025,Americano,2,3.5,8.66,Cash,Regular,No,Takeaway,1.66,No,0,Alex,3,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+15/04/2025,Latte,2,4.5,10.7,Cash,New,No,Delivery,1.7,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+15/04/2025,Muffin,2,2.75,7.35,Cash,Regular,No,Dine-In,1.85,No,0,Alex,2,Food,Pastry,Sunny,No,Yes,No,2025-04
+15/04/2025,Latte,2,4.5,8.57,Credit Card,New,No,Delivery,0.31,Yes,0.74,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+15/04/2025,Mocha,3,4.75,15.98,Cash,Regular,Yes,Dine-In,1.73,No,0,Alex,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+15/04/2025,Americano,3,3.5,9.99,Credit Card,Regular,Yes,Takeaway,0.3,Yes,0.81,Sam,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+15/04/2025,Bagel,2,2.5,6.42,Cash,Regular,No,Delivery,1.42,No,0,Alex,7,Food,Sandwich,Sunny,No,No,No,2025-04
+15/04/2025,Latte,3,4.5,14.11,Cash,New,Yes,Delivery,0.61,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+15/04/2025,Cappuccino,3,4.25,14.05,Credit Card,New,Yes,Delivery,1.3,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+15/04/2025,Chai Latte,1,4.75,6.53,Credit Card,New,No,Delivery,1.78,No,0,Jamie,2,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+15/04/2025,Cappuccino,1,4.25,3.81,Credit Card,New,No,Takeaway,0.26,Yes,0.7,Sam,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+15/04/2025,Latte,3,4.5,14.66,Credit Card,New,No,Dine-In,1.16,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+15/04/2025,Chai Latte,3,4.75,13.77,Mobile Pay,Regular,No,Delivery,0.94,Yes,1.42,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+15/04/2025,Chai Latte,1,4.75,4.58,Credit Card,New,Yes,Takeaway,1.78,Yes,1.95,Alex,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+15/04/2025,Cold Brew,1,5,5.21,Cash,Regular,Yes,Delivery,0.21,No,0,Jamie,6,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+15/04/2025,Muffin,1,2.75,2.52,Credit Card,Regular,Yes,Dine-In,1.17,Yes,1.4,Jamie,5,Food,Pastry,Cloudy,No,No,Yes,2025-04
+15/04/2025,Muffin,3,2.75,9.2,Mobile Pay,New,No,Takeaway,0.95,No,0,Alex,4,Food,Pastry,Rainy,No,No,Yes,2025-04
+15/04/2025,Cold Brew,1,5,6.02,Credit Card,New,No,Takeaway,1.02,No,0,Sam,3,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+15/04/2025,Mocha,1,4.75,5.94,Mobile Pay,New,Yes,Takeaway,1.19,No,0,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+15/04/2025,Latte,3,4.5,14.42,Mobile Pay,New,No,Delivery,0.92,No,0,Jamie,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+15/04/2025,Croissant,2,3,4.44,Credit Card,New,No,Dine-In,0.1,Yes,1.66,Sam,2,Food,Pastry,Cloudy,No,Yes,No,2025-04
+16/04/2025,Latte,2,4.5,9.96,Mobile Pay,New,No,Dine-In,0.96,No,0,Sam,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+16/04/2025,Iced Latte,1,5,6.04,Mobile Pay,New,No,Delivery,1.04,No,0,Alex,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+16/04/2025,Croissant,2,3,6.16,Credit Card,Regular,Yes,Delivery,1.66,Yes,1.5,Sam,2,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+16/04/2025,Espresso,1,3,2.35,Cash,Regular,Yes,Dine-In,0.21,Yes,0.86,Alex,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+16/04/2025,Espresso,2,3,5.76,Mobile Pay,Regular,No,Dine-In,1.58,Yes,1.82,Jamie,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+16/04/2025,Chai Latte,3,4.75,13.35,Mobile Pay,New,No,Dine-In,1,Yes,1.9,Alex,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+16/04/2025,Chai Latte,1,4.75,4.36,Mobile Pay,New,No,Takeaway,1.28,Yes,1.67,Sam,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+16/04/2025,Latte,2,4.5,7.73,Cash,New,No,Dine-In,0.35,Yes,1.62,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+16/04/2025,Cold Brew,3,5,15.46,Mobile Pay,Regular,Yes,Dine-In,0.46,No,0,Jamie,6,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+16/04/2025,Flat White,2,4.25,10.36,Mobile Pay,Regular,No,Takeaway,1.86,No,0,Alex,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+16/04/2025,Cold Brew,2,5,10.74,Credit Card,New,No,Dine-In,0.74,No,0,Alex,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+16/04/2025,Chai Latte,2,4.75,9.57,Mobile Pay,New,No,Takeaway,0.85,Yes,0.78,Alex,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+16/04/2025,Iced Latte,2,5,11.43,Credit Card,New,No,Dine-In,1.43,No,0,Jamie,2,Drink,Cold Drink,Sunny,No,No,No,2025-04
+16/04/2025,Cold Brew,1,5,3.63,Mobile Pay,New,No,Delivery,0.02,Yes,1.39,Alex,4,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+16/04/2025,Iced Latte,1,5,4.36,Cash,Regular,Yes,Delivery,0.26,Yes,0.9,Jamie,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+16/04/2025,Iced Latte,3,5,15.98,Mobile Pay,New,No,Takeaway,1.95,Yes,0.97,Alex,6,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+16/04/2025,Mocha,3,4.75,13.82,Mobile Pay,New,Yes,Delivery,0.12,Yes,0.55,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+16/04/2025,Flat White,3,4.25,14.01,Mobile Pay,Regular,No,Takeaway,1.26,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+16/04/2025,Cappuccino,3,4.25,11.71,Mobile Pay,New,No,Dine-In,0.53,Yes,1.57,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+16/04/2025,Iced Latte,2,5,10.33,Mobile Pay,Regular,No,Takeaway,0.33,No,0,Jamie,7,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+16/04/2025,Espresso,3,3,9.15,Mobile Pay,New,Yes,Delivery,1.85,Yes,1.7,Jamie,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+16/04/2025,Flat White,1,4.25,3.75,Mobile Pay,New,No,Dine-In,1.35,Yes,1.85,Jamie,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+16/04/2025,Latte,1,4.5,5.61,Mobile Pay,New,Yes,Delivery,1.11,No,0,Sam,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+16/04/2025,Mocha,2,4.75,9.64,Credit Card,Regular,No,Takeaway,1.86,Yes,1.72,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+16/04/2025,Chai Latte,1,4.75,6.38,Mobile Pay,New,Yes,Dine-In,1.63,No,0,Sam,3,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+16/04/2025,Chai Latte,1,4.75,5.67,Mobile Pay,New,Yes,Dine-In,0.92,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+16/04/2025,Cappuccino,3,4.25,12.04,Cash,Regular,No,Delivery,0.61,Yes,1.32,Alex,7,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+16/04/2025,Muffin,1,2.75,3.28,Credit Card,Regular,No,Takeaway,1.74,Yes,1.21,Alex,4,Food,Pastry,Rainy,No,No,Yes,2025-04
+16/04/2025,Bagel,2,2.5,5.96,Mobile Pay,Regular,No,Dine-In,1.53,Yes,0.57,Jamie,7,Food,Sandwich,Rainy,Yes,No,Yes,2025-04
+16/04/2025,Americano,3,3.5,11.51,Mobile Pay,New,Yes,Dine-In,1.01,No,0,Sam,5,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+16/04/2025,Croissant,1,3,2.2,Credit Card,Regular,No,Dine-In,0.28,Yes,1.08,Jamie,3,Food,Pastry,Sunny,Yes,No,Yes,2025-04
+16/04/2025,Espresso,1,3,3,Mobile Pay,Regular,No,Takeaway,0,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+16/04/2025,Mocha,2,4.75,9.68,Credit Card,New,Yes,Takeaway,0.18,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+16/04/2025,Mocha,1,4.75,4.76,Credit Card,New,Yes,Takeaway,1.29,Yes,1.28,Sam,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+16/04/2025,Croissant,3,3,8.77,Mobile Pay,Regular,Yes,Delivery,1.24,Yes,1.47,Sam,4,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+16/04/2025,Muffin,1,2.75,2.85,Mobile Pay,Regular,No,Takeaway,0.1,No,0,Sam,3,Food,Pastry,Rainy,No,No,No,2025-04
+16/04/2025,Espresso,2,3,7.09,Credit Card,New,Yes,Delivery,1.09,No,0,Jamie,4,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+16/04/2025,Muffin,1,2.75,2.57,Cash,Regular,Yes,Delivery,0.65,Yes,0.83,Jamie,4,Food,Pastry,Sunny,No,No,Yes,2025-04
+16/04/2025,Chai Latte,1,4.75,5.96,Credit Card,New,No,Dine-In,1.21,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+16/04/2025,Croissant,1,3,3.17,Cash,New,Yes,Takeaway,0.17,No,0,Jamie,3,Food,Pastry,Sunny,No,No,No,2025-04
+16/04/2025,Latte,1,4.5,5.54,Credit Card,Regular,Yes,Takeaway,1.04,No,0,Sam,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+16/04/2025,Bagel,1,2.5,3.47,Cash,Regular,No,Dine-In,0.97,No,0,Sam,6,Food,Sandwich,Rainy,No,No,Yes,2025-04
+16/04/2025,Espresso,3,3,9.14,Cash,Regular,Yes,Delivery,1,Yes,0.86,Jamie,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+16/04/2025,Flat White,3,4.25,12.73,Credit Card,Regular,Yes,Dine-In,0.76,Yes,0.78,Sam,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+16/04/2025,Bagel,2,2.5,6.45,Mobile Pay,New,Yes,Dine-In,1.45,No,0,Alex,6,Food,Sandwich,Cloudy,No,No,Yes,2025-04
+16/04/2025,Espresso,1,3,2.82,Credit Card,Regular,No,Delivery,1.78,Yes,1.96,Jamie,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+16/04/2025,Latte,2,4.5,9.89,Cash,New,No,Dine-In,0.89,No,0,Jamie,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+16/04/2025,Flat White,1,4.25,5.36,Mobile Pay,New,No,Dine-In,1.11,No,0,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+16/04/2025,Americano,3,3.5,12.21,Mobile Pay,Regular,Yes,Dine-In,1.71,No,0,Alex,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+16/04/2025,Cappuccino,3,4.25,14.55,Mobile Pay,New,Yes,Delivery,1.8,No,0,Alex,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+16/04/2025,Espresso,3,3,10.12,Mobile Pay,New,Yes,Dine-In,1.78,Yes,0.66,Alex,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+16/04/2025,Espresso,2,3,6,Cash,Regular,No,Dine-In,0.65,Yes,0.65,Sam,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+17/04/2025,Cappuccino,3,4.25,12.27,Cash,New,No,Takeaway,0.28,Yes,0.76,Jamie,4,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+17/04/2025,Muffin,3,2.75,8.09,Mobile Pay,Regular,Yes,Takeaway,1,Yes,1.16,Alex,7,Food,Pastry,Sunny,No,No,No,2025-04
+17/04/2025,Latte,3,4.5,12.71,Cash,Regular,Yes,Dine-In,0.61,Yes,1.4,Jamie,4,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+17/04/2025,Cappuccino,2,4.25,8.34,Credit Card,Regular,No,Takeaway,1.39,Yes,1.55,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+17/04/2025,Espresso,2,3,5.51,Cash,Regular,No,Dine-In,0.23,Yes,0.72,Sam,7,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+17/04/2025,Croissant,1,3,1.27,Mobile Pay,New,Yes,Delivery,0.21,Yes,1.94,Sam,4,Food,Pastry,Rainy,No,Yes,No,2025-04
+17/04/2025,Flat White,2,4.25,9.37,Mobile Pay,New,No,Delivery,1.76,Yes,0.89,Jamie,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+17/04/2025,Cappuccino,3,4.25,14.17,Credit Card,Regular,Yes,Dine-In,1.42,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+17/04/2025,Bagel,1,2.5,0.9,Cash,New,Yes,Dine-In,0.13,Yes,1.73,Alex,5,Food,Sandwich,Cloudy,No,Yes,No,2025-04
+17/04/2025,Mocha,3,4.75,13.12,Mobile Pay,New,No,Delivery,0.63,Yes,1.76,Sam,6,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+17/04/2025,Mocha,1,4.75,6.24,Credit Card,Regular,Yes,Dine-In,1.49,No,0,Alex,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+17/04/2025,Flat White,3,4.25,13.74,Credit Card,Regular,No,Takeaway,0.99,No,0,Alex,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+17/04/2025,Espresso,1,3,3.33,Mobile Pay,Regular,No,Takeaway,1.82,Yes,1.49,Jamie,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+17/04/2025,Bagel,3,2.5,9.29,Mobile Pay,New,Yes,Takeaway,1.79,No,0,Jamie,7,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+17/04/2025,Chai Latte,3,4.75,13.71,Mobile Pay,Regular,Yes,Takeaway,0.45,Yes,0.99,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+17/04/2025,Espresso,1,3,3.47,Mobile Pay,Regular,Yes,Delivery,1.79,Yes,1.32,Alex,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+17/04/2025,Muffin,1,2.75,2.65,Credit Card,New,Yes,Takeaway,0.76,Yes,0.86,Alex,7,Food,Pastry,Cloudy,Yes,No,No,2025-04
+17/04/2025,Americano,1,3.5,3.85,Credit Card,Regular,No,Takeaway,0.35,No,0,Sam,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+17/04/2025,Cappuccino,3,4.25,13.23,Mobile Pay,New,Yes,Takeaway,0.48,No,0,Sam,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+17/04/2025,Cold Brew,1,5,4.7,Credit Card,Regular,No,Takeaway,0.65,Yes,0.95,Sam,4,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+17/04/2025,Americano,3,3.5,10.83,Cash,New,Yes,Dine-In,0.33,No,0,Alex,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+18/04/2025,Cold Brew,3,5,16.45,Credit Card,New,Yes,Delivery,1.45,No,0,Jamie,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+18/04/2025,Latte,2,4.5,10.41,Cash,Regular,No,Takeaway,1.92,Yes,0.51,Alex,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+18/04/2025,Espresso,2,3,7.79,Credit Card,New,Yes,Takeaway,1.79,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+18/04/2025,Flat White,1,4.25,4.84,Cash,New,No,Takeaway,0.59,No,0,Sam,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+18/04/2025,Latte,1,4.5,3.18,Cash,New,Yes,Takeaway,0.68,Yes,2,Alex,3,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+18/04/2025,Mocha,1,4.75,4.04,Cash,New,No,Takeaway,0.42,Yes,1.13,Jamie,6,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+18/04/2025,Cappuccino,3,4.25,13.49,Credit Card,New,Yes,Takeaway,1.33,Yes,0.59,Alex,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+18/04/2025,Espresso,1,3,2.09,Mobile Pay,New,No,Takeaway,1.04,Yes,1.95,Sam,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+18/04/2025,Bagel,3,2.5,8.46,Mobile Pay,Regular,No,Takeaway,0.96,No,0,Jamie,7,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+18/04/2025,Croissant,1,3,3.21,Credit Card,New,Yes,Dine-In,1.65,Yes,1.44,Jamie,4,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+18/04/2025,Muffin,2,2.75,6.76,Mobile Pay,New,No,Takeaway,1.26,No,0,Sam,3,Food,Pastry,Rainy,No,Yes,No,2025-04
+18/04/2025,Cappuccino,2,4.25,8.73,Credit Card,Regular,No,Delivery,0.23,No,0,Sam,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+18/04/2025,Chai Latte,3,4.75,14.66,Mobile Pay,New,Yes,Takeaway,1,Yes,0.59,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+18/04/2025,Bagel,3,2.5,8.34,Credit Card,Regular,No,Dine-In,0.84,No,0,Jamie,4,Food,Sandwich,Rainy,No,No,No,2025-04
+18/04/2025,Cold Brew,3,5,13.51,Credit Card,New,No,Dine-In,0.31,Yes,1.8,Sam,7,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+18/04/2025,Latte,2,4.5,10.02,Credit Card,Regular,Yes,Delivery,1.81,Yes,0.79,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+18/04/2025,Chai Latte,1,4.75,4.11,Cash,New,Yes,Delivery,1.08,Yes,1.72,Sam,7,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+18/04/2025,Cold Brew,1,5,3.6,Credit Card,New,No,Dine-In,0.29,Yes,1.69,Sam,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+18/04/2025,Espresso,2,3,6.03,Cash,New,Yes,Delivery,0.7,Yes,0.67,Sam,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+18/04/2025,Americano,2,3.5,7.1,Mobile Pay,New,No,Dine-In,1.7,Yes,1.6,Jamie,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+18/04/2025,Bagel,3,2.5,7.81,Cash,New,Yes,Takeaway,1.19,Yes,0.88,Sam,6,Food,Sandwich,Sunny,No,No,No,2025-04
+18/04/2025,Latte,1,4.5,5.88,Mobile Pay,New,No,Delivery,1.38,No,0,Alex,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+18/04/2025,Espresso,2,3,5.44,Cash,New,No,Takeaway,0.48,Yes,1.04,Sam,2,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+18/04/2025,Cappuccino,1,4.25,3.63,Credit Card,Regular,No,Takeaway,1.19,Yes,1.81,Sam,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+18/04/2025,Espresso,2,3,5.32,Mobile Pay,Regular,No,Dine-In,0.72,Yes,1.4,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+18/04/2025,Mocha,2,4.75,11.18,Mobile Pay,Regular,Yes,Takeaway,1.68,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+18/04/2025,Cold Brew,2,5,11.71,Credit Card,New,No,Delivery,1.71,No,0,Jamie,5,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+18/04/2025,Cold Brew,1,5,5.33,Mobile Pay,Regular,No,Dine-In,1.4,Yes,1.07,Alex,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+18/04/2025,Cold Brew,1,5,6.68,Mobile Pay,New,Yes,Takeaway,1.68,No,0,Jamie,5,Drink,Cold Drink,Rainy,No,No,No,2025-04
+18/04/2025,Chai Latte,3,4.75,14.37,Mobile Pay,Regular,Yes,Takeaway,1.24,Yes,1.12,Jamie,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+18/04/2025,Croissant,3,3,9.69,Cash,Regular,No,Delivery,1.75,Yes,1.06,Sam,6,Food,Pastry,Sunny,No,No,Yes,2025-04
+18/04/2025,Iced Latte,3,5,13.99,Credit Card,Regular,Yes,Dine-In,0.48,Yes,1.49,Jamie,6,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-04
+18/04/2025,Espresso,3,3,9.79,Cash,New,Yes,Dine-In,0.79,No,0,Sam,4,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+18/04/2025,Iced Latte,3,5,15.49,Credit Card,Regular,Yes,Dine-In,1.25,Yes,0.76,Jamie,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+19/04/2025,Flat White,3,4.25,12.09,Mobile Pay,New,No,Dine-In,0.4,Yes,1.06,Alex,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+19/04/2025,Iced Latte,1,5,6.07,Cash,Regular,No,Delivery,1.07,No,0,Sam,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+19/04/2025,Mocha,1,4.75,4.91,Mobile Pay,New,No,Takeaway,0.16,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+19/04/2025,Cold Brew,2,5,10.44,Cash,New,No,Dine-In,0.44,No,0,Alex,2,Drink,Cold Drink,Rainy,No,No,No,2025-04
+19/04/2025,Flat White,2,4.25,10.2,Mobile Pay,Regular,Yes,Delivery,1.7,No,0,Jamie,2,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+19/04/2025,Cold Brew,2,5,11.29,Mobile Pay,Regular,No,Takeaway,1.29,No,0,Sam,6,Drink,Cold Drink,Rainy,Yes,No,Yes,2025-04
+19/04/2025,Flat White,2,4.25,7.92,Credit Card,Regular,No,Takeaway,0.74,Yes,1.32,Alex,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+19/04/2025,Cappuccino,2,4.25,9.49,Credit Card,Regular,No,Takeaway,0.99,No,0,Alex,2,Drink,Hot Drink,Sunny,No,No,No,2025-04
+19/04/2025,Iced Latte,3,5,15.61,Cash,Regular,Yes,Takeaway,0.61,No,0,Jamie,3,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+19/04/2025,Iced Latte,1,5,4.63,Credit Card,New,No,Takeaway,0.71,Yes,1.08,Sam,4,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+19/04/2025,Iced Latte,2,5,10.23,Mobile Pay,Regular,Yes,Dine-In,1.27,Yes,1.04,Sam,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+19/04/2025,Iced Latte,3,5,15.42,Credit Card,Regular,No,Dine-In,0.42,No,0,Alex,5,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+19/04/2025,Mocha,1,4.75,4.52,Mobile Pay,New,No,Takeaway,0.9,Yes,1.13,Alex,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+19/04/2025,Latte,3,4.5,13.27,Mobile Pay,Regular,Yes,Takeaway,0.36,Yes,0.59,Jamie,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+19/04/2025,Mocha,3,4.75,14.9,Cash,Regular,No,Delivery,1.24,Yes,0.59,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+19/04/2025,Iced Latte,1,5,5.12,Mobile Pay,New,No,Dine-In,0.12,No,0,Jamie,4,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+19/04/2025,Cold Brew,3,5,14.5,Cash,Regular,Yes,Delivery,1.43,Yes,1.93,Jamie,4,Drink,Cold Drink,Cloudy,Yes,Yes,No,2025-04
+19/04/2025,Espresso,3,3,10.05,Mobile Pay,New,No,Takeaway,1.05,No,0,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+19/04/2025,Bagel,1,2.5,3.04,Credit Card,New,No,Delivery,1.37,Yes,0.83,Alex,5,Food,Sandwich,Sunny,No,No,Yes,2025-04
+19/04/2025,Mocha,1,4.75,6.33,Cash,New,No,Takeaway,1.58,No,0,Sam,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+19/04/2025,Mocha,3,4.75,15.38,Cash,New,Yes,Takeaway,1.13,No,0,Sam,4,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+19/04/2025,Iced Latte,2,5,9.98,Mobile Pay,New,No,Takeaway,0.8,Yes,0.82,Alex,7,Drink,Cold Drink,Rainy,No,No,No,2025-04
+19/04/2025,Croissant,2,3,6.38,Mobile Pay,New,Yes,Takeaway,1.64,Yes,1.26,Jamie,7,Food,Pastry,Rainy,No,Yes,No,2025-04
+19/04/2025,Iced Latte,2,5,11.01,Credit Card,Regular,Yes,Dine-In,1.01,No,0,Alex,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+19/04/2025,Flat White,3,4.25,12.26,Credit Card,New,Yes,Dine-In,0.36,Yes,0.85,Alex,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+20/04/2025,Latte,2,4.5,9.72,Mobile Pay,Regular,Yes,Delivery,1.23,Yes,0.51,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+20/04/2025,Croissant,1,3,4.33,Cash,New,No,Delivery,1.33,No,0,Alex,7,Food,Pastry,Sunny,Yes,Yes,No,2025-04
+20/04/2025,Iced Latte,1,5,4.23,Cash,New,Yes,Takeaway,0.29,Yes,1.06,Jamie,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+20/04/2025,Iced Latte,2,5,11.99,Credit Card,New,Yes,Dine-In,1.99,No,0,Sam,7,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+20/04/2025,Latte,2,4.5,10.58,Cash,Regular,No,Delivery,1.58,No,0,Alex,4,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+20/04/2025,Americano,2,3.5,7.09,Mobile Pay,New,Yes,Dine-In,0.09,No,0,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+20/04/2025,Bagel,2,2.5,6.13,Cash,Regular,Yes,Dine-In,1.13,No,0,Sam,2,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+20/04/2025,Mocha,3,4.75,14.55,Credit Card,Regular,Yes,Dine-In,1.34,Yes,1.04,Alex,3,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+20/04/2025,Americano,3,3.5,11.76,Cash,New,Yes,Dine-In,1.26,No,0,Jamie,7,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+20/04/2025,Espresso,1,3,3.21,Cash,Regular,Yes,Dine-In,0.21,No,0,Alex,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+20/04/2025,Muffin,2,2.75,5.56,Mobile Pay,Regular,No,Delivery,0.06,No,0,Alex,5,Food,Pastry,Rainy,Yes,No,No,2025-04
+20/04/2025,Croissant,2,3,6.59,Mobile Pay,Regular,No,Delivery,0.59,No,0,Sam,2,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+20/04/2025,Cold Brew,2,5,10.76,Cash,New,No,Takeaway,1.9,Yes,1.14,Jamie,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+20/04/2025,Espresso,3,3,7.66,Credit Card,Regular,Yes,Dine-In,0.15,Yes,1.49,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+20/04/2025,Latte,1,4.5,3.55,Credit Card,New,Yes,Takeaway,0.57,Yes,1.52,Sam,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+20/04/2025,Cold Brew,3,5,16.17,Cash,New,No,Delivery,1.17,No,0,Alex,2,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+20/04/2025,Muffin,3,2.75,10.21,Cash,Regular,Yes,Delivery,1.96,No,0,Sam,3,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+20/04/2025,Croissant,3,3,10.2,Mobile Pay,Regular,Yes,Dine-In,1.2,No,0,Sam,2,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+20/04/2025,Cold Brew,3,5,15.94,Mobile Pay,Regular,Yes,Takeaway,0.94,No,0,Sam,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+20/04/2025,Cold Brew,1,5,6.09,Credit Card,New,Yes,Delivery,1.87,Yes,0.78,Sam,6,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+20/04/2025,Espresso,2,3,7.54,Credit Card,New,Yes,Takeaway,1.54,No,0,Jamie,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+20/04/2025,Iced Latte,2,5,9.45,Mobile Pay,Regular,No,Dine-In,0,Yes,0.55,Jamie,7,Drink,Cold Drink,Sunny,No,No,No,2025-04
+20/04/2025,Flat White,3,4.25,12.49,Mobile Pay,Regular,Yes,Dine-In,1.67,Yes,1.93,Sam,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+20/04/2025,Muffin,3,2.75,9.12,Credit Card,Regular,No,Dine-In,1.99,Yes,1.12,Jamie,2,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+20/04/2025,Flat White,3,4.25,11.19,Credit Card,New,Yes,Delivery,0.17,Yes,1.73,Alex,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+20/04/2025,Bagel,1,2.5,3.1,Credit Card,Regular,Yes,Dine-In,0.6,No,0,Sam,7,Food,Sandwich,Rainy,Yes,Yes,No,2025-04
+20/04/2025,Bagel,1,2.5,4.17,Mobile Pay,Regular,No,Takeaway,1.67,No,0,Alex,5,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+20/04/2025,Muffin,1,2.75,3.97,Credit Card,New,Yes,Delivery,1.22,No,0,Sam,4,Food,Pastry,Rainy,Yes,No,Yes,2025-04
+20/04/2025,Cold Brew,2,5,11.62,Credit Card,New,Yes,Delivery,1.62,No,0,Sam,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+20/04/2025,Mocha,1,4.75,3.95,Mobile Pay,Regular,Yes,Delivery,0.63,Yes,1.43,Sam,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+20/04/2025,Muffin,1,2.75,3.47,Cash,New,No,Takeaway,0.72,No,0,Sam,5,Food,Pastry,Cloudy,No,No,No,2025-04
+20/04/2025,Americano,3,3.5,9.38,Credit Card,New,Yes,Takeaway,0.56,Yes,1.68,Jamie,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+20/04/2025,Cappuccino,1,4.25,4.63,Cash,New,No,Takeaway,0.38,No,0,Sam,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+21/04/2025,Espresso,2,3,6.49,Cash,Regular,Yes,Takeaway,1.94,Yes,1.45,Alex,2,Drink,Hot Drink,Sunny,No,No,No,2025-04
+21/04/2025,Cold Brew,2,5,10.59,Credit Card,New,No,Dine-In,0.59,No,0,Alex,3,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+21/04/2025,Flat White,3,4.25,13.55,Cash,New,No,Delivery,0.8,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+21/04/2025,Cappuccino,3,4.25,14.41,Credit Card,Regular,No,Takeaway,1.66,No,0,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+21/04/2025,Americano,3,3.5,10.35,Mobile Pay,Regular,Yes,Delivery,1.24,Yes,1.39,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+21/04/2025,Flat White,1,4.25,4.25,Cash,New,Yes,Dine-In,1.36,Yes,1.36,Sam,2,Drink,Hot Drink,Cloudy,Yes,No,Yes,2025-04
+21/04/2025,Americano,2,3.5,7.19,Credit Card,Regular,No,Delivery,1.22,Yes,1.03,Jamie,3,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+21/04/2025,Flat White,3,4.25,12.79,Cash,New,Yes,Delivery,0.83,Yes,0.79,Sam,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+21/04/2025,Americano,1,3.5,4.13,Mobile Pay,Regular,Yes,Delivery,1.73,Yes,1.1,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+21/04/2025,Flat White,2,4.25,7.28,Mobile Pay,New,Yes,Dine-In,0.22,Yes,1.44,Alex,3,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+21/04/2025,Iced Latte,3,5,16.4,Cash,New,No,Delivery,1.4,No,0,Sam,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+21/04/2025,Flat White,2,4.25,9.23,Mobile Pay,Regular,Yes,Dine-In,1.67,Yes,0.94,Sam,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+21/04/2025,Iced Latte,3,5,16.54,Mobile Pay,New,Yes,Dine-In,1.54,No,0,Jamie,3,Drink,Cold Drink,Sunny,Yes,Yes,Yes,2025-04
+21/04/2025,Espresso,1,3,3.73,Cash,Regular,Yes,Takeaway,1.44,Yes,0.71,Sam,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+21/04/2025,Chai Latte,3,4.75,13.18,Mobile Pay,New,Yes,Dine-In,0.82,Yes,1.89,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+21/04/2025,Latte,3,4.5,13.12,Credit Card,New,Yes,Dine-In,0.59,Yes,0.97,Sam,4,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+21/04/2025,Bagel,1,2.5,3.07,Cash,New,Yes,Delivery,0.57,No,0,Jamie,3,Food,Sandwich,Rainy,No,Yes,No,2025-04
+21/04/2025,Mocha,2,4.75,9.51,Cash,Regular,Yes,Delivery,0.01,No,0,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+21/04/2025,Americano,2,3.5,6.84,Credit Card,Regular,No,Delivery,1.84,Yes,2,Alex,5,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+21/04/2025,Cold Brew,1,5,5.92,Mobile Pay,Regular,Yes,Takeaway,0.92,No,0,Alex,4,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+21/04/2025,Cold Brew,2,5,11.19,Mobile Pay,Regular,No,Dine-In,1.19,No,0,Alex,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+21/04/2025,Croissant,2,3,4.74,Mobile Pay,New,Yes,Delivery,0.73,Yes,1.99,Jamie,3,Food,Pastry,Sunny,Yes,Yes,Yes,2025-04
+21/04/2025,Cappuccino,3,4.25,12.2,Mobile Pay,Regular,Yes,Dine-In,1.04,Yes,1.59,Jamie,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+21/04/2025,Chai Latte,2,4.75,9.91,Cash,New,Yes,Dine-In,0.41,No,0,Jamie,2,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+21/04/2025,Mocha,1,4.75,6.7,Mobile Pay,New,No,Delivery,1.95,No,0,Jamie,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+21/04/2025,Iced Latte,3,5,13.99,Credit Card,New,No,Delivery,0.33,Yes,1.34,Jamie,4,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+21/04/2025,Mocha,2,4.75,11.45,Cash,New,Yes,Delivery,1.95,No,0,Jamie,6,Drink,Hot Drink,Cloudy,Yes,Yes,Yes,2025-04
+21/04/2025,Latte,3,4.5,14.16,Mobile Pay,Regular,No,Takeaway,0.66,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+21/04/2025,Bagel,2,2.5,5.12,Cash,Regular,No,Takeaway,0.12,No,0,Jamie,3,Food,Sandwich,Cloudy,Yes,No,No,2025-04
+21/04/2025,Mocha,1,4.75,3.06,Mobile Pay,New,No,Dine-In,0.28,Yes,1.97,Jamie,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+21/04/2025,Iced Latte,2,5,10.49,Credit Card,New,Yes,Delivery,0.49,No,0,Jamie,3,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+21/04/2025,Mocha,2,4.75,9.96,Mobile Pay,New,Yes,Dine-In,0.46,No,0,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+21/04/2025,Cappuccino,2,4.25,9.08,Cash,New,Yes,Dine-In,1.22,Yes,0.64,Alex,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+21/04/2025,Cold Brew,1,5,5.05,Credit Card,Regular,Yes,Takeaway,0.05,No,0,Sam,3,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+21/04/2025,Croissant,1,3,3.03,Mobile Pay,New,Yes,Delivery,1.15,Yes,1.12,Jamie,7,Food,Pastry,Sunny,No,Yes,No,2025-04
+21/04/2025,Cold Brew,2,5,11.59,Cash,New,No,Delivery,1.59,No,0,Alex,5,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+21/04/2025,Iced Latte,3,5,14.6,Mobile Pay,New,No,Takeaway,0.18,Yes,0.58,Jamie,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+22/04/2025,Muffin,3,2.75,8.07,Credit Card,Regular,No,Takeaway,1.28,Yes,1.46,Jamie,6,Food,Pastry,Sunny,No,Yes,No,2025-04
+22/04/2025,Bagel,1,2.5,4.18,Mobile Pay,New,No,Dine-In,1.68,No,0,Jamie,7,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+22/04/2025,Muffin,3,2.75,7.17,Cash,Regular,Yes,Takeaway,0.03,Yes,1.11,Sam,2,Food,Pastry,Sunny,No,No,No,2025-04
+22/04/2025,Americano,2,3.5,8.25,Cash,New,Yes,Takeaway,1.25,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,No,No,2025-04
+22/04/2025,Espresso,2,3,7.7,Credit Card,Regular,No,Dine-In,1.7,No,0,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+22/04/2025,Iced Latte,1,5,5.92,Cash,Regular,Yes,Delivery,0.92,No,0,Alex,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+22/04/2025,Flat White,1,4.25,5.36,Mobile Pay,Regular,No,Delivery,1.11,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+22/04/2025,Chai Latte,1,4.75,3.71,Mobile Pay,New,No,Dine-In,0.15,Yes,1.19,Jamie,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+22/04/2025,Latte,3,4.5,13.62,Credit Card,New,No,Takeaway,0.12,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+22/04/2025,Espresso,1,3,3.52,Mobile Pay,Regular,Yes,Dine-In,0.52,No,0,Sam,5,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+22/04/2025,Espresso,2,3,6.08,Mobile Pay,New,Yes,Dine-In,1.44,Yes,1.36,Sam,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+22/04/2025,Chai Latte,2,4.75,8.45,Mobile Pay,Regular,Yes,Delivery,0.34,Yes,1.39,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+22/04/2025,Americano,3,3.5,12.04,Credit Card,Regular,Yes,Dine-In,1.54,No,0,Sam,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+22/04/2025,Cappuccino,1,4.25,3.65,Cash,Regular,No,Delivery,0.93,Yes,1.53,Sam,4,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+22/04/2025,Chai Latte,1,4.75,6.73,Cash,New,Yes,Delivery,1.98,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+22/04/2025,Mocha,2,4.75,10.54,Credit Card,Regular,Yes,Takeaway,1.04,No,0,Jamie,4,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+22/04/2025,Mocha,3,4.75,15.68,Mobile Pay,Regular,Yes,Dine-In,1.43,No,0,Alex,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+22/04/2025,Iced Latte,3,5,13.39,Cash,New,Yes,Dine-In,0.07,Yes,1.68,Alex,7,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-04
+22/04/2025,Cold Brew,3,5,15.08,Mobile Pay,New,No,Dine-In,1.99,Yes,1.91,Jamie,7,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+22/04/2025,Cold Brew,1,5,6,Credit Card,New,Yes,Dine-In,1.85,Yes,0.85,Sam,5,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+22/04/2025,Mocha,3,4.75,15.66,Cash,New,Yes,Delivery,1.41,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+22/04/2025,Iced Latte,1,5,5.74,Credit Card,New,No,Takeaway,0.74,No,0,Sam,6,Drink,Cold Drink,Rainy,No,No,No,2025-04
+22/04/2025,Muffin,2,2.75,5.69,Cash,New,Yes,Delivery,0.19,No,0,Sam,7,Food,Pastry,Rainy,Yes,No,No,2025-04
+22/04/2025,Cappuccino,3,4.25,13.52,Mobile Pay,Regular,Yes,Delivery,0.77,No,0,Sam,3,Drink,Hot Drink,Cloudy,Yes,Yes,Yes,2025-04
+22/04/2025,Latte,2,4.5,9.41,Cash,New,Yes,Takeaway,1.34,Yes,0.93,Jamie,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+22/04/2025,Chai Latte,2,4.75,9.89,Mobile Pay,New,No,Dine-In,1.52,Yes,1.13,Alex,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+22/04/2025,Espresso,3,3,9.05,Cash,New,Yes,Dine-In,0.05,No,0,Alex,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+22/04/2025,Latte,1,4.5,2.73,Mobile Pay,New,No,Dine-In,0.1,Yes,1.87,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+22/04/2025,Cold Brew,2,5,9.37,Cash,New,Yes,Dine-In,1.21,Yes,1.84,Jamie,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+22/04/2025,Latte,1,4.5,4.88,Cash,Regular,Yes,Takeaway,0.38,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+22/04/2025,Croissant,1,3,4.61,Cash,New,Yes,Takeaway,1.61,No,0,Alex,3,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+22/04/2025,Croissant,1,3,4.68,Cash,New,No,Dine-In,1.68,No,0,Sam,3,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+22/04/2025,Americano,2,3.5,8.53,Mobile Pay,Regular,No,Takeaway,1.53,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+22/04/2025,Flat White,1,4.25,5.93,Credit Card,Regular,Yes,Delivery,1.68,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+22/04/2025,Americano,1,3.5,5.49,Credit Card,Regular,No,Takeaway,1.99,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+22/04/2025,Croissant,2,3,6.13,Credit Card,New,Yes,Delivery,0.81,Yes,0.68,Alex,5,Food,Pastry,Sunny,Yes,No,Yes,2025-04
+22/04/2025,Cold Brew,2,5,10.47,Mobile Pay,Regular,No,Dine-In,1.66,Yes,1.19,Jamie,4,Drink,Cold Drink,Rainy,No,No,No,2025-04
+22/04/2025,Muffin,1,2.75,3.96,Credit Card,New,No,Dine-In,1.21,No,0,Jamie,2,Food,Pastry,Sunny,No,No,No,2025-04
+22/04/2025,Chai Latte,1,4.75,5.35,Cash,New,Yes,Delivery,0.6,No,0,Sam,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+22/04/2025,Cold Brew,2,5,8.79,Mobile Pay,Regular,No,Takeaway,0.45,Yes,1.66,Sam,6,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+22/04/2025,Croissant,2,3,6.49,Mobile Pay,New,No,Takeaway,1.49,Yes,1,Alex,2,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+22/04/2025,Cappuccino,1,4.25,4.07,Cash,Regular,No,Delivery,0.54,Yes,0.72,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+22/04/2025,Iced Latte,1,5,6.41,Mobile Pay,New,No,Dine-In,1.41,No,0,Jamie,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+22/04/2025,Bagel,2,2.5,5.09,Cash,Regular,No,Dine-In,0.85,Yes,0.76,Sam,3,Food,Sandwich,Rainy,Yes,Yes,No,2025-04
+22/04/2025,Croissant,3,3,9.33,Credit Card,Regular,No,Dine-In,0.33,No,0,Alex,5,Food,Pastry,Cloudy,No,No,Yes,2025-04
+22/04/2025,Latte,1,4.5,5.12,Cash,Regular,No,Delivery,0.62,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+22/04/2025,Muffin,2,2.75,6.38,Credit Card,Regular,Yes,Takeaway,0.88,No,0,Alex,4,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+22/04/2025,Croissant,1,3,3.28,Credit Card,New,No,Delivery,1.23,Yes,0.95,Alex,7,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+22/04/2025,Cappuccino,3,4.25,13.81,Cash,New,No,Delivery,1.06,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+22/04/2025,Muffin,3,2.75,7.56,Credit Card,New,No,Takeaway,0.49,Yes,1.18,Jamie,5,Food,Pastry,Rainy,No,No,Yes,2025-04
+22/04/2025,Mocha,1,4.75,4.61,Cash,Regular,Yes,Dine-In,0.4,Yes,0.54,Jamie,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+22/04/2025,Croissant,3,3,7.79,Cash,New,Yes,Takeaway,0.3,Yes,1.51,Sam,2,Food,Pastry,Sunny,No,No,No,2025-04
+22/04/2025,Cappuccino,2,4.25,10.11,Credit Card,Regular,No,Takeaway,1.61,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+22/04/2025,Croissant,3,3,9.61,Cash,Regular,Yes,Delivery,1.94,Yes,1.33,Alex,7,Food,Pastry,Rainy,No,No,Yes,2025-04
+22/04/2025,Mocha,1,4.75,5.55,Credit Card,New,Yes,Dine-In,1.42,Yes,0.62,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+22/04/2025,Iced Latte,3,5,14.67,Cash,New,Yes,Delivery,1.25,Yes,1.58,Sam,4,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+22/04/2025,Mocha,2,4.75,11.11,Mobile Pay,New,Yes,Delivery,1.61,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+23/04/2025,Cold Brew,1,5,6.07,Credit Card,Regular,Yes,Delivery,1.07,No,0,Jamie,7,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+23/04/2025,Cold Brew,3,5,15.75,Credit Card,Regular,Yes,Dine-In,1.69,Yes,0.94,Jamie,4,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-04
+23/04/2025,Mocha,1,4.75,3.04,Credit Card,New,Yes,Delivery,0.18,Yes,1.89,Jamie,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+23/04/2025,Bagel,3,2.5,9.35,Cash,Regular,No,Takeaway,1.85,No,0,Alex,4,Food,Sandwich,Sunny,No,Yes,No,2025-04
+23/04/2025,Chai Latte,1,4.75,4.72,Cash,Regular,Yes,Dine-In,1.05,Yes,1.08,Alex,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+23/04/2025,Flat White,3,4.25,12.75,Cash,Regular,Yes,Takeaway,0,No,0,Alex,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+23/04/2025,Iced Latte,1,5,3.81,Credit Card,Regular,Yes,Delivery,0.17,Yes,1.36,Sam,4,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+23/04/2025,Cappuccino,2,4.25,8.14,Credit Card,Regular,Yes,Delivery,1.03,Yes,1.39,Jamie,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+23/04/2025,Cold Brew,2,5,11.22,Cash,Regular,Yes,Delivery,1.22,No,0,Alex,4,Drink,Cold Drink,Sunny,No,No,No,2025-04
+23/04/2025,Espresso,1,3,1.45,Credit Card,Regular,No,Takeaway,0.11,Yes,1.66,Alex,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+23/04/2025,Espresso,2,3,6.79,Mobile Pay,Regular,Yes,Dine-In,0.79,No,0,Sam,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+23/04/2025,Flat White,2,4.25,8.64,Cash,Regular,No,Takeaway,0.14,No,0,Jamie,6,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+23/04/2025,Muffin,3,2.75,7.48,Mobile Pay,Regular,Yes,Takeaway,1.2,Yes,1.97,Jamie,5,Food,Pastry,Sunny,No,No,No,2025-04
+23/04/2025,Iced Latte,2,5,10.24,Mobile Pay,New,Yes,Dine-In,1.39,Yes,1.15,Sam,6,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+23/04/2025,Bagel,2,2.5,5.1,Cash,Regular,No,Takeaway,0.1,No,0,Sam,7,Food,Sandwich,Rainy,No,No,No,2025-04
+23/04/2025,Muffin,2,2.75,6.46,Credit Card,New,Yes,Dine-In,0.96,No,0,Sam,6,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+23/04/2025,Latte,2,4.5,10.9,Cash,New,No,Dine-In,1.9,No,0,Alex,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+23/04/2025,Americano,1,3.5,3.41,Credit Card,New,Yes,Delivery,1.41,Yes,1.5,Alex,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+23/04/2025,Chai Latte,1,4.75,5.62,Credit Card,Regular,Yes,Takeaway,0.87,No,0,Sam,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+23/04/2025,Croissant,3,3,8.08,Credit Card,Regular,Yes,Delivery,0.8,Yes,1.72,Alex,6,Food,Pastry,Rainy,No,No,No,2025-04
+23/04/2025,Mocha,2,4.75,11.36,Cash,Regular,Yes,Delivery,1.86,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+23/04/2025,Espresso,2,3,7.8,Credit Card,New,No,Dine-In,1.8,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+23/04/2025,Cold Brew,2,5,10.34,Mobile Pay,Regular,Yes,Dine-In,0.34,No,0,Jamie,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+23/04/2025,Cold Brew,2,5,10.53,Mobile Pay,Regular,Yes,Takeaway,0.53,No,0,Alex,4,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+23/04/2025,Cappuccino,1,4.25,6.02,Credit Card,New,Yes,Delivery,1.77,No,0,Sam,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+23/04/2025,Latte,3,4.5,14.8,Mobile Pay,Regular,Yes,Delivery,1.94,Yes,0.64,Jamie,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+23/04/2025,Cappuccino,1,4.25,5.96,Cash,Regular,Yes,Dine-In,1.71,No,0,Alex,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+23/04/2025,Muffin,3,2.75,7.72,Mobile Pay,New,Yes,Takeaway,0.02,Yes,0.55,Jamie,7,Food,Pastry,Rainy,No,Yes,No,2025-04
+23/04/2025,Iced Latte,3,5,14,Credit Card,New,Yes,Delivery,0.18,Yes,1.18,Alex,6,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+23/04/2025,Iced Latte,3,5,15.93,Mobile Pay,New,Yes,Takeaway,0.93,No,0,Sam,6,Drink,Cold Drink,Rainy,No,No,No,2025-04
+23/04/2025,Cappuccino,3,4.25,12.84,Mobile Pay,New,No,Dine-In,0.09,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+23/04/2025,Croissant,1,3,4.81,Mobile Pay,New,Yes,Takeaway,1.81,No,0,Sam,3,Food,Pastry,Rainy,No,Yes,No,2025-04
+23/04/2025,Iced Latte,2,5,10.65,Credit Card,Regular,No,Delivery,0.65,No,0,Jamie,7,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+23/04/2025,Americano,1,3.5,4.9,Mobile Pay,Regular,Yes,Takeaway,1.4,No,0,Sam,5,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+23/04/2025,Bagel,1,2.5,3.1,Cash,New,Yes,Delivery,1.7,Yes,1.1,Jamie,6,Food,Sandwich,Cloudy,No,Yes,Yes,2025-04
+23/04/2025,Latte,3,4.5,13.63,Cash,Regular,Yes,Delivery,0.86,Yes,0.73,Jamie,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+24/04/2025,Bagel,1,2.5,3.65,Cash,New,Yes,Delivery,1.15,No,0,Alex,4,Food,Sandwich,Cloudy,No,Yes,Yes,2025-04
+24/04/2025,Chai Latte,1,4.75,4.75,Mobile Pay,New,No,Delivery,1.97,Yes,1.97,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+24/04/2025,Chai Latte,3,4.75,14.36,Mobile Pay,New,Yes,Delivery,0.11,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+24/04/2025,Espresso,2,3,7.44,Mobile Pay,New,No,Takeaway,1.99,Yes,0.55,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+24/04/2025,Flat White,1,4.25,3.76,Credit Card,New,No,Dine-In,0.96,Yes,1.45,Alex,7,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+24/04/2025,Chai Latte,2,4.75,10.66,Cash,Regular,No,Delivery,1.16,No,0,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+24/04/2025,Americano,2,3.5,7.16,Credit Card,Regular,No,Dine-In,1.84,Yes,1.68,Sam,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+24/04/2025,Muffin,3,2.75,8.56,Credit Card,New,No,Delivery,1.57,Yes,1.26,Jamie,5,Food,Pastry,Sunny,No,No,Yes,2025-04
+24/04/2025,Croissant,1,3,3.54,Cash,Regular,No,Delivery,1.74,Yes,1.2,Alex,3,Food,Pastry,Sunny,No,Yes,No,2025-04
+24/04/2025,Flat White,2,4.25,8.84,Cash,Regular,No,Takeaway,1.64,Yes,1.3,Sam,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+24/04/2025,Latte,3,4.5,13.27,Credit Card,New,No,Delivery,1.1,Yes,1.33,Jamie,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+24/04/2025,Chai Latte,3,4.75,13.83,Mobile Pay,New,Yes,Dine-In,1.35,Yes,1.77,Jamie,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+24/04/2025,Muffin,1,2.75,2.24,Mobile Pay,New,Yes,Takeaway,0.98,Yes,1.49,Jamie,6,Food,Pastry,Cloudy,No,Yes,No,2025-04
+24/04/2025,Bagel,2,2.5,5.62,Cash,Regular,Yes,Delivery,0.62,No,0,Jamie,6,Food,Sandwich,Rainy,No,No,No,2025-04
+24/04/2025,Mocha,3,4.75,14.51,Cash,New,Yes,Delivery,1.42,Yes,1.16,Alex,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+24/04/2025,Espresso,3,3,9.46,Mobile Pay,New,No,Dine-In,1.27,Yes,0.81,Alex,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+24/04/2025,Bagel,3,2.5,8.03,Cash,New,Yes,Delivery,1.5,Yes,0.97,Jamie,2,Food,Sandwich,Sunny,No,Yes,No,2025-04
+24/04/2025,Flat White,2,4.25,9.32,Cash,Regular,No,Dine-In,0.82,No,0,Sam,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+24/04/2025,Latte,3,4.5,13.83,Cash,Regular,Yes,Dine-In,0.33,No,0,Sam,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+24/04/2025,Latte,3,4.5,11.6,Mobile Pay,New,Yes,Delivery,0.04,Yes,1.94,Alex,7,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+24/04/2025,Cold Brew,1,5,4.14,Credit Card,Regular,No,Takeaway,1.07,Yes,1.93,Alex,3,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+24/04/2025,Cappuccino,2,4.25,9.49,Credit Card,New,Yes,Dine-In,0.99,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+24/04/2025,Muffin,3,2.75,7.34,Cash,New,Yes,Dine-In,0.68,Yes,1.59,Alex,5,Food,Pastry,Sunny,No,No,Yes,2025-04
+24/04/2025,Iced Latte,2,5,11.39,Cash,Regular,Yes,Delivery,1.39,No,0,Sam,4,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+24/04/2025,Espresso,2,3,6.03,Credit Card,Regular,No,Dine-In,1.47,Yes,1.44,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+24/04/2025,Espresso,3,3,9.37,Cash,Regular,No,Takeaway,0.9,Yes,0.53,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+24/04/2025,Iced Latte,2,5,11.2,Credit Card,Regular,Yes,Dine-In,1.2,No,0,Sam,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+24/04/2025,Iced Latte,2,5,10.75,Credit Card,Regular,No,Takeaway,1.38,Yes,0.63,Jamie,7,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+24/04/2025,Flat White,2,4.25,8.83,Cash,Regular,No,Dine-In,0.33,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+24/04/2025,Chai Latte,1,4.75,4.9,Mobile Pay,New,Yes,Takeaway,1.37,Yes,1.22,Alex,5,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+24/04/2025,Flat White,1,4.25,5.47,Mobile Pay,New,Yes,Delivery,1.22,No,0,Sam,5,Drink,Hot Drink,Rainy,No,No,No,2025-04
+24/04/2025,Cappuccino,1,4.25,5.24,Mobile Pay,Regular,Yes,Delivery,1.88,Yes,0.89,Jamie,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+24/04/2025,Iced Latte,2,5,10.34,Mobile Pay,Regular,Yes,Takeaway,0.34,No,0,Alex,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+24/04/2025,Chai Latte,2,4.75,9.85,Mobile Pay,Regular,No,Dine-In,0.35,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+24/04/2025,Iced Latte,2,5,11.62,Mobile Pay,Regular,No,Takeaway,1.62,No,0,Jamie,5,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-04
+24/04/2025,Chai Latte,3,4.75,14.95,Credit Card,New,No,Dine-In,0.7,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+24/04/2025,Americano,1,3.5,1.87,Mobile Pay,Regular,No,Delivery,0.08,Yes,1.71,Alex,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+24/04/2025,Latte,1,4.5,3.53,Credit Card,Regular,No,Delivery,0.75,Yes,1.72,Alex,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+24/04/2025,Iced Latte,2,5,11.42,Mobile Pay,Regular,No,Takeaway,1.42,No,0,Alex,6,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+24/04/2025,Iced Latte,2,5,10.9,Mobile Pay,Regular,No,Takeaway,0.9,No,0,Jamie,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+24/04/2025,Mocha,2,4.75,9.81,Credit Card,Regular,Yes,Takeaway,0.83,Yes,0.52,Jamie,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+24/04/2025,Croissant,1,3,4.35,Cash,Regular,Yes,Dine-In,1.35,No,0,Alex,6,Food,Pastry,Sunny,Yes,Yes,Yes,2025-04
+24/04/2025,Croissant,1,3,4.62,Mobile Pay,Regular,No,Delivery,1.62,No,0,Jamie,4,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+24/04/2025,Latte,3,4.5,14.53,Mobile Pay,New,Yes,Takeaway,1.83,Yes,0.8,Alex,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+25/04/2025,Cappuccino,3,4.25,12.3,Credit Card,New,No,Takeaway,0.85,Yes,1.3,Jamie,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+25/04/2025,Espresso,1,3,4.78,Mobile Pay,New,No,Delivery,1.78,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+25/04/2025,Flat White,1,4.25,4.82,Credit Card,New,Yes,Delivery,0.57,No,0,Sam,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+25/04/2025,Croissant,3,3,9.46,Cash,New,No,Delivery,0.46,No,0,Jamie,6,Food,Pastry,Cloudy,No,Yes,Yes,2025-04
+25/04/2025,Americano,3,3.5,11.51,Cash,Regular,Yes,Delivery,1.01,No,0,Alex,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+25/04/2025,Croissant,1,3,4.03,Credit Card,Regular,Yes,Takeaway,1.03,No,0,Alex,5,Food,Pastry,Rainy,No,No,No,2025-04
+25/04/2025,Chai Latte,2,4.75,11.12,Mobile Pay,Regular,No,Dine-In,1.62,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+25/04/2025,Croissant,3,3,9.86,Credit Card,New,Yes,Takeaway,0.86,No,0,Sam,2,Food,Pastry,Sunny,No,No,Yes,2025-04
+25/04/2025,Iced Latte,3,5,14.71,Credit Card,New,No,Takeaway,1.66,Yes,1.95,Alex,5,Drink,Cold Drink,Rainy,No,No,No,2025-04
+25/04/2025,Croissant,1,3,4.1,Mobile Pay,New,No,Takeaway,1.99,Yes,0.89,Jamie,7,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+25/04/2025,Croissant,2,3,6.46,Cash,New,Yes,Delivery,0.46,No,0,Jamie,6,Food,Pastry,Rainy,No,Yes,Yes,2025-04
+25/04/2025,Chai Latte,1,4.75,5.11,Mobile Pay,Regular,Yes,Dine-In,0.93,Yes,0.57,Jamie,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+25/04/2025,Latte,3,4.5,14.95,Credit Card,New,Yes,Dine-In,1.95,Yes,0.5,Jamie,2,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+25/04/2025,Latte,3,4.5,14.55,Credit Card,Regular,Yes,Dine-In,1.05,No,0,Sam,3,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+25/04/2025,Americano,1,3.5,5.42,Mobile Pay,New,No,Dine-In,1.92,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+25/04/2025,Mocha,3,4.75,13,Cash,Regular,No,Takeaway,0.15,Yes,1.4,Jamie,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+25/04/2025,Espresso,1,3,2.18,Mobile Pay,Regular,Yes,Delivery,0.69,Yes,1.51,Alex,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+25/04/2025,Iced Latte,3,5,16.07,Mobile Pay,Regular,No,Delivery,1.58,Yes,0.51,Sam,6,Drink,Cold Drink,Sunny,No,No,No,2025-04
+25/04/2025,Chai Latte,1,4.75,5.43,Mobile Pay,Regular,Yes,Dine-In,0.68,No,0,Jamie,3,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+25/04/2025,Mocha,3,4.75,15.11,Cash,Regular,No,Takeaway,0.86,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+25/04/2025,Flat White,3,4.25,12.99,Mobile Pay,Regular,No,Takeaway,1.33,Yes,1.09,Alex,5,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+25/04/2025,Cappuccino,1,4.25,3.32,Credit Card,New,Yes,Dine-In,0.07,Yes,1,Alex,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+25/04/2025,Americano,2,3.5,6.09,Credit Card,New,No,Takeaway,1.01,Yes,1.92,Sam,3,Drink,Hot Drink,Cloudy,Yes,Yes,Yes,2025-04
+25/04/2025,Croissant,3,3,9.86,Cash,New,Yes,Takeaway,0.86,No,0,Sam,4,Food,Pastry,Cloudy,No,No,Yes,2025-04
+25/04/2025,Espresso,3,3,9.42,Mobile Pay,Regular,No,Delivery,1.06,Yes,0.64,Sam,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+25/04/2025,Cold Brew,2,5,10.97,Credit Card,New,Yes,Takeaway,0.97,No,0,Sam,6,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+25/04/2025,Chai Latte,2,4.75,8.16,Credit Card,New,Yes,Dine-In,0.01,Yes,1.35,Sam,3,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+25/04/2025,Cappuccino,2,4.25,6.88,Mobile Pay,New,No,Dine-In,0.09,Yes,1.71,Alex,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+25/04/2025,Americano,1,3.5,4.93,Cash,New,No,Delivery,1.43,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+25/04/2025,Chai Latte,2,4.75,9.9,Cash,Regular,No,Takeaway,0.4,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+25/04/2025,Croissant,1,3,3.88,Credit Card,Regular,No,Dine-In,0.88,No,0,Sam,5,Food,Pastry,Cloudy,Yes,No,No,2025-04
+25/04/2025,Americano,2,3.5,7.65,Mobile Pay,Regular,No,Dine-In,1.95,Yes,1.3,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+25/04/2025,Flat White,2,4.25,9.99,Mobile Pay,New,No,Delivery,1.49,No,0,Sam,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+25/04/2025,Flat White,1,4.25,6.04,Mobile Pay,Regular,No,Delivery,1.79,No,0,Jamie,3,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-04
+25/04/2025,Latte,1,4.5,5.45,Cash,Regular,No,Dine-In,1.47,Yes,0.52,Jamie,7,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+25/04/2025,Bagel,2,2.5,5.02,Credit Card,Regular,No,Dine-In,0.02,No,0,Jamie,5,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+25/04/2025,Mocha,3,4.75,15.74,Mobile Pay,Regular,Yes,Takeaway,1.49,No,0,Sam,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+25/04/2025,Latte,1,4.5,5.54,Cash,Regular,Yes,Takeaway,1.04,No,0,Alex,7,Drink,Hot Drink,Rainy,No,No,No,2025-04
+25/04/2025,Americano,1,3.5,3.82,Mobile Pay,Regular,No,Dine-In,0.32,No,0,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+25/04/2025,Latte,2,4.5,8.64,Mobile Pay,New,No,Dine-In,0.54,Yes,0.9,Sam,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+25/04/2025,Mocha,3,4.75,13.48,Credit Card,Regular,Yes,Delivery,0.69,Yes,1.46,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+25/04/2025,Chai Latte,2,4.75,10.03,Mobile Pay,Regular,Yes,Dine-In,0.53,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+25/04/2025,Cappuccino,3,4.25,11.7,Credit Card,New,No,Dine-In,0.61,Yes,1.66,Alex,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+25/04/2025,Mocha,3,4.75,15.15,Credit Card,New,Yes,Delivery,0.9,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+25/04/2025,Chai Latte,3,4.75,14.24,Mobile Pay,Regular,No,Dine-In,1.43,Yes,1.44,Jamie,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+25/04/2025,Cold Brew,1,5,5.69,Mobile Pay,Regular,Yes,Delivery,0.69,No,0,Alex,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+25/04/2025,Bagel,1,2.5,4.41,Credit Card,Regular,Yes,Takeaway,1.91,No,0,Alex,3,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+25/04/2025,Mocha,1,4.75,5.06,Credit Card,Regular,No,Takeaway,1.45,Yes,1.14,Sam,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+25/04/2025,Iced Latte,3,5,15.69,Cash,Regular,Yes,Dine-In,0.69,No,0,Sam,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+25/04/2025,Croissant,2,3,7.96,Cash,New,No,Takeaway,1.96,No,0,Alex,4,Food,Pastry,Cloudy,No,No,Yes,2025-04
+25/04/2025,Espresso,3,3,10.36,Credit Card,New,Yes,Takeaway,1.36,No,0,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+25/04/2025,Cappuccino,2,4.25,7.71,Cash,Regular,No,Takeaway,0.85,Yes,1.64,Sam,3,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+25/04/2025,Chai Latte,2,4.75,9.66,Mobile Pay,New,No,Delivery,1.39,Yes,1.23,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+25/04/2025,Mocha,1,4.75,5.45,Credit Card,New,No,Takeaway,0.7,No,0,Alex,4,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+25/04/2025,Iced Latte,2,5,9.94,Credit Card,Regular,Yes,Takeaway,0.83,Yes,0.89,Jamie,2,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+25/04/2025,Americano,2,3.5,6.43,Credit Card,New,No,Delivery,0.7,Yes,1.27,Alex,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+26/04/2025,Latte,2,4.5,10.83,Credit Card,New,Yes,Delivery,1.83,No,0,Sam,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+26/04/2025,Bagel,2,2.5,4.36,Mobile Pay,New,Yes,Delivery,1.07,Yes,1.71,Sam,2,Food,Sandwich,Rainy,No,Yes,No,2025-04
+26/04/2025,Bagel,3,2.5,8.74,Credit Card,New,No,Dine-In,1.24,No,0,Jamie,5,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+26/04/2025,Croissant,3,3,8.26,Cash,Regular,No,Delivery,0.92,Yes,1.66,Sam,6,Food,Pastry,Sunny,No,No,No,2025-04
+26/04/2025,Cappuccino,1,4.25,4.77,Cash,New,Yes,Takeaway,1.2,Yes,0.68,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+26/04/2025,Croissant,1,3,1.34,Credit Card,Regular,No,Takeaway,0.21,Yes,1.87,Jamie,2,Food,Pastry,Cloudy,Yes,Yes,No,2025-04
+26/04/2025,Iced Latte,2,5,10.11,Credit Card,New,Yes,Delivery,1.51,Yes,1.4,Sam,6,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-04
+26/04/2025,Muffin,3,2.75,6.9,Cash,Regular,No,Takeaway,0.27,Yes,1.62,Sam,2,Food,Pastry,Cloudy,No,Yes,No,2025-04
+26/04/2025,Cappuccino,3,4.25,14.58,Mobile Pay,Regular,Yes,Delivery,1.83,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+26/04/2025,Espresso,3,3,8.69,Credit Card,New,Yes,Dine-In,0.57,Yes,0.88,Alex,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+26/04/2025,Latte,1,4.5,4.99,Mobile Pay,Regular,No,Dine-In,0.49,No,0,Jamie,5,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+26/04/2025,Espresso,1,3,2.02,Cash,Regular,No,Delivery,0.02,Yes,1,Alex,2,Drink,Hot Drink,Cloudy,Yes,No,No,2025-04
+26/04/2025,Chai Latte,3,4.75,14.46,Cash,New,No,Dine-In,1.22,Yes,1.01,Sam,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+26/04/2025,Croissant,2,3,6.48,Credit Card,Regular,No,Takeaway,1.3,Yes,0.82,Jamie,7,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+26/04/2025,Bagel,1,2.5,4.5,Cash,Regular,No,Dine-In,2,No,0,Sam,4,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+26/04/2025,Flat White,2,4.25,8.48,Mobile Pay,Regular,No,Dine-In,1.16,Yes,1.18,Sam,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+26/04/2025,Cold Brew,2,5,9.06,Cash,New,No,Takeaway,0.57,Yes,1.51,Sam,3,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+26/04/2025,Muffin,3,2.75,8.04,Cash,Regular,No,Takeaway,0.71,Yes,0.92,Jamie,7,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+26/04/2025,Latte,2,4.5,8.23,Cash,New,No,Takeaway,0.14,Yes,0.91,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+26/04/2025,Cappuccino,1,4.25,5.25,Credit Card,Regular,Yes,Delivery,1,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+26/04/2025,Cappuccino,1,4.25,4.61,Credit Card,New,Yes,Dine-In,1.95,Yes,1.59,Jamie,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+26/04/2025,Iced Latte,3,5,15.44,Cash,New,Yes,Takeaway,0.44,No,0,Alex,3,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+26/04/2025,Flat White,3,4.25,12.89,Credit Card,Regular,No,Takeaway,1.49,Yes,1.35,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+26/04/2025,Cappuccino,1,4.25,3.89,Credit Card,New,No,Takeaway,1.28,Yes,1.64,Alex,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+26/04/2025,Flat White,3,4.25,11.22,Credit Card,New,No,Dine-In,0.17,Yes,1.7,Alex,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+26/04/2025,Latte,3,4.5,14.94,Credit Card,Regular,No,Takeaway,1.44,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+26/04/2025,Espresso,2,3,4.98,Cash,Regular,Yes,Delivery,0.56,Yes,1.58,Alex,6,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+26/04/2025,Espresso,2,3,6.53,Mobile Pay,Regular,Yes,Delivery,0.53,No,0,Sam,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+26/04/2025,Cappuccino,1,4.25,3.94,Mobile Pay,Regular,Yes,Delivery,1.46,Yes,1.77,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+26/04/2025,Chai Latte,2,4.75,10.76,Mobile Pay,New,Yes,Delivery,1.26,No,0,Sam,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+26/04/2025,Iced Latte,1,5,4.39,Credit Card,New,Yes,Dine-In,0.89,Yes,1.5,Sam,5,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+26/04/2025,Cold Brew,2,5,9.9,Mobile Pay,Regular,No,Delivery,1.85,Yes,1.95,Alex,4,Drink,Cold Drink,Cloudy,No,No,Yes,2025-04
+26/04/2025,Cappuccino,3,4.25,14.01,Credit Card,Regular,No,Dine-In,1.26,No,0,Sam,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+26/04/2025,Flat White,3,4.25,13.54,Credit Card,New,Yes,Delivery,0.79,No,0,Alex,2,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+26/04/2025,Americano,3,3.5,11.69,Credit Card,Regular,Yes,Delivery,1.91,Yes,0.72,Sam,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+26/04/2025,Iced Latte,1,5,6.36,Cash,New,Yes,Takeaway,1.86,Yes,0.5,Alex,6,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+26/04/2025,Bagel,1,2.5,3.89,Mobile Pay,Regular,No,Takeaway,1.39,No,0,Jamie,2,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+26/04/2025,Chai Latte,3,4.75,14.5,Cash,New,Yes,Delivery,0.25,No,0,Sam,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+26/04/2025,Muffin,2,2.75,5.33,Credit Card,New,Yes,Takeaway,1.43,Yes,1.6,Sam,6,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+26/04/2025,Flat White,2,4.25,9.44,Cash,Regular,Yes,Delivery,1.62,Yes,0.68,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+26/04/2025,Chai Latte,2,4.75,10.94,Cash,New,No,Takeaway,1.44,No,0,Alex,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+26/04/2025,Bagel,1,2.5,1.22,Mobile Pay,New,No,Takeaway,0.48,Yes,1.76,Alex,3,Food,Sandwich,Cloudy,No,No,No,2025-04
+26/04/2025,Cold Brew,3,5,14.76,Credit Card,Regular,No,Dine-In,0.78,Yes,1.02,Alex,3,Drink,Cold Drink,Sunny,No,No,No,2025-04
+26/04/2025,Muffin,3,2.75,9.57,Cash,New,No,Takeaway,1.32,No,0,Sam,6,Food,Pastry,Sunny,No,Yes,No,2025-04
+26/04/2025,Americano,2,3.5,6.86,Mobile Pay,New,Yes,Dine-In,1.04,Yes,1.18,Jamie,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+26/04/2025,Mocha,2,4.75,10.7,Credit Card,Regular,No,Takeaway,1.9,Yes,0.7,Alex,3,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-04
+26/04/2025,Iced Latte,3,5,13.73,Credit Card,Regular,Yes,Takeaway,0.29,Yes,1.56,Jamie,3,Drink,Cold Drink,Cloudy,No,No,Yes,2025-04
+26/04/2025,Latte,3,4.5,14.67,Credit Card,New,No,Delivery,1.17,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+26/04/2025,Bagel,1,2.5,1.34,Credit Card,Regular,Yes,Delivery,0.06,Yes,1.22,Alex,2,Food,Sandwich,Sunny,No,Yes,No,2025-04
+26/04/2025,Mocha,3,4.75,14.56,Credit Card,Regular,Yes,Dine-In,0.31,No,0,Alex,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+26/04/2025,Muffin,2,2.75,5.56,Cash,New,No,Delivery,1.14,Yes,1.08,Sam,6,Food,Pastry,Sunny,No,No,Yes,2025-04
+26/04/2025,Iced Latte,2,5,8.45,Credit Card,New,Yes,Takeaway,0.42,Yes,1.97,Sam,5,Drink,Cold Drink,Rainy,No,No,Yes,2025-04
+26/04/2025,Cold Brew,3,5,16.86,Cash,New,Yes,Takeaway,1.86,No,0,Sam,3,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+26/04/2025,Flat White,2,4.25,8.08,Cash,New,Yes,Takeaway,0.56,Yes,0.98,Jamie,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+26/04/2025,Mocha,1,4.75,6.68,Credit Card,New,Yes,Delivery,1.93,No,0,Alex,4,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+27/04/2025,Iced Latte,2,5,11.29,Cash,Regular,No,Dine-In,1.29,No,0,Sam,5,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+27/04/2025,Croissant,2,3,7.94,Credit Card,New,Yes,Dine-In,1.94,No,0,Sam,7,Food,Pastry,Sunny,No,No,Yes,2025-04
+27/04/2025,Croissant,2,3,5.94,Cash,Regular,Yes,Delivery,1.63,Yes,1.69,Sam,3,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+27/04/2025,Croissant,2,3,6.65,Mobile Pay,Regular,Yes,Takeaway,1.81,Yes,1.16,Alex,2,Food,Pastry,Sunny,No,No,Yes,2025-04
+27/04/2025,Muffin,3,2.75,8.63,Mobile Pay,Regular,No,Takeaway,0.38,No,0,Jamie,2,Food,Pastry,Sunny,No,No,Yes,2025-04
+27/04/2025,Latte,2,4.5,10.32,Cash,New,No,Delivery,1.32,No,0,Jamie,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+27/04/2025,Espresso,3,3,10.49,Credit Card,Regular,No,Dine-In,1.49,No,0,Alex,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+27/04/2025,Muffin,1,2.75,4.55,Cash,Regular,No,Delivery,1.8,No,0,Jamie,5,Food,Pastry,Cloudy,Yes,No,Yes,2025-04
+27/04/2025,Cold Brew,2,5,11.01,Credit Card,Regular,No,Dine-In,1.01,No,0,Alex,6,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+27/04/2025,Muffin,3,2.75,9.42,Credit Card,Regular,Yes,Dine-In,1.17,No,0,Jamie,7,Food,Pastry,Cloudy,No,Yes,No,2025-04
+27/04/2025,Cappuccino,1,4.25,5.07,Cash,Regular,Yes,Takeaway,0.82,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+27/04/2025,Latte,3,4.5,14.29,Cash,New,No,Takeaway,0.79,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+27/04/2025,Espresso,1,3,4.9,Credit Card,Regular,Yes,Dine-In,1.9,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+27/04/2025,Mocha,1,4.75,5.13,Cash,New,No,Dine-In,0.38,No,0,Alex,5,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+27/04/2025,Chai Latte,2,4.75,10.57,Cash,Regular,Yes,Takeaway,1.74,Yes,0.67,Alex,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+27/04/2025,Iced Latte,2,5,10.22,Cash,Regular,Yes,Dine-In,0.22,No,0,Jamie,5,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+27/04/2025,Muffin,3,2.75,9.29,Mobile Pay,Regular,Yes,Takeaway,1.04,No,0,Alex,6,Food,Pastry,Cloudy,No,No,Yes,2025-04
+27/04/2025,Flat White,1,4.25,2.83,Cash,Regular,Yes,Delivery,0.18,Yes,1.6,Sam,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+27/04/2025,Americano,2,3.5,8.97,Cash,Regular,Yes,Takeaway,1.97,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+27/04/2025,Muffin,2,2.75,4.58,Credit Card,Regular,Yes,Delivery,0.85,Yes,1.77,Alex,7,Food,Pastry,Cloudy,Yes,Yes,No,2025-04
+27/04/2025,Chai Latte,2,4.75,9.97,Credit Card,New,No,Delivery,0.47,No,0,Sam,3,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+27/04/2025,Bagel,3,2.5,8.88,Cash,New,Yes,Takeaway,1.38,No,0,Alex,4,Food,Sandwich,Rainy,No,No,Yes,2025-04
+27/04/2025,Croissant,1,3,4.98,Credit Card,New,Yes,Dine-In,1.98,No,0,Sam,2,Food,Pastry,Sunny,Yes,Yes,Yes,2025-04
+27/04/2025,Cappuccino,3,4.25,12.17,Cash,New,No,Delivery,1.34,Yes,1.92,Jamie,2,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+27/04/2025,Mocha,3,4.75,14.47,Mobile Pay,New,Yes,Takeaway,0.22,No,0,Alex,5,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+27/04/2025,Cold Brew,3,5,15.97,Mobile Pay,New,No,Delivery,1.54,Yes,0.57,Alex,6,Drink,Cold Drink,Cloudy,No,No,Yes,2025-04
+27/04/2025,Latte,3,4.5,14.44,Cash,Regular,No,Takeaway,0.94,No,0,Jamie,2,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+27/04/2025,Cappuccino,3,4.25,12.17,Cash,New,No,Dine-In,1.19,Yes,1.77,Sam,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+27/04/2025,Chai Latte,3,4.75,16.11,Mobile Pay,New,Yes,Takeaway,1.86,No,0,Alex,6,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+27/04/2025,Bagel,2,2.5,5.18,Cash,New,No,Dine-In,0.18,No,0,Alex,6,Food,Sandwich,Sunny,Yes,No,Yes,2025-04
+27/04/2025,Flat White,2,4.25,8.22,Cash,New,Yes,Delivery,1.19,Yes,1.47,Sam,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+27/04/2025,Latte,1,4.5,3.77,Credit Card,New,Yes,Dine-In,0.38,Yes,1.11,Jamie,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+27/04/2025,Iced Latte,1,5,5.23,Credit Card,New,No,Delivery,1.39,Yes,1.16,Sam,2,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+27/04/2025,Iced Latte,2,5,10.21,Mobile Pay,New,Yes,Takeaway,0.97,Yes,0.76,Alex,7,Drink,Cold Drink,Rainy,Yes,Yes,Yes,2025-04
+27/04/2025,Americano,2,3.5,6.64,Mobile Pay,New,No,Takeaway,1.57,Yes,1.93,Jamie,3,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+27/04/2025,Iced Latte,1,5,6.28,Credit Card,Regular,No,Takeaway,1.8,Yes,0.52,Jamie,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+27/04/2025,Croissant,3,3,9.36,Mobile Pay,New,No,Dine-In,0.36,No,0,Alex,4,Food,Pastry,Sunny,No,No,No,2025-04
+28/04/2025,Flat White,3,4.25,12.42,Cash,Regular,Yes,Delivery,1.02,Yes,1.35,Alex,6,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-04
+28/04/2025,Mocha,3,4.75,13.66,Credit Card,Regular,Yes,Delivery,0.22,Yes,0.81,Sam,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+28/04/2025,Flat White,1,4.25,5.25,Mobile Pay,New,No,Delivery,1,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+28/04/2025,Mocha,3,4.75,14.45,Cash,Regular,Yes,Delivery,1.77,Yes,1.57,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+28/04/2025,Espresso,1,3,3.31,Cash,New,Yes,Takeaway,0.31,No,0,Sam,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+28/04/2025,Latte,3,4.5,13.36,Credit Card,New,Yes,Delivery,0.61,Yes,0.75,Sam,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+28/04/2025,Chai Latte,1,4.75,4.35,Credit Card,New,Yes,Delivery,0.55,Yes,0.95,Alex,5,Drink,Hot Drink,Cloudy,Yes,Yes,No,2025-04
+28/04/2025,Espresso,3,3,8.88,Credit Card,Regular,Yes,Takeaway,0.72,Yes,0.84,Alex,4,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+28/04/2025,Iced Latte,1,5,5.28,Mobile Pay,Regular,No,Dine-In,0.88,Yes,0.6,Sam,5,Drink,Cold Drink,Sunny,No,No,No,2025-04
+28/04/2025,Espresso,3,3,9.1,Cash,New,Yes,Delivery,0.1,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+28/04/2025,Iced Latte,1,5,4.52,Credit Card,New,No,Takeaway,0.27,Yes,0.75,Alex,6,Drink,Cold Drink,Rainy,No,No,No,2025-04
+28/04/2025,Bagel,1,2.5,2,Cash,New,Yes,Delivery,0.26,Yes,0.76,Sam,2,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+28/04/2025,Cold Brew,1,5,4.02,Cash,New,Yes,Dine-In,0.71,Yes,1.69,Alex,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-04
+28/04/2025,Croissant,3,3,9.88,Cash,New,Yes,Delivery,1.63,Yes,0.75,Sam,2,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+28/04/2025,Muffin,2,2.75,5.77,Credit Card,Regular,Yes,Dine-In,0.27,No,0,Sam,2,Food,Pastry,Sunny,Yes,No,Yes,2025-04
+28/04/2025,Americano,1,3.5,5.16,Credit Card,New,No,Delivery,1.66,No,0,Sam,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+28/04/2025,Iced Latte,3,5,15.52,Cash,New,Yes,Takeaway,0.52,No,0,Alex,5,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+28/04/2025,Iced Latte,1,5,5.04,Mobile Pay,New,Yes,Takeaway,0.04,No,0,Jamie,4,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+28/04/2025,Mocha,1,4.75,5.97,Mobile Pay,Regular,Yes,Delivery,1.22,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+28/04/2025,Espresso,2,3,5.69,Credit Card,New,Yes,Dine-In,0.77,Yes,1.08,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+28/04/2025,Latte,3,4.5,14.41,Mobile Pay,Regular,Yes,Takeaway,1.95,Yes,1.04,Jamie,7,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-04
+28/04/2025,Muffin,1,2.75,4.23,Credit Card,New,Yes,Dine-In,1.48,No,0,Alex,2,Food,Pastry,Rainy,No,Yes,No,2025-04
+28/04/2025,Latte,1,4.5,3.24,Cash,Regular,No,Dine-In,0.41,Yes,1.67,Sam,3,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+28/04/2025,Cappuccino,1,4.25,4.63,Credit Card,Regular,No,Delivery,0.38,No,0,Alex,5,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+28/04/2025,Muffin,3,2.75,8.52,Credit Card,Regular,No,Takeaway,0.27,No,0,Alex,7,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+28/04/2025,Croissant,2,3,7.26,Mobile Pay,New,Yes,Takeaway,1.26,No,0,Jamie,5,Food,Pastry,Rainy,No,Yes,No,2025-04
+28/04/2025,Latte,2,4.5,10.83,Cash,New,No,Dine-In,1.83,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+28/04/2025,Flat White,2,4.25,9.11,Cash,New,Yes,Delivery,1.33,Yes,0.72,Jamie,2,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+28/04/2025,Cappuccino,3,4.25,13.44,Cash,New,No,Dine-In,0.69,No,0,Jamie,3,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+28/04/2025,Americano,3,3.5,9.99,Mobile Pay,Regular,No,Delivery,1.12,Yes,1.63,Sam,4,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+28/04/2025,Croissant,1,3,3.46,Credit Card,New,Yes,Takeaway,0.46,No,0,Alex,2,Food,Pastry,Cloudy,No,No,Yes,2025-04
+28/04/2025,Chai Latte,2,4.75,10.53,Credit Card,New,No,Dine-In,1.03,No,0,Alex,6,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-04
+28/04/2025,Cappuccino,1,4.25,5.19,Credit Card,Regular,Yes,Dine-In,0.94,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+29/04/2025,Flat White,2,4.25,9.8,Cash,New,Yes,Takeaway,1.3,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+29/04/2025,Iced Latte,3,5,16.51,Mobile Pay,New,Yes,Delivery,1.51,No,0,Sam,2,Drink,Cold Drink,Sunny,No,No,No,2025-04
+29/04/2025,Muffin,1,2.75,2.37,Cash,New,No,Takeaway,0.5,Yes,0.88,Sam,5,Food,Pastry,Sunny,No,No,No,2025-04
+29/04/2025,Muffin,2,2.75,5.17,Mobile Pay,New,No,Takeaway,1.44,Yes,1.77,Jamie,5,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+29/04/2025,Espresso,3,3,10.12,Credit Card,Regular,No,Takeaway,1.12,No,0,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+29/04/2025,Flat White,1,4.25,3.09,Cash,New,No,Delivery,0.63,Yes,1.79,Sam,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+29/04/2025,Iced Latte,3,5,16.35,Cash,Regular,Yes,Takeaway,1.35,No,0,Alex,3,Drink,Cold Drink,Rainy,No,Yes,No,2025-04
+29/04/2025,Flat White,1,4.25,5.21,Cash,Regular,No,Takeaway,0.96,No,0,Sam,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+29/04/2025,Espresso,2,3,6.61,Mobile Pay,New,No,Delivery,0.61,No,0,Jamie,4,Drink,Hot Drink,Cloudy,No,No,Yes,2025-04
+29/04/2025,Espresso,2,3,6.05,Credit Card,New,No,Takeaway,0.05,No,0,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+29/04/2025,Latte,3,4.5,13.53,Cash,New,Yes,Dine-In,0.03,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+29/04/2025,Muffin,3,2.75,8.4,Cash,New,Yes,Delivery,0.94,Yes,0.79,Alex,4,Food,Pastry,Rainy,Yes,Yes,Yes,2025-04
+29/04/2025,Muffin,2,2.75,6.82,Credit Card,New,Yes,Takeaway,1.32,No,0,Jamie,2,Food,Pastry,Rainy,No,No,Yes,2025-04
+29/04/2025,Americano,1,3.5,4.51,Cash,Regular,No,Delivery,1.01,No,0,Alex,4,Drink,Hot Drink,Sunny,No,No,No,2025-04
+29/04/2025,Cold Brew,1,5,3.56,Mobile Pay,New,No,Takeaway,0.23,Yes,1.67,Alex,3,Drink,Cold Drink,Sunny,No,No,No,2025-04
+29/04/2025,Croissant,2,3,6.09,Mobile Pay,Regular,Yes,Takeaway,0.09,No,0,Jamie,2,Food,Pastry,Cloudy,Yes,No,Yes,2025-04
+29/04/2025,Latte,1,4.5,3.11,Cash,New,Yes,Delivery,0.1,Yes,1.49,Sam,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+29/04/2025,Muffin,3,2.75,9.72,Credit Card,New,Yes,Takeaway,1.47,No,0,Sam,5,Food,Pastry,Cloudy,No,Yes,No,2025-04
+29/04/2025,Iced Latte,1,5,6.33,Mobile Pay,Regular,Yes,Delivery,1.33,No,0,Jamie,3,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-04
+29/04/2025,Flat White,2,4.25,6.95,Cash,Regular,Yes,Takeaway,0.29,Yes,1.84,Alex,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+29/04/2025,Latte,3,4.5,13.41,Mobile Pay,Regular,No,Takeaway,0.75,Yes,0.84,Alex,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-04
+29/04/2025,Flat White,2,4.25,8.56,Credit Card,New,Yes,Delivery,1.31,Yes,1.25,Sam,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+29/04/2025,Iced Latte,2,5,10.45,Cash,Regular,Yes,Delivery,0.45,No,0,Alex,5,Drink,Cold Drink,Rainy,Yes,Yes,Yes,2025-04
+29/04/2025,Latte,2,4.5,10.11,Cash,New,Yes,Takeaway,1.88,Yes,0.77,Sam,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+29/04/2025,Chai Latte,1,4.75,4.42,Mobile Pay,New,No,Dine-In,1.25,Yes,1.58,Jamie,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+29/04/2025,Bagel,2,2.5,6.17,Cash,Regular,Yes,Takeaway,1.17,No,0,Alex,5,Food,Sandwich,Rainy,No,No,Yes,2025-04
+29/04/2025,Croissant,2,3,6.37,Cash,New,No,Delivery,1.84,Yes,1.47,Sam,6,Food,Pastry,Cloudy,No,No,No,2025-04
+29/04/2025,Espresso,1,3,1.33,Mobile Pay,New,Yes,Dine-In,0,Yes,1.67,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+29/04/2025,Mocha,1,4.75,5.26,Mobile Pay,Regular,No,Delivery,1.55,Yes,1.04,Jamie,5,Drink,Hot Drink,Sunny,No,No,No,2025-04
+29/04/2025,Chai Latte,1,4.75,5.42,Cash,New,Yes,Takeaway,1.92,Yes,1.25,Alex,4,Drink,Hot Drink,Rainy,No,No,No,2025-04
+29/04/2025,Latte,2,4.5,9.73,Mobile Pay,Regular,Yes,Takeaway,0.73,No,0,Sam,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+29/04/2025,Croissant,3,3,10.18,Mobile Pay,New,No,Dine-In,1.18,No,0,Alex,3,Food,Pastry,Rainy,No,No,Yes,2025-04
+29/04/2025,Espresso,3,3,9.37,Mobile Pay,New,No,Delivery,0.37,No,0,Alex,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+29/04/2025,Latte,1,4.5,4.64,Credit Card,Regular,Yes,Delivery,0.14,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+29/04/2025,Muffin,3,2.75,8.61,Mobile Pay,New,Yes,Dine-In,0.36,No,0,Jamie,7,Food,Pastry,Sunny,No,Yes,No,2025-04
+29/04/2025,Cold Brew,2,5,11.67,Credit Card,Regular,No,Takeaway,1.67,No,0,Alex,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+29/04/2025,Americano,1,3.5,2.71,Credit Card,Regular,Yes,Delivery,0.63,Yes,1.42,Alex,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+29/04/2025,Flat White,1,4.25,4.72,Mobile Pay,Regular,Yes,Dine-In,0.47,No,0,Alex,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+29/04/2025,Latte,2,4.5,10.39,Mobile Pay,Regular,No,Dine-In,1.39,No,0,Sam,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+29/04/2025,Americano,2,3.5,7.88,Credit Card,New,No,Dine-In,0.88,No,0,Alex,3,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+29/04/2025,Bagel,3,2.5,9.22,Cash,New,No,Takeaway,1.72,No,0,Sam,4,Food,Sandwich,Rainy,No,Yes,Yes,2025-04
+29/04/2025,Cappuccino,3,4.25,12.02,Cash,New,Yes,Takeaway,0.71,Yes,1.44,Jamie,6,Drink,Hot Drink,Cloudy,Yes,Yes,Yes,2025-04
+29/04/2025,Cappuccino,3,4.25,13.73,Cash,New,Yes,Delivery,0.98,No,0,Alex,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+29/04/2025,Croissant,3,3,9.78,Mobile Pay,Regular,No,Dine-In,0.78,No,0,Jamie,6,Food,Pastry,Sunny,No,No,No,2025-04
+29/04/2025,Iced Latte,3,5,15.6,Credit Card,Regular,No,Takeaway,0.6,No,0,Sam,6,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+29/04/2025,Latte,3,4.5,14.8,Credit Card,New,Yes,Takeaway,1.3,No,0,Sam,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+29/04/2025,Cold Brew,1,5,5.33,Cash,New,Yes,Takeaway,0.33,No,0,Jamie,4,Drink,Cold Drink,Sunny,No,No,No,2025-04
+29/04/2025,Flat White,3,4.25,12.26,Cash,Regular,Yes,Dine-In,1.09,Yes,1.58,Alex,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+29/04/2025,Mocha,1,4.75,4.49,Mobile Pay,Regular,No,Takeaway,0.87,Yes,1.13,Jamie,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+29/04/2025,Latte,1,4.5,3.22,Mobile Pay,New,No,Dine-In,0.48,Yes,1.76,Sam,7,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+29/04/2025,Cold Brew,3,5,15.77,Credit Card,Regular,Yes,Takeaway,1.92,Yes,1.15,Alex,2,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+29/04/2025,Iced Latte,3,5,15.17,Mobile Pay,New,Yes,Delivery,1.76,Yes,1.59,Sam,2,Drink,Cold Drink,Sunny,No,Yes,No,2025-04
+29/04/2025,Cold Brew,3,5,16.31,Mobile Pay,Regular,No,Dine-In,1.89,Yes,0.58,Alex,7,Drink,Cold Drink,Cloudy,No,Yes,No,2025-04
+29/04/2025,Iced Latte,1,5,6.3,Cash,New,Yes,Dine-In,1.3,No,0,Alex,2,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+29/04/2025,Flat White,3,4.25,12.28,Credit Card,New,No,Takeaway,1.24,Yes,1.71,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,No,2025-04
+29/04/2025,Latte,2,4.5,10.22,Credit Card,Regular,Yes,Dine-In,1.22,No,0,Sam,6,Drink,Hot Drink,Rainy,No,No,No,2025-04
+29/04/2025,Americano,3,3.5,10.52,Credit Card,Regular,Yes,Delivery,0.02,No,0,Jamie,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-04
+29/04/2025,Espresso,3,3,10.61,Mobile Pay,Regular,No,Dine-In,1.61,No,0,Sam,7,Drink,Hot Drink,Rainy,Yes,No,No,2025-04
+29/04/2025,Cappuccino,2,4.25,9.86,Mobile Pay,New,Yes,Takeaway,1.36,No,0,Alex,6,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+30/04/2025,Mocha,3,4.75,13.99,Cash,New,Yes,Dine-In,0.84,Yes,1.1,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-04
+30/04/2025,Iced Latte,1,5,5.41,Mobile Pay,Regular,Yes,Takeaway,0.41,No,0,Sam,4,Drink,Cold Drink,Rainy,No,No,No,2025-04
+30/04/2025,Flat White,1,4.25,3.91,Cash,New,No,Delivery,0.48,Yes,0.82,Sam,5,Drink,Hot Drink,Cloudy,No,No,No,2025-04
+30/04/2025,Mocha,2,4.75,11.24,Credit Card,New,No,Delivery,1.74,No,0,Sam,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+30/04/2025,Americano,2,3.5,8.05,Credit Card,Regular,Yes,Takeaway,1.05,No,0,Sam,7,Drink,Hot Drink,Sunny,No,No,No,2025-04
+30/04/2025,Bagel,2,2.5,4.84,Cash,Regular,Yes,Takeaway,0.5,Yes,0.66,Alex,7,Food,Sandwich,Rainy,No,No,No,2025-04
+30/04/2025,Chai Latte,2,4.75,10.59,Cash,New,No,Takeaway,1.09,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+30/04/2025,Flat White,1,4.25,5.01,Credit Card,New,No,Delivery,0.76,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+30/04/2025,Cold Brew,1,5,6.8,Credit Card,New,Yes,Takeaway,1.8,No,0,Sam,4,Drink,Cold Drink,Rainy,No,No,No,2025-04
+30/04/2025,Americano,3,3.5,11.99,Credit Card,Regular,No,Dine-In,1.49,No,0,Alex,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+30/04/2025,Iced Latte,2,5,9.69,Credit Card,Regular,No,Dine-In,0.67,Yes,0.98,Alex,4,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+30/04/2025,Cold Brew,2,5,9.9,Mobile Pay,New,Yes,Takeaway,1.44,Yes,1.54,Sam,3,Drink,Cold Drink,Cloudy,No,No,No,2025-04
+30/04/2025,Espresso,1,3,4.03,Credit Card,New,Yes,Delivery,1.6,Yes,0.57,Jamie,3,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+30/04/2025,Espresso,1,3,4.44,Mobile Pay,Regular,No,Takeaway,1.44,No,0,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-04
+30/04/2025,Americano,1,3.5,3.75,Credit Card,New,Yes,Dine-In,0.25,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+30/04/2025,Iced Latte,2,5,10.34,Cash,Regular,No,Takeaway,1.52,Yes,1.18,Alex,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+30/04/2025,Chai Latte,1,4.75,3.41,Mobile Pay,Regular,No,Dine-In,0.55,Yes,1.89,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-04
+30/04/2025,Croissant,3,3,10.15,Mobile Pay,New,No,Takeaway,1.68,Yes,0.53,Alex,5,Food,Pastry,Cloudy,No,No,No,2025-04
+30/04/2025,Croissant,1,3,3.4,Credit Card,New,Yes,Dine-In,1.91,Yes,1.51,Alex,3,Food,Pastry,Sunny,No,Yes,No,2025-04
+30/04/2025,Bagel,2,2.5,5.01,Credit Card,Regular,Yes,Delivery,0.82,Yes,0.81,Jamie,5,Food,Sandwich,Cloudy,No,Yes,Yes,2025-04
+30/04/2025,Cappuccino,3,4.25,13.94,Cash,Regular,No,Takeaway,1.19,No,0,Alex,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-04
+30/04/2025,Espresso,3,3,9.95,Cash,New,No,Delivery,0.95,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,No,2025-04
+30/04/2025,Croissant,3,3,10.59,Cash,Regular,Yes,Delivery,1.59,No,0,Alex,5,Food,Pastry,Cloudy,No,No,No,2025-04
+30/04/2025,Bagel,2,2.5,4.64,Cash,Regular,No,Takeaway,1.62,Yes,1.98,Alex,7,Food,Sandwich,Sunny,No,Yes,Yes,2025-04
+30/04/2025,Cold Brew,3,5,16.05,Cash,Regular,No,Dine-In,1.05,No,0,Jamie,2,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-04
+30/04/2025,Croissant,1,3,3.87,Credit Card,Regular,Yes,Delivery,1.87,Yes,1,Jamie,5,Food,Pastry,Sunny,No,Yes,Yes,2025-04
+30/04/2025,Mocha,3,4.75,13.8,Credit Card,Regular,Yes,Delivery,1.52,Yes,1.97,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-04
+30/04/2025,Muffin,3,2.75,9.75,Credit Card,New,Yes,Dine-In,1.5,No,0,Sam,7,Food,Pastry,Rainy,Yes,Yes,No,2025-04
+30/04/2025,Cappuccino,2,4.25,9.51,Mobile Pay,New,Yes,Takeaway,1.01,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+30/04/2025,Cold Brew,1,5,5.01,Credit Card,New,Yes,Delivery,1.85,Yes,1.84,Sam,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-04
+30/04/2025,Flat White,2,4.25,9.35,Credit Card,New,No,Dine-In,0.85,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,No,No,2025-04
+30/04/2025,Croissant,3,3,9.51,Cash,New,No,Takeaway,1.7,Yes,1.19,Alex,3,Food,Pastry,Sunny,No,No,Yes,2025-04
+30/04/2025,Muffin,3,2.75,9.31,Credit Card,New,Yes,Takeaway,1.94,Yes,0.88,Alex,6,Food,Pastry,Rainy,No,No,Yes,2025-04
+30/04/2025,Espresso,2,3,7.58,Cash,New,Yes,Dine-In,1.58,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-04
+30/04/2025,Croissant,1,3,3.21,Credit Card,New,Yes,Takeaway,0.21,No,0,Sam,4,Food,Pastry,Sunny,No,No,No,2025-04
+30/04/2025,Croissant,3,3,8.93,Cash,New,No,Dine-In,0.45,Yes,0.52,Jamie,5,Food,Pastry,Rainy,No,No,Yes,2025-04
+30/04/2025,Muffin,2,2.75,5.62,Mobile Pay,Regular,No,Delivery,0.12,No,0,Alex,2,Food,Pastry,Rainy,Yes,No,Yes,2025-04
+30/04/2025,Cappuccino,1,4.25,6.16,Cash,Regular,Yes,Delivery,1.91,No,0,Alex,3,Drink,Hot Drink,Rainy,Yes,No,Yes,2025-04
+30/04/2025,Espresso,3,3,9.43,Mobile Pay,Regular,No,Delivery,0.43,No,0,Sam,3,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-04
+30/04/2025,Croissant,2,3,6.85,Credit Card,Regular,Yes,Takeaway,1.37,Yes,0.52,Jamie,5,Food,Pastry,Rainy,No,Yes,No,2025-04
+1/05/2025,Flat White,1,4.25,3.91,Cash,New,No,Dine-In,0.42,Yes,0.76,Alex,4,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+1/05/2025,Bagel,2,2.5,4.58,Mobile Pay,Regular,No,Delivery,0.35,Yes,0.77,Alex,2,Food,Sandwich,Cloudy,No,Yes,No,2025-05
+1/05/2025,Latte,2,4.5,9.51,Mobile Pay,New,Yes,Dine-In,0.51,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+1/05/2025,Iced Latte,1,5,6.38,Mobile Pay,New,No,Takeaway,1.38,No,0,Jamie,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+1/05/2025,Latte,2,4.5,10.73,Cash,Regular,No,Dine-In,1.73,No,0,Sam,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+1/05/2025,Cappuccino,2,4.25,10.15,Cash,Regular,Yes,Takeaway,1.65,No,0,Sam,6,Drink,Hot Drink,Rainy,Yes,No,No,2025-05
+1/05/2025,Cappuccino,2,4.25,8.87,Mobile Pay,Regular,No,Takeaway,0.37,No,0,Jamie,2,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+1/05/2025,Iced Latte,1,5,6.4,Cash,New,Yes,Delivery,1.4,No,0,Jamie,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+1/05/2025,Croissant,3,3,10.4,Cash,New,No,Dine-In,1.4,No,0,Jamie,5,Food,Pastry,Rainy,No,No,Yes,2025-05
+1/05/2025,Mocha,2,4.75,9.08,Cash,Regular,Yes,Dine-In,0.89,Yes,1.31,Jamie,5,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+1/05/2025,Muffin,3,2.75,8.5,Mobile Pay,New,Yes,Takeaway,1.59,Yes,1.34,Jamie,2,Food,Pastry,Rainy,No,Yes,No,2025-05
+1/05/2025,Mocha,1,4.75,5.67,Credit Card,New,Yes,Takeaway,1.97,Yes,1.05,Alex,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+1/05/2025,Flat White,2,4.25,10.35,Credit Card,Regular,Yes,Dine-In,1.85,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,No,No,2025-05
+1/05/2025,Mocha,2,4.75,11.25,Credit Card,Regular,Yes,Delivery,1.75,No,0,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+1/05/2025,Croissant,2,3,7.09,Cash,Regular,Yes,Takeaway,1.98,Yes,0.89,Jamie,2,Food,Pastry,Sunny,No,No,No,2025-05
+1/05/2025,Americano,2,3.5,8.59,Credit Card,New,No,Delivery,1.59,No,0,Alex,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+1/05/2025,Latte,2,4.5,8.63,Mobile Pay,Regular,Yes,Takeaway,0.13,Yes,0.5,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+1/05/2025,Bagel,2,2.5,3.31,Credit Card,New,No,Delivery,0.23,Yes,1.92,Jamie,3,Food,Sandwich,Sunny,Yes,Yes,Yes,2025-05
+1/05/2025,Espresso,1,3,1.05,Credit Card,Regular,No,Takeaway,0.01,Yes,1.96,Sam,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+1/05/2025,Latte,2,4.5,9.13,Mobile Pay,Regular,No,Delivery,0.13,No,0,Sam,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-05
+1/05/2025,Bagel,2,2.5,4.34,Mobile Pay,Regular,No,Takeaway,0.57,Yes,1.23,Jamie,3,Food,Sandwich,Cloudy,No,Yes,Yes,2025-05
+1/05/2025,Flat White,3,4.25,11.26,Mobile Pay,New,Yes,Delivery,0.34,Yes,1.83,Jamie,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+1/05/2025,Flat White,1,4.25,4.42,Credit Card,Regular,No,Dine-In,1.52,Yes,1.35,Sam,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+1/05/2025,Latte,3,4.5,15.31,Cash,New,Yes,Delivery,1.81,No,0,Alex,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+1/05/2025,Croissant,2,3,6.34,Credit Card,Regular,Yes,Dine-In,1.78,Yes,1.44,Jamie,6,Food,Pastry,Rainy,No,Yes,No,2025-05
+1/05/2025,Muffin,1,2.75,3.13,Credit Card,Regular,Yes,Dine-In,1.27,Yes,0.89,Jamie,4,Food,Pastry,Sunny,No,Yes,Yes,2025-05
+1/05/2025,Muffin,1,2.75,2.71,Cash,Regular,No,Takeaway,1.74,Yes,1.78,Jamie,7,Food,Pastry,Sunny,No,Yes,Yes,2025-05
+1/05/2025,Mocha,3,4.75,14.25,Credit Card,New,No,Takeaway,1.56,Yes,1.56,Sam,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+1/05/2025,Latte,2,4.5,9.14,Mobile Pay,Regular,No,Takeaway,0.14,No,0,Jamie,2,Drink,Hot Drink,Cloudy,Yes,No,No,2025-05
+1/05/2025,Mocha,2,4.75,9.31,Cash,New,Yes,Delivery,1.02,Yes,1.21,Alex,2,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+1/05/2025,Mocha,1,4.75,5.45,Mobile Pay,Regular,Yes,Dine-In,1.94,Yes,1.24,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+1/05/2025,Mocha,1,4.75,4.82,Credit Card,Regular,Yes,Takeaway,0.64,Yes,0.57,Alex,5,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+1/05/2025,Latte,3,4.5,14.6,Mobile Pay,New,Yes,Delivery,1.1,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+1/05/2025,Cold Brew,1,5,6.47,Cash,New,Yes,Dine-In,1.47,No,0,Jamie,3,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-05
+1/05/2025,Flat White,2,4.25,9.75,Credit Card,Regular,Yes,Dine-In,1.25,No,0,Sam,7,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+1/05/2025,Iced Latte,3,5,16.05,Mobile Pay,New,Yes,Takeaway,1.05,No,0,Sam,2,Drink,Cold Drink,Rainy,No,No,No,2025-05
+1/05/2025,Bagel,3,2.5,8.83,Credit Card,Regular,No,Takeaway,1.33,No,0,Alex,2,Food,Sandwich,Sunny,Yes,No,Yes,2025-05
+1/05/2025,Cappuccino,3,4.25,14.26,Cash,Regular,Yes,Dine-In,1.51,No,0,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-05
+1/05/2025,Flat White,1,4.25,6.21,Credit Card,New,No,Delivery,1.96,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+1/05/2025,Latte,1,4.5,5.67,Credit Card,New,No,Dine-In,1.17,No,0,Sam,7,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-05
+1/05/2025,Iced Latte,3,5,15.02,Mobile Pay,Regular,No,Dine-In,0.02,No,0,Jamie,6,Drink,Cold Drink,Cloudy,No,Yes,No,2025-05
+1/05/2025,Mocha,1,4.75,6.08,Cash,Regular,Yes,Takeaway,1.33,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+1/05/2025,Cold Brew,1,5,6.8,Mobile Pay,New,Yes,Takeaway,1.8,No,0,Sam,2,Drink,Cold Drink,Cloudy,No,No,Yes,2025-05
+1/05/2025,Bagel,3,2.5,8.4,Cash,Regular,No,Delivery,0.9,No,0,Alex,5,Food,Sandwich,Rainy,No,No,Yes,2025-05
+1/05/2025,Iced Latte,3,5,16.95,Credit Card,New,Yes,Delivery,1.95,No,0,Sam,5,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-05
+1/05/2025,Chai Latte,3,4.75,15.14,Credit Card,New,Yes,Takeaway,0.89,No,0,Sam,6,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+1/05/2025,Muffin,2,2.75,5.58,Mobile Pay,Regular,No,Takeaway,0.96,Yes,0.88,Jamie,7,Food,Pastry,Rainy,No,No,No,2025-05
+1/05/2025,Espresso,3,3,9.36,Mobile Pay,New,No,Delivery,0.36,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,No,No,2025-05
+1/05/2025,Mocha,1,4.75,5.92,Credit Card,Regular,No,Takeaway,1.77,Yes,0.6,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+1/05/2025,Chai Latte,3,4.75,14,Cash,Regular,No,Dine-In,1.35,Yes,1.6,Alex,3,Drink,Hot Drink,Cloudy,Yes,No,No,2025-05
+1/05/2025,Americano,2,3.5,7.24,Credit Card,New,Yes,Dine-In,0.24,No,0,Alex,2,Drink,Hot Drink,Cloudy,Yes,Yes,No,2025-05
+1/05/2025,Bagel,2,2.5,6.77,Credit Card,New,No,Dine-In,1.77,No,0,Jamie,5,Food,Sandwich,Rainy,No,No,Yes,2025-05
+1/05/2025,Muffin,2,2.75,6.88,Mobile Pay,New,No,Dine-In,1.38,No,0,Sam,4,Food,Pastry,Cloudy,No,No,Yes,2025-05
+1/05/2025,Americano,3,3.5,10.74,Credit Card,Regular,No,Takeaway,0.76,Yes,0.52,Alex,6,Drink,Hot Drink,Sunny,No,No,No,2025-05
+1/05/2025,Espresso,1,3,3.19,Cash,New,Yes,Takeaway,1.27,Yes,1.08,Sam,4,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+1/05/2025,Cappuccino,3,4.25,14.75,Cash,New,Yes,Delivery,2,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+2/05/2025,Latte,3,4.5,15.26,Credit Card,Regular,No,Dine-In,1.76,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,No,No,2025-05
+2/05/2025,Latte,2,4.5,8.08,Cash,Regular,Yes,Delivery,0.37,Yes,1.29,Alex,2,Drink,Hot Drink,Sunny,No,No,No,2025-05
+2/05/2025,Muffin,2,2.75,5.46,Cash,New,Yes,Takeaway,1.1,Yes,1.14,Sam,4,Food,Pastry,Cloudy,No,No,Yes,2025-05
+2/05/2025,Bagel,1,2.5,2.8,Mobile Pay,Regular,No,Dine-In,1.83,Yes,1.53,Sam,2,Food,Sandwich,Rainy,No,No,No,2025-05
+2/05/2025,Muffin,3,2.75,7.77,Cash,Regular,No,Takeaway,0.29,Yes,0.77,Alex,3,Food,Pastry,Rainy,Yes,No,Yes,2025-05
+2/05/2025,Latte,1,4.5,3.87,Credit Card,New,Yes,Delivery,1.2,Yes,1.83,Alex,5,Drink,Hot Drink,Sunny,No,No,No,2025-05
+2/05/2025,Muffin,2,2.75,7.08,Mobile Pay,Regular,Yes,Delivery,1.58,No,0,Jamie,3,Food,Pastry,Rainy,No,Yes,No,2025-05
+2/05/2025,Bagel,3,2.5,7.71,Credit Card,Regular,Yes,Delivery,1.67,Yes,1.46,Jamie,6,Food,Sandwich,Rainy,Yes,No,No,2025-05
+2/05/2025,Cold Brew,1,5,6.13,Credit Card,New,No,Dine-In,1.92,Yes,0.79,Jamie,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+2/05/2025,Flat White,1,4.25,5.53,Cash,Regular,No,Takeaway,1.28,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+2/05/2025,Cappuccino,2,4.25,7.87,Cash,Regular,Yes,Takeaway,1.13,Yes,1.76,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+2/05/2025,Iced Latte,2,5,9.39,Mobile Pay,Regular,No,Dine-In,0.18,Yes,0.79,Alex,3,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-05
+2/05/2025,Espresso,2,3,4.6,Cash,Regular,Yes,Dine-In,0.57,Yes,1.97,Jamie,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+2/05/2025,Americano,1,3.5,4.56,Credit Card,Regular,Yes,Takeaway,1.06,No,0,Alex,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+2/05/2025,Chai Latte,3,4.75,15.15,Mobile Pay,Regular,Yes,Takeaway,0.9,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+2/05/2025,Flat White,3,4.25,12.38,Mobile Pay,New,Yes,Delivery,0.88,Yes,1.25,Alex,5,Drink,Hot Drink,Rainy,No,No,No,2025-05
+2/05/2025,Latte,2,4.5,9.13,Mobile Pay,New,Yes,Takeaway,0.13,No,0,Sam,7,Drink,Hot Drink,Rainy,Yes,No,No,2025-05
+2/05/2025,Flat White,2,4.25,8.78,Cash,Regular,Yes,Delivery,0.28,No,0,Alex,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+2/05/2025,Chai Latte,1,4.75,3.5,Mobile Pay,New,Yes,Dine-In,0.4,Yes,1.65,Alex,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+2/05/2025,Americano,1,3.5,3.34,Credit Card,New,Yes,Delivery,1.61,Yes,1.77,Jamie,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+3/05/2025,Chai Latte,1,4.75,4.4,Cash,New,No,Delivery,0.84,Yes,1.19,Sam,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+3/05/2025,Americano,3,3.5,12.47,Mobile Pay,New,Yes,Delivery,1.97,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,No,2025-05
+3/05/2025,Muffin,3,2.75,7.55,Credit Card,New,Yes,Takeaway,0.23,Yes,0.93,Jamie,7,Food,Pastry,Rainy,No,No,Yes,2025-05
+3/05/2025,Mocha,2,4.75,9.32,Credit Card,New,No,Delivery,1.02,Yes,1.2,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+3/05/2025,Croissant,1,3,3.86,Mobile Pay,Regular,No,Delivery,0.86,No,0,Sam,5,Food,Pastry,Rainy,No,No,Yes,2025-05
+3/05/2025,Cold Brew,1,5,5.19,Mobile Pay,New,No,Delivery,1.83,Yes,1.64,Jamie,6,Drink,Cold Drink,Rainy,No,Yes,No,2025-05
+3/05/2025,Iced Latte,1,5,6.4,Cash,Regular,No,Dine-In,1.4,No,0,Sam,7,Drink,Cold Drink,Sunny,No,No,No,2025-05
+3/05/2025,Latte,1,4.5,4.61,Mobile Pay,Regular,No,Dine-In,0.11,No,0,Sam,6,Drink,Hot Drink,Rainy,No,No,No,2025-05
+3/05/2025,Latte,1,4.5,3.48,Credit Card,New,No,Takeaway,0.28,Yes,1.3,Jamie,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-05
+3/05/2025,Croissant,2,3,7.01,Credit Card,New,Yes,Takeaway,1.01,No,0,Alex,7,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+3/05/2025,Cappuccino,3,4.25,13.33,Cash,Regular,No,Dine-In,0.58,No,0,Alex,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+3/05/2025,Espresso,3,3,7.91,Cash,New,No,Takeaway,0.26,Yes,1.35,Sam,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+3/05/2025,Cappuccino,2,4.25,7.4,Mobile Pay,New,No,Delivery,0.82,Yes,1.92,Alex,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+3/05/2025,Bagel,3,2.5,9.22,Cash,Regular,Yes,Takeaway,1.72,No,0,Alex,3,Food,Sandwich,Sunny,No,No,No,2025-05
+3/05/2025,Muffin,3,2.75,9.15,Cash,Regular,No,Delivery,0.9,No,0,Alex,4,Food,Pastry,Cloudy,No,Yes,No,2025-05
+3/05/2025,Espresso,1,3,2.88,Mobile Pay,Regular,Yes,Dine-In,1.56,Yes,1.68,Alex,5,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+3/05/2025,Iced Latte,3,5,15.82,Mobile Pay,New,Yes,Delivery,0.82,No,0,Jamie,5,Drink,Cold Drink,Cloudy,No,No,No,2025-05
+3/05/2025,Latte,2,4.5,9.34,Mobile Pay,New,No,Takeaway,0.34,No,0,Sam,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+3/05/2025,Flat White,1,4.25,3.99,Cash,Regular,No,Delivery,0.47,Yes,0.73,Sam,3,Drink,Hot Drink,Rainy,No,No,No,2025-05
+3/05/2025,Latte,2,4.5,9.72,Cash,Regular,No,Takeaway,0.72,No,0,Alex,5,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+3/05/2025,Chai Latte,2,4.75,10.21,Credit Card,New,Yes,Dine-In,0.71,No,0,Alex,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+3/05/2025,Latte,2,4.5,10.77,Cash,Regular,Yes,Delivery,1.77,No,0,Sam,5,Drink,Hot Drink,Cloudy,Yes,Yes,Yes,2025-05
+3/05/2025,Muffin,3,2.75,9.77,Credit Card,New,No,Delivery,1.52,No,0,Sam,3,Food,Pastry,Rainy,No,Yes,No,2025-05
+3/05/2025,Espresso,3,3,9.86,Cash,New,Yes,Dine-In,1.76,Yes,0.9,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+3/05/2025,Iced Latte,2,5,11.11,Cash,New,Yes,Takeaway,1.11,No,0,Sam,5,Drink,Cold Drink,Rainy,No,Yes,No,2025-05
+3/05/2025,Americano,2,3.5,8.76,Mobile Pay,New,No,Takeaway,1.76,No,0,Alex,7,Drink,Hot Drink,Sunny,No,No,No,2025-05
+3/05/2025,Mocha,2,4.75,9.51,Mobile Pay,New,Yes,Delivery,1.74,Yes,1.73,Alex,4,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+3/05/2025,Croissant,1,3,2.66,Cash,Regular,No,Takeaway,0.23,Yes,0.57,Alex,7,Food,Pastry,Rainy,No,No,No,2025-05
+3/05/2025,Chai Latte,2,4.75,11.26,Cash,New,No,Takeaway,1.76,No,0,Sam,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+3/05/2025,Americano,1,3.5,3.79,Mobile Pay,Regular,No,Delivery,1.72,Yes,1.43,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+3/05/2025,Chai Latte,2,4.75,8.87,Credit Card,New,Yes,Delivery,0.82,Yes,1.45,Alex,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+3/05/2025,Espresso,3,3,7.47,Credit Card,New,Yes,Dine-In,0.05,Yes,1.58,Alex,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+3/05/2025,Croissant,3,3,10.49,Cash,New,No,Takeaway,1.49,No,0,Jamie,2,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+3/05/2025,Americano,1,3.5,4.91,Cash,Regular,Yes,Takeaway,1.41,No,0,Alex,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+3/05/2025,Muffin,3,2.75,9.95,Credit Card,Regular,Yes,Delivery,1.7,No,0,Jamie,3,Food,Pastry,Sunny,No,Yes,Yes,2025-05
+3/05/2025,Chai Latte,1,4.75,4.46,Mobile Pay,New,Yes,Delivery,0.83,Yes,1.12,Jamie,3,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+4/05/2025,Muffin,1,2.75,3.61,Credit Card,Regular,Yes,Takeaway,0.86,No,0,Jamie,4,Food,Pastry,Rainy,Yes,No,No,2025-05
+4/05/2025,Espresso,3,3,8.99,Cash,New,No,Takeaway,1.7,Yes,1.71,Alex,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+4/05/2025,Cappuccino,2,4.25,9.03,Credit Card,New,Yes,Dine-In,1.87,Yes,1.34,Jamie,7,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-05
+4/05/2025,Cappuccino,2,4.25,8.43,Cash,Regular,No,Dine-In,0.7,Yes,0.77,Sam,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+4/05/2025,Flat White,2,4.25,10.43,Credit Card,Regular,Yes,Dine-In,1.93,No,0,Sam,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+4/05/2025,Americano,3,3.5,11.51,Mobile Pay,New,No,Takeaway,1.01,No,0,Alex,2,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-05
+4/05/2025,Americano,2,3.5,8.15,Credit Card,Regular,Yes,Dine-In,1.15,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+4/05/2025,Flat White,3,4.25,14.05,Credit Card,Regular,No,Dine-In,1.3,No,0,Sam,5,Drink,Hot Drink,Sunny,No,No,No,2025-05
+4/05/2025,Cold Brew,2,5,9.22,Cash,New,No,Delivery,0.06,Yes,0.84,Alex,2,Drink,Cold Drink,Rainy,Yes,No,No,2025-05
+4/05/2025,Mocha,1,4.75,6,Cash,Regular,Yes,Delivery,1.25,No,0,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+4/05/2025,Cappuccino,3,4.25,13.25,Mobile Pay,Regular,No,Delivery,0.5,No,0,Jamie,6,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+4/05/2025,Mocha,1,4.75,5.39,Credit Card,New,Yes,Dine-In,1.15,Yes,0.51,Alex,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+4/05/2025,Muffin,1,2.75,1.78,Cash,Regular,No,Takeaway,0.56,Yes,1.53,Alex,5,Food,Pastry,Cloudy,No,No,Yes,2025-05
+4/05/2025,Latte,1,4.5,2.68,Mobile Pay,New,Yes,Dine-In,0.18,Yes,2,Sam,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+4/05/2025,Croissant,1,3,2.62,Credit Card,Regular,No,Dine-In,0.69,Yes,1.07,Jamie,2,Food,Pastry,Sunny,No,No,Yes,2025-05
+4/05/2025,Americano,2,3.5,8.22,Mobile Pay,New,Yes,Delivery,1.84,Yes,0.62,Sam,7,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-05
+4/05/2025,Chai Latte,3,4.75,14.71,Mobile Pay,New,Yes,Dine-In,0.46,No,0,Jamie,6,Drink,Hot Drink,Cloudy,Yes,No,Yes,2025-05
+4/05/2025,Cappuccino,1,4.25,3.52,Credit Card,New,Yes,Dine-In,0.76,Yes,1.49,Alex,4,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+4/05/2025,Espresso,2,3,6.62,Mobile Pay,New,Yes,Dine-In,0.62,No,0,Alex,4,Drink,Hot Drink,Rainy,No,No,No,2025-05
+4/05/2025,Americano,1,3.5,3.74,Cash,Regular,No,Dine-In,1.74,Yes,1.5,Jamie,3,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+4/05/2025,Cappuccino,2,4.25,8.23,Mobile Pay,Regular,No,Dine-In,0.5,Yes,0.77,Alex,3,Drink,Hot Drink,Sunny,No,No,No,2025-05
+4/05/2025,Flat White,1,4.25,3.46,Mobile Pay,Regular,No,Dine-In,0.31,Yes,1.1,Jamie,3,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-05
+4/05/2025,Americano,3,3.5,12.3,Credit Card,New,Yes,Delivery,1.8,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-05
+4/05/2025,Bagel,3,2.5,7.09,Mobile Pay,Regular,Yes,Takeaway,0.42,Yes,0.83,Sam,6,Food,Sandwich,Rainy,Yes,No,No,2025-05
+4/05/2025,Mocha,3,4.75,12.8,Mobile Pay,Regular,Yes,Dine-In,0.3,Yes,1.75,Alex,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+4/05/2025,Cappuccino,1,4.25,3.61,Cash,New,No,Takeaway,0.1,Yes,0.74,Sam,3,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+4/05/2025,Bagel,2,2.5,6.19,Mobile Pay,New,Yes,Dine-In,1.19,No,0,Alex,4,Food,Sandwich,Cloudy,No,No,No,2025-05
+4/05/2025,Latte,3,4.5,14.47,Cash,New,No,Dine-In,1.76,Yes,0.79,Jamie,2,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+4/05/2025,Flat White,2,4.25,8.69,Credit Card,Regular,No,Dine-In,1.06,Yes,0.87,Alex,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+4/05/2025,Espresso,2,3,4.97,Cash,Regular,No,Takeaway,0.15,Yes,1.18,Sam,4,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+4/05/2025,Chai Latte,3,4.75,14.26,Cash,Regular,Yes,Takeaway,0.01,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+4/05/2025,Latte,2,4.5,10.77,Cash,New,No,Takeaway,1.77,No,0,Alex,6,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+4/05/2025,Muffin,1,2.75,4.54,Mobile Pay,Regular,Yes,Takeaway,1.79,No,0,Alex,3,Food,Pastry,Rainy,No,Yes,No,2025-05
+4/05/2025,Mocha,1,4.75,6.16,Cash,New,No,Delivery,1.41,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+4/05/2025,Mocha,3,4.75,13.75,Mobile Pay,New,Yes,Delivery,1.39,Yes,1.89,Jamie,7,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+4/05/2025,Iced Latte,2,5,11.9,Credit Card,Regular,Yes,Delivery,1.9,No,0,Sam,6,Drink,Cold Drink,Sunny,No,Yes,No,2025-05
+4/05/2025,Cold Brew,2,5,10.12,Cash,New,No,Takeaway,1.04,Yes,0.92,Sam,6,Drink,Cold Drink,Rainy,Yes,Yes,No,2025-05
+4/05/2025,Espresso,1,3,2.57,Cash,New,No,Delivery,1.28,Yes,1.71,Alex,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+4/05/2025,Cold Brew,1,5,5.24,Credit Card,New,Yes,Takeaway,0.24,No,0,Sam,4,Drink,Cold Drink,Rainy,No,No,No,2025-05
+4/05/2025,Cold Brew,1,5,4.66,Cash,Regular,No,Delivery,0.7,Yes,1.04,Jamie,2,Drink,Cold Drink,Sunny,No,No,Yes,2025-05
+4/05/2025,Bagel,1,2.5,3.13,Cash,Regular,No,Delivery,0.63,No,0,Alex,2,Food,Sandwich,Rainy,No,Yes,No,2025-05
+4/05/2025,Iced Latte,3,5,15.34,Mobile Pay,Regular,No,Takeaway,1.34,Yes,1,Alex,6,Drink,Cold Drink,Sunny,No,Yes,No,2025-05
+4/05/2025,Latte,3,4.5,12.57,Mobile Pay,New,Yes,Dine-In,0.28,Yes,1.21,Jamie,7,Drink,Hot Drink,Sunny,No,No,No,2025-05
+4/05/2025,Latte,3,4.5,13.75,Mobile Pay,New,No,Delivery,0.25,No,0,Jamie,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+4/05/2025,Muffin,1,2.75,1.97,Mobile Pay,Regular,No,Dine-In,0.38,Yes,1.16,Jamie,3,Food,Pastry,Sunny,Yes,No,No,2025-05
+4/05/2025,Croissant,3,3,8.19,Credit Card,New,No,Takeaway,0.49,Yes,1.3,Alex,3,Food,Pastry,Cloudy,No,No,Yes,2025-05
+4/05/2025,Muffin,1,2.75,1.61,Mobile Pay,Regular,Yes,Dine-In,0.28,Yes,1.42,Jamie,6,Food,Pastry,Sunny,Yes,Yes,Yes,2025-05
+4/05/2025,Iced Latte,2,5,9.61,Cash,New,No,Takeaway,1.43,Yes,1.82,Jamie,5,Drink,Cold Drink,Rainy,Yes,Yes,No,2025-05
+5/05/2025,Chai Latte,1,4.75,5.45,Cash,Regular,Yes,Delivery,0.7,No,0,Alex,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+5/05/2025,Cappuccino,2,4.25,8.74,Credit Card,New,Yes,Dine-In,0.24,No,0,Alex,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+5/05/2025,Muffin,3,2.75,8.3,Cash,Regular,Yes,Delivery,0.05,No,0,Alex,7,Food,Pastry,Cloudy,No,No,No,2025-05
+5/05/2025,Chai Latte,1,4.75,5.43,Mobile Pay,New,Yes,Delivery,0.68,No,0,Jamie,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-05
+5/05/2025,Bagel,1,2.5,3.76,Cash,Regular,Yes,Takeaway,1.26,No,0,Alex,3,Food,Sandwich,Cloudy,Yes,Yes,Yes,2025-05
+5/05/2025,Chai Latte,3,4.75,14.2,Cash,New,Yes,Takeaway,0.78,Yes,0.83,Sam,5,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-05
+5/05/2025,Iced Latte,2,5,10.19,Mobile Pay,New,No,Delivery,0.19,No,0,Sam,4,Drink,Cold Drink,Sunny,Yes,No,Yes,2025-05
+5/05/2025,Chai Latte,2,4.75,11.45,Cash,New,No,Takeaway,1.95,No,0,Jamie,6,Drink,Hot Drink,Cloudy,Yes,No,No,2025-05
+5/05/2025,Cappuccino,2,4.25,9.81,Credit Card,Regular,Yes,Dine-In,1.31,No,0,Sam,4,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-05
+5/05/2025,Muffin,1,2.75,3.55,Credit Card,Regular,No,Takeaway,0.8,No,0,Sam,6,Food,Pastry,Rainy,No,No,Yes,2025-05
+5/05/2025,Cappuccino,3,4.25,14.57,Cash,New,Yes,Dine-In,1.82,No,0,Sam,6,Drink,Hot Drink,Sunny,No,No,No,2025-05
+5/05/2025,Mocha,2,4.75,9.82,Mobile Pay,New,No,Dine-In,1.81,Yes,1.49,Alex,5,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+5/05/2025,Espresso,2,3,6.82,Mobile Pay,New,Yes,Takeaway,0.82,No,0,Sam,7,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+5/05/2025,Chai Latte,2,4.75,8.51,Cash,New,Yes,Takeaway,0.97,Yes,1.96,Sam,4,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-05
+5/05/2025,Americano,2,3.5,6.64,Cash,Regular,Yes,Dine-In,0.24,Yes,0.6,Jamie,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+5/05/2025,Latte,2,4.5,9.31,Mobile Pay,New,No,Dine-In,0.31,No,0,Alex,3,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+5/05/2025,Cold Brew,3,5,14.09,Mobile Pay,Regular,No,Delivery,0.48,Yes,1.39,Jamie,6,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-05
+5/05/2025,Muffin,2,2.75,5.96,Cash,Regular,Yes,Dine-In,0.46,No,0,Sam,3,Food,Pastry,Cloudy,Yes,No,Yes,2025-05
+5/05/2025,Mocha,1,4.75,5.58,Credit Card,New,No,Dine-In,0.83,No,0,Jamie,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+5/05/2025,Croissant,1,3,3.34,Mobile Pay,Regular,No,Dine-In,1.33,Yes,0.99,Alex,5,Food,Pastry,Rainy,No,No,No,2025-05
+5/05/2025,Mocha,1,4.75,5.35,Mobile Pay,New,No,Delivery,0.6,No,0,Alex,5,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+5/05/2025,Croissant,3,3,8.91,Credit Card,New,No,Delivery,1.03,Yes,1.12,Sam,7,Food,Pastry,Sunny,Yes,Yes,No,2025-05
+5/05/2025,Espresso,1,3,3.49,Credit Card,Regular,Yes,Takeaway,0.49,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+5/05/2025,Muffin,1,2.75,1.97,Mobile Pay,Regular,Yes,Dine-In,0.05,Yes,0.83,Alex,7,Food,Pastry,Sunny,No,No,Yes,2025-05
+5/05/2025,Cold Brew,1,5,6.37,Mobile Pay,New,Yes,Delivery,1.37,No,0,Alex,4,Drink,Cold Drink,Cloudy,No,Yes,No,2025-05
+6/05/2025,Iced Latte,3,5,14.37,Cash,New,No,Dine-In,0.02,Yes,0.65,Sam,4,Drink,Cold Drink,Cloudy,No,Yes,No,2025-05
+6/05/2025,Muffin,1,2.75,1.46,Credit Card,New,Yes,Takeaway,0.16,Yes,1.45,Sam,4,Food,Pastry,Cloudy,No,No,No,2025-05
+6/05/2025,Americano,3,3.5,9.21,Mobile Pay,Regular,No,Dine-In,0.57,Yes,1.86,Alex,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+6/05/2025,Americano,2,3.5,8.87,Cash,Regular,Yes,Dine-In,1.87,No,0,Alex,7,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+6/05/2025,Muffin,1,2.75,3.28,Credit Card,Regular,Yes,Delivery,1.31,Yes,0.78,Sam,3,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+6/05/2025,Iced Latte,1,5,3.7,Cash,Regular,Yes,Takeaway,0.62,Yes,1.92,Jamie,7,Drink,Cold Drink,Rainy,No,No,No,2025-05
+6/05/2025,Iced Latte,3,5,16.43,Cash,Regular,No,Delivery,1.43,No,0,Jamie,3,Drink,Cold Drink,Rainy,No,No,No,2025-05
+6/05/2025,Americano,1,3.5,4.68,Mobile Pay,New,No,Takeaway,1.18,No,0,Sam,3,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+6/05/2025,Espresso,2,3,5.14,Cash,Regular,No,Dine-In,0.79,Yes,1.65,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+6/05/2025,Flat White,1,4.25,2.75,Mobile Pay,New,Yes,Takeaway,0.34,Yes,1.84,Alex,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+6/05/2025,Espresso,2,3,4.46,Cash,New,No,Delivery,0.25,Yes,1.79,Alex,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+6/05/2025,Americano,1,3.5,4.79,Mobile Pay,Regular,Yes,Takeaway,1.29,No,0,Sam,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+6/05/2025,Espresso,2,3,7.61,Mobile Pay,New,Yes,Delivery,1.61,No,0,Alex,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+6/05/2025,Latte,3,4.5,15.46,Cash,Regular,Yes,Delivery,1.96,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+6/05/2025,Chai Latte,2,4.75,8.9,Mobile Pay,Regular,Yes,Takeaway,1.16,Yes,1.76,Alex,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+6/05/2025,Muffin,2,2.75,5.61,Credit Card,Regular,Yes,Delivery,0.11,No,0,Jamie,4,Food,Pastry,Cloudy,No,Yes,Yes,2025-05
+6/05/2025,Americano,3,3.5,11,Credit Card,Regular,No,Dine-In,0.5,No,0,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-05
+6/05/2025,Muffin,1,2.75,3.63,Cash,New,Yes,Dine-In,0.88,No,0,Jamie,2,Food,Pastry,Sunny,No,Yes,No,2025-05
+6/05/2025,Flat White,1,4.25,3.97,Credit Card,Regular,No,Dine-In,0.34,Yes,0.62,Sam,5,Drink,Hot Drink,Sunny,Yes,No,No,2025-05
+6/05/2025,Chai Latte,1,4.75,5.58,Cash,Regular,Yes,Takeaway,0.83,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,No,2025-05
+6/05/2025,Latte,1,4.5,5.64,Credit Card,Regular,Yes,Dine-In,1.88,Yes,0.74,Alex,4,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+6/05/2025,Muffin,2,2.75,4.02,Cash,New,No,Delivery,0.5,Yes,1.98,Jamie,2,Food,Pastry,Cloudy,No,Yes,Yes,2025-05
+6/05/2025,Flat White,2,4.25,9.33,Mobile Pay,New,Yes,Delivery,0.83,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+6/05/2025,Latte,3,4.5,12.46,Credit Card,New,Yes,Dine-In,0.46,Yes,1.5,Sam,6,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+6/05/2025,Croissant,3,3,10.41,Credit Card,New,Yes,Delivery,1.41,No,0,Alex,6,Food,Pastry,Cloudy,No,No,No,2025-05
+6/05/2025,Mocha,3,4.75,15.23,Cash,New,No,Takeaway,0.98,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,No,2025-05
+6/05/2025,Espresso,3,3,9.98,Credit Card,New,No,Dine-In,1.96,Yes,0.98,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+6/05/2025,Latte,3,4.5,13.42,Credit Card,New,Yes,Takeaway,1.53,Yes,1.61,Jamie,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+6/05/2025,Americano,2,3.5,7.02,Cash,Regular,No,Takeaway,1.31,Yes,1.29,Jamie,3,Drink,Hot Drink,Rainy,No,No,No,2025-05
+6/05/2025,Cold Brew,2,5,10.72,Cash,Regular,No,Delivery,0.72,No,0,Jamie,4,Drink,Cold Drink,Sunny,No,Yes,No,2025-05
+6/05/2025,Americano,3,3.5,10.89,Mobile Pay,Regular,No,Delivery,0.39,No,0,Sam,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+6/05/2025,Chai Latte,3,4.75,15.56,Mobile Pay,Regular,Yes,Dine-In,1.31,No,0,Alex,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+6/05/2025,Bagel,3,2.5,6.29,Credit Card,Regular,Yes,Takeaway,0.18,Yes,1.39,Sam,3,Food,Sandwich,Sunny,No,No,Yes,2025-05
+6/05/2025,Mocha,1,4.75,5.12,Credit Card,New,Yes,Takeaway,0.37,No,0,Alex,7,Drink,Hot Drink,Rainy,Yes,No,No,2025-05
+6/05/2025,Chai Latte,1,4.75,5.2,Cash,New,Yes,Dine-In,1.24,Yes,0.79,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+6/05/2025,Muffin,2,2.75,5.29,Mobile Pay,Regular,No,Takeaway,0.85,Yes,1.06,Sam,3,Food,Pastry,Sunny,No,No,Yes,2025-05
+6/05/2025,Bagel,3,2.5,9.34,Mobile Pay,New,No,Takeaway,1.84,No,0,Alex,6,Food,Sandwich,Sunny,No,No,Yes,2025-05
+6/05/2025,Espresso,2,3,6.08,Credit Card,Regular,Yes,Delivery,1.84,Yes,1.76,Sam,7,Drink,Hot Drink,Sunny,No,No,No,2025-05
+6/05/2025,Latte,3,4.5,14.42,Mobile Pay,Regular,No,Dine-In,0.92,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+6/05/2025,Flat White,3,4.25,13.05,Credit Card,Regular,Yes,Takeaway,1.38,Yes,1.08,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+6/05/2025,Muffin,3,2.75,8.09,Mobile Pay,Regular,No,Delivery,0.43,Yes,0.59,Sam,6,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+7/05/2025,Flat White,2,4.25,10.34,Cash,New,No,Takeaway,1.84,No,0,Jamie,6,Drink,Hot Drink,Rainy,No,No,No,2025-05
+7/05/2025,Latte,3,4.5,13.76,Cash,Regular,Yes,Delivery,1.59,Yes,1.33,Sam,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+7/05/2025,Croissant,2,3,5.83,Cash,New,Yes,Dine-In,0.56,Yes,0.73,Sam,6,Food,Pastry,Sunny,No,No,Yes,2025-05
+7/05/2025,Iced Latte,1,5,3.99,Cash,New,Yes,Delivery,0.46,Yes,1.47,Alex,3,Drink,Cold Drink,Cloudy,No,No,No,2025-05
+7/05/2025,Mocha,1,4.75,3.44,Mobile Pay,New,No,Takeaway,0.06,Yes,1.37,Alex,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+7/05/2025,Flat White,3,4.25,14.35,Mobile Pay,Regular,Yes,Delivery,1.6,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+7/05/2025,Croissant,1,3,1.81,Mobile Pay,Regular,Yes,Delivery,0.21,Yes,1.4,Sam,2,Food,Pastry,Rainy,No,No,No,2025-05
+7/05/2025,Espresso,2,3,7.5,Credit Card,New,No,Takeaway,1.5,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+7/05/2025,Chai Latte,3,4.75,14.25,Cash,Regular,Yes,Dine-In,1.57,Yes,1.57,Sam,3,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+7/05/2025,Cappuccino,2,4.25,9.57,Cash,New,No,Takeaway,1.07,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+7/05/2025,Latte,2,4.5,9.91,Credit Card,New,No,Takeaway,1.71,Yes,0.8,Alex,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+7/05/2025,Muffin,1,2.75,3.13,Mobile Pay,Regular,Yes,Dine-In,1.33,Yes,0.95,Alex,2,Food,Pastry,Sunny,No,No,Yes,2025-05
+7/05/2025,Cold Brew,3,5,14.03,Mobile Pay,Regular,No,Dine-In,0.86,Yes,1.83,Jamie,7,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-05
+7/05/2025,Muffin,1,2.75,1.74,Cash,Regular,No,Delivery,0.37,Yes,1.38,Sam,4,Food,Pastry,Sunny,No,Yes,Yes,2025-05
+7/05/2025,Iced Latte,3,5,13.88,Cash,New,Yes,Takeaway,0.22,Yes,1.34,Jamie,2,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+7/05/2025,Latte,3,4.5,15.18,Cash,New,No,Delivery,1.68,No,0,Alex,4,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+7/05/2025,Mocha,2,4.75,10.64,Credit Card,Regular,Yes,Delivery,1.84,Yes,0.7,Alex,2,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+7/05/2025,Muffin,3,2.75,7.24,Credit Card,Regular,Yes,Dine-In,0.22,Yes,1.23,Alex,7,Food,Pastry,Rainy,No,No,No,2025-05
+7/05/2025,Latte,3,4.5,13.73,Cash,Regular,No,Dine-In,0.76,Yes,0.53,Jamie,5,Drink,Hot Drink,Sunny,No,No,No,2025-05
+7/05/2025,Flat White,3,4.25,14.57,Credit Card,New,No,Delivery,1.82,No,0,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+7/05/2025,Flat White,2,4.25,8.76,Mobile Pay,Regular,No,Dine-In,1.54,Yes,1.28,Alex,4,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+7/05/2025,Mocha,1,4.75,4.99,Credit Card,Regular,No,Delivery,1.59,Yes,1.35,Jamie,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+7/05/2025,Cold Brew,1,5,5.18,Cash,New,No,Delivery,0.18,No,0,Alex,2,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-05
+7/05/2025,Croissant,2,3,6.22,Credit Card,New,No,Dine-In,0.22,No,0,Jamie,3,Food,Pastry,Rainy,No,No,Yes,2025-05
+7/05/2025,Muffin,2,2.75,5.44,Credit Card,Regular,No,Takeaway,1.35,Yes,1.41,Alex,4,Food,Pastry,Rainy,No,No,No,2025-05
+7/05/2025,Croissant,3,3,8.12,Mobile Pay,New,No,Takeaway,0.21,Yes,1.09,Alex,6,Food,Pastry,Sunny,No,No,No,2025-05
+7/05/2025,Latte,1,4.5,4.32,Credit Card,Regular,No,Takeaway,0.51,Yes,0.69,Alex,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+7/05/2025,Flat White,2,4.25,8.18,Credit Card,Regular,Yes,Takeaway,1.04,Yes,1.36,Jamie,5,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-05
+7/05/2025,Muffin,1,2.75,2.69,Mobile Pay,Regular,Yes,Delivery,1.55,Yes,1.61,Sam,7,Food,Pastry,Rainy,No,No,No,2025-05
+7/05/2025,Croissant,1,3,3.91,Credit Card,Regular,No,Delivery,0.91,No,0,Sam,6,Food,Pastry,Rainy,No,No,Yes,2025-05
+7/05/2025,Cold Brew,2,5,10.7,Credit Card,New,No,Delivery,1.35,Yes,0.65,Alex,6,Drink,Cold Drink,Sunny,No,No,No,2025-05
+7/05/2025,Chai Latte,1,4.75,4.92,Cash,Regular,Yes,Dine-In,1.64,Yes,1.47,Alex,6,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+7/05/2025,Latte,2,4.5,10.37,Mobile Pay,New,Yes,Takeaway,1.37,No,0,Sam,2,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-05
+7/05/2025,Muffin,3,2.75,10,Cash,New,Yes,Dine-In,1.75,No,0,Sam,2,Food,Pastry,Rainy,No,No,Yes,2025-05
+7/05/2025,Chai Latte,3,4.75,14.47,Mobile Pay,Regular,No,Takeaway,1.01,Yes,0.79,Jamie,3,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+7/05/2025,Latte,3,4.5,13.35,Credit Card,New,No,Dine-In,0.9,Yes,1.05,Alex,6,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+7/05/2025,Espresso,2,3,4.27,Cash,Regular,Yes,Dine-In,0.24,Yes,1.97,Alex,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+7/05/2025,Flat White,3,4.25,13.6,Credit Card,Regular,No,Dine-In,0.85,No,0,Alex,7,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+7/05/2025,Croissant,3,3,8.25,Cash,Regular,No,Takeaway,1.16,Yes,1.91,Jamie,2,Food,Pastry,Cloudy,No,Yes,Yes,2025-05
+7/05/2025,Cold Brew,3,5,16.08,Credit Card,New,No,Dine-In,1.08,No,0,Alex,7,Drink,Cold Drink,Rainy,No,Yes,Yes,2025-05
+7/05/2025,Cappuccino,2,4.25,9.7,Credit Card,New,Yes,Delivery,1.2,No,0,Jamie,7,Drink,Hot Drink,Sunny,Yes,No,No,2025-05
+7/05/2025,Bagel,2,2.5,6.88,Cash,New,No,Takeaway,1.88,No,0,Alex,4,Food,Sandwich,Sunny,No,No,No,2025-05
+7/05/2025,Cappuccino,2,4.25,8.52,Mobile Pay,Regular,Yes,Takeaway,1.56,Yes,1.54,Jamie,2,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+7/05/2025,Croissant,3,3,10.89,Cash,New,No,Dine-In,1.89,No,0,Jamie,4,Food,Pastry,Sunny,No,No,Yes,2025-05
+7/05/2025,Flat White,3,4.25,13.14,Cash,New,No,Dine-In,0.39,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+7/05/2025,Mocha,2,4.75,8.13,Mobile Pay,Regular,Yes,Delivery,0.2,Yes,1.57,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+7/05/2025,Cappuccino,2,4.25,9.89,Credit Card,New,No,Dine-In,1.39,No,0,Jamie,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+8/05/2025,Muffin,3,2.75,10.06,Mobile Pay,New,No,Takeaway,1.81,No,0,Jamie,6,Food,Pastry,Sunny,No,No,No,2025-05
+8/05/2025,Latte,2,4.5,10.78,Mobile Pay,New,No,Takeaway,1.78,No,0,Alex,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+8/05/2025,Chai Latte,1,4.75,3.65,Credit Card,New,Yes,Dine-In,0.04,Yes,1.14,Alex,7,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+8/05/2025,Croissant,3,3,9.49,Mobile Pay,Regular,No,Dine-In,1.24,Yes,0.75,Alex,7,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+8/05/2025,Iced Latte,1,5,5.46,Credit Card,Regular,No,Delivery,1.53,Yes,1.07,Jamie,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-05
+8/05/2025,Chai Latte,1,4.75,5.05,Mobile Pay,Regular,Yes,Delivery,0.3,No,0,Jamie,7,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+8/05/2025,Chai Latte,3,4.75,14.85,Mobile Pay,Regular,No,Takeaway,0.6,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,No,2025-05
+8/05/2025,Iced Latte,2,5,9.19,Mobile Pay,Regular,Yes,Dine-In,0.18,Yes,0.99,Sam,5,Drink,Cold Drink,Sunny,No,Yes,No,2025-05
+8/05/2025,Cold Brew,1,5,5.28,Mobile Pay,Regular,No,Delivery,0.28,No,0,Sam,3,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-05
+8/05/2025,Espresso,1,3,4,Mobile Pay,Regular,No,Takeaway,1,No,0,Alex,3,Drink,Hot Drink,Cloudy,Yes,Yes,Yes,2025-05
+8/05/2025,Iced Latte,1,5,4.02,Mobile Pay,New,Yes,Dine-In,0.24,Yes,1.22,Alex,3,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-05
+8/05/2025,Mocha,1,4.75,5.08,Mobile Pay,New,Yes,Delivery,0.33,No,0,Jamie,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+8/05/2025,Bagel,3,2.5,8.3,Mobile Pay,New,Yes,Takeaway,0.8,No,0,Sam,6,Food,Sandwich,Cloudy,No,No,No,2025-05
+8/05/2025,Muffin,1,2.75,3.36,Cash,Regular,No,Dine-In,1.24,Yes,0.63,Jamie,2,Food,Pastry,Rainy,No,No,No,2025-05
+8/05/2025,Mocha,2,4.75,10.67,Cash,New,No,Delivery,1.17,No,0,Alex,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+8/05/2025,Flat White,3,4.25,14.48,Mobile Pay,Regular,No,Delivery,1.73,No,0,Sam,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+8/05/2025,Muffin,3,2.75,8.2,Credit Card,New,No,Takeaway,1.64,Yes,1.69,Sam,3,Food,Pastry,Sunny,No,No,No,2025-05
+8/05/2025,Croissant,2,3,4.5,Mobile Pay,Regular,Yes,Delivery,0.31,Yes,1.81,Alex,5,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+8/05/2025,Americano,1,3.5,5.42,Credit Card,Regular,No,Takeaway,1.92,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+8/05/2025,Iced Latte,2,5,8.66,Cash,New,No,Dine-In,0.57,Yes,1.91,Jamie,4,Drink,Cold Drink,Sunny,No,No,Yes,2025-05
+8/05/2025,Espresso,2,3,6.87,Credit Card,Regular,No,Delivery,0.87,No,0,Sam,2,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+8/05/2025,Muffin,1,2.75,3.13,Mobile Pay,New,Yes,Takeaway,0.93,Yes,0.55,Alex,2,Food,Pastry,Rainy,No,No,No,2025-05
+8/05/2025,Mocha,3,4.75,15.18,Cash,New,Yes,Takeaway,0.93,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+8/05/2025,Americano,2,3.5,6.12,Cash,New,No,Dine-In,0.6,Yes,1.48,Alex,3,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+8/05/2025,Croissant,2,3,6.86,Mobile Pay,New,No,Delivery,0.86,No,0,Alex,6,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+8/05/2025,Muffin,1,2.75,1.68,Mobile Pay,Regular,No,Dine-In,0.83,Yes,1.9,Jamie,2,Food,Pastry,Sunny,No,Yes,No,2025-05
+8/05/2025,Latte,1,4.5,6.23,Mobile Pay,Regular,Yes,Delivery,1.73,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,No,No,2025-05
+8/05/2025,Chai Latte,1,4.75,3.51,Credit Card,New,No,Delivery,0.29,Yes,1.53,Sam,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+8/05/2025,Espresso,2,3,4.77,Cash,Regular,Yes,Takeaway,0.11,Yes,1.34,Sam,2,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-05
+8/05/2025,Cappuccino,2,4.25,7.36,Mobile Pay,Regular,Yes,Dine-In,0.14,Yes,1.28,Sam,3,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+8/05/2025,Chai Latte,1,4.75,5.75,Mobile Pay,New,No,Dine-In,1,No,0,Alex,3,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+9/05/2025,Cold Brew,2,5,10.15,Cash,New,Yes,Takeaway,1.04,Yes,0.89,Alex,3,Drink,Cold Drink,Rainy,No,Yes,No,2025-05
+9/05/2025,Americano,1,3.5,3.81,Cash,New,Yes,Dine-In,1.87,Yes,1.56,Sam,2,Drink,Hot Drink,Cloudy,Yes,No,No,2025-05
+9/05/2025,Cold Brew,3,5,16.01,Cash,Regular,No,Takeaway,1.87,Yes,0.86,Jamie,5,Drink,Cold Drink,Rainy,Yes,Yes,Yes,2025-05
+9/05/2025,Iced Latte,2,5,10.81,Cash,New,Yes,Takeaway,0.81,No,0,Alex,4,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-05
+9/05/2025,Mocha,3,4.75,15.39,Cash,New,No,Delivery,1.14,No,0,Alex,2,Drink,Hot Drink,Rainy,No,No,No,2025-05
+9/05/2025,Mocha,1,4.75,4.25,Mobile Pay,Regular,Yes,Delivery,1.05,Yes,1.55,Alex,2,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+9/05/2025,Cappuccino,3,4.25,13.76,Mobile Pay,New,No,Takeaway,1.01,No,0,Alex,2,Drink,Hot Drink,Sunny,No,No,No,2025-05
+9/05/2025,Americano,2,3.5,6.76,Credit Card,New,Yes,Takeaway,0.47,Yes,0.71,Sam,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+9/05/2025,Flat White,1,4.25,4.65,Mobile Pay,New,Yes,Takeaway,1.63,Yes,1.23,Alex,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+9/05/2025,Chai Latte,3,4.75,13.33,Cash,Regular,No,Dine-In,0.6,Yes,1.52,Jamie,2,Drink,Hot Drink,Sunny,Yes,No,Yes,2025-05
+9/05/2025,Muffin,2,2.75,4.1,Mobile Pay,Regular,Yes,Takeaway,0.24,Yes,1.64,Alex,2,Food,Pastry,Cloudy,No,No,Yes,2025-05
+9/05/2025,Iced Latte,1,5,6.73,Credit Card,Regular,Yes,Dine-In,1.73,No,0,Jamie,4,Drink,Cold Drink,Cloudy,No,Yes,Yes,2025-05
+9/05/2025,Mocha,1,4.75,5.26,Cash,Regular,Yes,Dine-In,0.51,No,0,Alex,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+9/05/2025,Cold Brew,1,5,4.18,Mobile Pay,New,No,Takeaway,0.04,Yes,0.86,Jamie,5,Drink,Cold Drink,Cloudy,No,No,Yes,2025-05
+9/05/2025,Chai Latte,3,4.75,15.38,Credit Card,New,Yes,Dine-In,1.13,No,0,Jamie,5,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+9/05/2025,Muffin,2,2.75,6.22,Credit Card,Regular,No,Delivery,1.89,Yes,1.17,Sam,7,Food,Pastry,Cloudy,No,No,No,2025-05
+9/05/2025,Mocha,2,4.75,10.79,Mobile Pay,New,Yes,Dine-In,1.29,No,0,Alex,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+9/05/2025,Croissant,1,3,4.94,Credit Card,New,No,Takeaway,1.94,No,0,Alex,7,Food,Pastry,Rainy,No,Yes,No,2025-05
+9/05/2025,Iced Latte,1,5,6.14,Cash,Regular,No,Takeaway,1.14,No,0,Sam,4,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+9/05/2025,Chai Latte,1,4.75,5.57,Credit Card,Regular,No,Dine-In,0.82,No,0,Sam,2,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+9/05/2025,Muffin,1,2.75,1.6,Cash,Regular,No,Dine-In,0.66,Yes,1.81,Jamie,2,Food,Pastry,Rainy,No,No,Yes,2025-05
+9/05/2025,Croissant,2,3,7.92,Mobile Pay,Regular,No,Dine-In,1.92,No,0,Sam,6,Food,Pastry,Sunny,No,No,Yes,2025-05
+9/05/2025,Iced Latte,3,5,15.06,Cash,New,No,Takeaway,1.35,Yes,1.29,Alex,4,Drink,Cold Drink,Rainy,No,No,No,2025-05
+9/05/2025,Latte,3,4.5,14.51,Mobile Pay,New,No,Dine-In,1.01,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+9/05/2025,Bagel,3,2.5,7.87,Cash,New,No,Delivery,0.37,No,0,Alex,4,Food,Sandwich,Rainy,No,No,No,2025-05
+9/05/2025,Flat White,2,4.25,7.77,Cash,Regular,Yes,Dine-In,0.67,Yes,1.4,Jamie,6,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+9/05/2025,Cold Brew,2,5,11.69,Cash,New,Yes,Dine-In,1.69,No,0,Sam,5,Drink,Cold Drink,Sunny,No,No,No,2025-05
+9/05/2025,Croissant,1,3,4.05,Credit Card,Regular,No,Takeaway,1.05,No,0,Sam,6,Food,Pastry,Rainy,No,Yes,Yes,2025-05
+9/05/2025,Croissant,3,3,9.27,Credit Card,Regular,Yes,Dine-In,0.83,Yes,0.56,Sam,3,Food,Pastry,Sunny,No,No,Yes,2025-05
+9/05/2025,Bagel,2,2.5,6.78,Mobile Pay,Regular,No,Takeaway,1.78,No,0,Jamie,2,Food,Sandwich,Sunny,No,No,Yes,2025-05
+9/05/2025,Latte,3,4.5,14.25,Cash,New,Yes,Takeaway,0.75,No,0,Alex,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+9/05/2025,Latte,1,4.5,4.94,Credit Card,New,Yes,Delivery,0.44,No,0,Sam,3,Drink,Hot Drink,Sunny,No,No,No,2025-05
+9/05/2025,Muffin,2,2.75,5.29,Mobile Pay,New,No,Delivery,0.8,Yes,1.01,Sam,3,Food,Pastry,Cloudy,No,No,Yes,2025-05
+9/05/2025,Cappuccino,3,4.25,12.51,Mobile Pay,Regular,Yes,Dine-In,0.4,Yes,0.64,Jamie,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+9/05/2025,Americano,1,3.5,3.04,Mobile Pay,New,Yes,Takeaway,0.14,Yes,0.6,Sam,7,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+9/05/2025,Flat White,1,4.25,4.19,Mobile Pay,Regular,No,Dine-In,1.26,Yes,1.32,Sam,2,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+9/05/2025,Muffin,2,2.75,5.04,Cash,Regular,No,Takeaway,1.32,Yes,1.78,Sam,4,Food,Pastry,Rainy,No,Yes,No,2025-05
+9/05/2025,Latte,3,4.5,13.58,Credit Card,Regular,No,Dine-In,1.05,Yes,0.97,Sam,5,Drink,Hot Drink,Sunny,No,No,No,2025-05
+9/05/2025,Espresso,3,3,9.08,Mobile Pay,Regular,No,Takeaway,1.11,Yes,1.03,Alex,7,Drink,Hot Drink,Sunny,No,No,No,2025-05
+9/05/2025,Mocha,2,4.75,11.36,Credit Card,Regular,Yes,Takeaway,1.86,No,0,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+9/05/2025,Americano,3,3.5,10.9,Cash,New,Yes,Dine-In,1.82,Yes,1.42,Sam,6,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+9/05/2025,Bagel,1,2.5,4.11,Credit Card,New,Yes,Takeaway,1.61,No,0,Alex,2,Food,Sandwich,Rainy,No,No,No,2025-05
+9/05/2025,Iced Latte,1,5,3.27,Cash,Regular,Yes,Takeaway,0.11,Yes,1.84,Jamie,4,Drink,Cold Drink,Sunny,No,No,No,2025-05
+9/05/2025,Bagel,1,2.5,1.72,Cash,Regular,No,Delivery,0.49,Yes,1.27,Jamie,2,Food,Sandwich,Cloudy,No,Yes,Yes,2025-05
+9/05/2025,Cold Brew,2,5,10.15,Credit Card,New,Yes,Takeaway,0.99,Yes,0.84,Alex,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-05
+9/05/2025,Cappuccino,2,4.25,8.68,Credit Card,Regular,Yes,Dine-In,0.18,No,0,Jamie,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Bagel,1,2.5,3.16,Mobile Pay,New,Yes,Takeaway,0.66,No,0,Jamie,6,Food,Sandwich,Rainy,No,No,Yes,2025-05
+10/05/2025,Espresso,3,3,8.87,Credit Card,Regular,No,Takeaway,1.66,Yes,1.79,Jamie,3,Drink,Hot Drink,Sunny,No,No,No,2025-05
+10/05/2025,Flat White,1,4.25,5.33,Cash,Regular,Yes,Takeaway,1.08,No,0,Jamie,2,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+10/05/2025,Bagel,2,2.5,4.37,Cash,Regular,Yes,Takeaway,0.88,Yes,1.51,Jamie,2,Food,Sandwich,Cloudy,No,No,Yes,2025-05
+10/05/2025,Flat White,2,4.25,7.73,Cash,New,No,Dine-In,0.5,Yes,1.27,Alex,3,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+10/05/2025,Iced Latte,1,5,5.06,Cash,Regular,Yes,Dine-In,0.99,Yes,0.93,Sam,2,Drink,Cold Drink,Rainy,No,No,No,2025-05
+10/05/2025,Cappuccino,2,4.25,8.53,Credit Card,Regular,Yes,Delivery,1.23,Yes,1.2,Sam,5,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+10/05/2025,Iced Latte,1,5,5.65,Mobile Pay,New,No,Delivery,0.65,No,0,Alex,2,Drink,Cold Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Muffin,1,2.75,3.54,Credit Card,New,No,Takeaway,0.79,No,0,Alex,4,Food,Pastry,Rainy,No,No,No,2025-05
+10/05/2025,Americano,2,3.5,7.35,Mobile Pay,New,No,Takeaway,0.35,No,0,Alex,3,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Iced Latte,3,5,16.04,Credit Card,Regular,Yes,Delivery,1.04,No,0,Alex,2,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+10/05/2025,Mocha,2,4.75,9.67,Credit Card,New,No,Dine-In,0.17,No,0,Sam,2,Drink,Hot Drink,Sunny,No,No,No,2025-05
+10/05/2025,Iced Latte,3,5,15.3,Mobile Pay,New,Yes,Delivery,0.3,No,0,Sam,6,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+10/05/2025,Muffin,2,2.75,7.01,Credit Card,Regular,No,Takeaway,1.51,No,0,Sam,5,Food,Pastry,Rainy,No,Yes,No,2025-05
+10/05/2025,Latte,1,4.5,3.29,Mobile Pay,Regular,No,Takeaway,0.75,Yes,1.96,Sam,4,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+10/05/2025,Croissant,1,3,4.29,Credit Card,Regular,No,Takeaway,1.29,No,0,Alex,4,Food,Pastry,Rainy,No,No,Yes,2025-05
+10/05/2025,Croissant,2,3,6.89,Cash,Regular,No,Delivery,1.41,Yes,0.52,Alex,2,Food,Pastry,Rainy,Yes,No,No,2025-05
+10/05/2025,Croissant,2,3,7.84,Mobile Pay,New,Yes,Delivery,1.84,No,0,Jamie,6,Food,Pastry,Sunny,No,Yes,No,2025-05
+10/05/2025,Americano,2,3.5,7.63,Mobile Pay,New,Yes,Takeaway,0.63,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,No,2025-05
+10/05/2025,Mocha,2,4.75,9.6,Cash,New,Yes,Delivery,0.1,No,0,Sam,6,Drink,Hot Drink,Rainy,Yes,Yes,No,2025-05
+10/05/2025,Croissant,2,3,4.73,Credit Card,New,Yes,Delivery,0.7,Yes,1.97,Alex,3,Food,Pastry,Cloudy,No,No,No,2025-05
+10/05/2025,Espresso,2,3,4.79,Mobile Pay,New,No,Takeaway,0.25,Yes,1.46,Jamie,2,Drink,Hot Drink,Rainy,No,No,No,2025-05
+10/05/2025,Espresso,1,3,3.31,Cash,New,No,Dine-In,0.31,No,0,Alex,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Bagel,3,2.5,9.49,Credit Card,New,Yes,Delivery,1.99,No,0,Jamie,2,Food,Sandwich,Sunny,No,No,Yes,2025-05
+10/05/2025,Chai Latte,2,4.75,10.52,Cash,New,No,Takeaway,1.02,No,0,Sam,4,Drink,Hot Drink,Sunny,No,No,No,2025-05
+10/05/2025,Espresso,2,3,5.74,Credit Card,Regular,No,Dine-In,0.92,Yes,1.18,Jamie,4,Drink,Hot Drink,Rainy,No,No,No,2025-05
+10/05/2025,Muffin,2,2.75,5.26,Credit Card,New,Yes,Takeaway,0.47,Yes,0.71,Sam,6,Food,Pastry,Sunny,Yes,No,Yes,2025-05
+10/05/2025,Iced Latte,1,5,5.58,Mobile Pay,Regular,No,Dine-In,1.44,Yes,0.86,Alex,4,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+10/05/2025,Cold Brew,1,5,3.36,Cash,Regular,No,Dine-In,0.06,Yes,1.7,Jamie,2,Drink,Cold Drink,Rainy,No,No,No,2025-05
+10/05/2025,Mocha,1,4.75,5.24,Mobile Pay,New,Yes,Takeaway,1.75,Yes,1.26,Jamie,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Americano,1,3.5,5.35,Cash,New,No,Takeaway,1.85,No,0,Sam,4,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Muffin,1,2.75,3.65,Mobile Pay,New,No,Delivery,1.76,Yes,0.86,Jamie,7,Food,Pastry,Rainy,No,No,Yes,2025-05
+10/05/2025,Latte,3,4.5,13.63,Cash,Regular,No,Dine-In,1.77,Yes,1.64,Alex,5,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Latte,1,4.5,3.48,Cash,New,No,Delivery,0.51,Yes,1.53,Sam,2,Drink,Hot Drink,Rainy,No,No,No,2025-05
+10/05/2025,Muffin,3,2.75,9.53,Cash,New,No,Dine-In,1.28,No,0,Alex,3,Food,Pastry,Cloudy,No,Yes,No,2025-05
+10/05/2025,Mocha,3,4.75,15.89,Mobile Pay,New,No,Delivery,1.64,No,0,Sam,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+10/05/2025,Cold Brew,3,5,16.55,Cash,New,No,Delivery,1.55,No,0,Sam,2,Drink,Cold Drink,Rainy,No,No,Yes,2025-05
+10/05/2025,Muffin,3,2.75,6.85,Cash,New,No,Delivery,0.31,Yes,1.71,Sam,7,Food,Pastry,Rainy,Yes,Yes,Yes,2025-05
+10/05/2025,Bagel,3,2.5,8.06,Cash,New,Yes,Delivery,0.56,No,0,Sam,5,Food,Sandwich,Rainy,No,No,Yes,2025-05
+10/05/2025,Iced Latte,3,5,14.56,Cash,New,Yes,Takeaway,0.84,Yes,1.28,Sam,4,Drink,Cold Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Latte,2,4.5,10.02,Mobile Pay,New,No,Dine-In,1.02,No,0,Jamie,4,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Bagel,2,2.5,5.9,Credit Card,New,Yes,Dine-In,0.9,No,0,Alex,7,Food,Sandwich,Rainy,No,No,No,2025-05
+10/05/2025,Cappuccino,1,4.25,3.82,Mobile Pay,New,No,Delivery,0.47,Yes,0.9,Alex,6,Drink,Hot Drink,Sunny,No,No,Yes,2025-05
+10/05/2025,Americano,2,3.5,7.43,Cash,New,Yes,Delivery,0.43,No,0,Sam,5,Drink,Hot Drink,Sunny,Yes,Yes,Yes,2025-05
+10/05/2025,Espresso,3,3,9.11,Credit Card,Regular,Yes,Delivery,0.11,No,0,Sam,6,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
+10/05/2025,Cappuccino,1,4.25,4.53,Credit Card,Regular,No,Delivery,0.28,No,0,Jamie,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+10/05/2025,Cappuccino,2,4.25,9.64,Mobile Pay,New,No,Delivery,1.14,No,0,Jamie,6,Drink,Hot Drink,Sunny,Yes,Yes,No,2025-05
+10/05/2025,Iced Latte,3,5,14.52,Mobile Pay,New,No,Takeaway,1.36,Yes,1.84,Jamie,5,Drink,Cold Drink,Cloudy,Yes,No,No,2025-05
+10/05/2025,Americano,2,3.5,7.82,Credit Card,New,Yes,Delivery,1.38,Yes,0.56,Alex,2,Drink,Hot Drink,Rainy,No,Yes,Yes,2025-05
+10/05/2025,Flat White,1,4.25,6.17,Cash,Regular,No,Delivery,1.92,No,0,Sam,6,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Latte,3,4.5,13.74,Credit Card,New,No,Delivery,0.24,No,0,Jamie,2,Drink,Hot Drink,Rainy,Yes,No,No,2025-05
+10/05/2025,Iced Latte,1,5,5.71,Credit Card,Regular,Yes,Delivery,0.71,No,0,Sam,6,Drink,Cold Drink,Cloudy,No,No,Yes,2025-05
+10/05/2025,Iced Latte,1,5,6.64,Cash,New,Yes,Dine-In,1.64,No,0,Jamie,2,Drink,Cold Drink,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Americano,2,3.5,8.24,Mobile Pay,New,Yes,Takeaway,1.24,No,0,Alex,5,Drink,Hot Drink,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Cold Brew,3,5,15.31,Credit Card,New,Yes,Takeaway,1.06,Yes,0.75,Jamie,5,Drink,Cold Drink,Sunny,No,No,Yes,2025-05
+10/05/2025,Americano,2,3.5,7.85,Credit Card,New,No,Dine-In,0.85,No,0,Sam,5,Drink,Hot Drink,Cloudy,No,No,Yes,2025-05
+10/05/2025,Cappuccino,3,4.25,11.91,Cash,New,Yes,Takeaway,0.48,Yes,1.32,Sam,7,Drink,Hot Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Bagel,1,2.5,3.31,Credit Card,Regular,No,Dine-In,0.81,No,0,Jamie,7,Food,Sandwich,Sunny,No,Yes,Yes,2025-05
+10/05/2025,Cold Brew,1,5,6.13,Cash,New,No,Takeaway,1.99,Yes,0.86,Jamie,5,Drink,Cold Drink,Rainy,No,Yes,No,2025-05
+10/05/2025,Americano,1,3.5,4.15,Credit Card,New,No,Takeaway,1.33,Yes,0.68,Sam,6,Drink,Hot Drink,Sunny,No,No,No,2025-05
+11/05/2025,Croissant,3,3,9.04,Cash,Regular,No,Takeaway,1.3,Yes,1.26,Alex,6,Food,Pastry,Sunny,No,Yes,No,2025-05
+11/05/2025,Croissant,1,3,3.28,Mobile Pay,New,No,Delivery,1.6,Yes,1.32,Sam,3,Food,Pastry,Rainy,No,Yes,No,2025-05
+11/05/2025,Flat White,2,4.25,8.51,Credit Card,New,No,Takeaway,1.69,Yes,1.68,Jamie,2,Drink,Hot Drink,Cloudy,No,No,No,2025-05
+11/05/2025,Cold Brew,2,5,10,Credit Card,New,Yes,Delivery,0.6,Yes,0.6,Alex,3,Drink,Cold Drink,Rainy,Yes,No,Yes,2025-05
+11/05/2025,Americano,1,3.5,4.76,Mobile Pay,Regular,Yes,Takeaway,1.26,No,0,Sam,3,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+11/05/2025,Espresso,2,3,6.61,Cash,Regular,Yes,Takeaway,1.93,Yes,1.32,Alex,4,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+11/05/2025,Iced Latte,2,5,9.37,Mobile Pay,Regular,Yes,Delivery,0.66,Yes,1.29,Jamie,2,Drink,Cold Drink,Sunny,No,No,No,2025-05
+11/05/2025,Cappuccino,2,4.25,8.54,Credit Card,Regular,Yes,Delivery,0.04,No,0,Jamie,6,Drink,Hot Drink,Rainy,Yes,Yes,Yes,2025-05
+11/05/2025,Flat White,2,4.25,8.62,Mobile Pay,New,No,Delivery,0.12,No,0,Jamie,7,Drink,Hot Drink,Cloudy,No,Yes,Yes,2025-05
+11/05/2025,Latte,3,4.5,12.66,Mobile Pay,New,Yes,Delivery,0.48,Yes,1.32,Alex,6,Drink,Hot Drink,Cloudy,No,Yes,No,2025-05
+11/05/2025,Flat White,1,4.25,5.22,Credit Card,Regular,Yes,Takeaway,1.72,Yes,0.75,Jamie,4,Drink,Hot Drink,Sunny,No,No,No,2025-05
+11/05/2025,Americano,3,3.5,11.51,Credit Card,New,No,Takeaway,1.01,No,0,Jamie,7,Drink,Hot Drink,Rainy,No,No,No,2025-05
+11/05/2025,Cappuccino,3,4.25,13.02,Cash,Regular,Yes,Takeaway,1.92,Yes,1.65,Jamie,4,Drink,Hot Drink,Rainy,No,No,Yes,2025-05
+11/05/2025,Chai Latte,1,4.75,5.21,Cash,Regular,No,Delivery,1.86,Yes,1.4,Alex,7,Drink,Hot Drink,Sunny,No,Yes,No,2025-05
