@@ -1,6 +1,3 @@
-// Talks to the Todo API. Every call carries the signed-in user's bearer token
-// via authFetch, so the server scopes the results to that user.
-
 import { authFetch, readJson } from './client'
 
 const ENDPOINT = '/api/todoitems'
@@ -50,4 +47,12 @@ export function runReminders(): Promise<{ remindedCount: number }> {
   return authFetch('/api/reminders/run', { method: 'POST' }).then((r) =>
     readJson<{ remindedCount: number }>(r),
   )
+}
+
+export function claimAnonTodos(anonId: string): Promise<{ claimed: number }> {
+  return authFetch(`${ENDPOINT}/claim-anon`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ anonId }),
+  }).then((r) => readJson<{ claimed: number }>(r))
 }

@@ -1,6 +1,7 @@
 // Auth API calls against the ASP.NET Core Identity endpoints (mapped at /api/auth).
 
-import { API_URL, setAuth } from './client'
+import { API_URL, getAnonId, resetAnonId, setAuth } from './client'
+import { claimAnonTodos } from './todos'
 
 interface LoginResponse {
   accessToken: string
@@ -44,6 +45,15 @@ export async function login(email: string, password: string): Promise<void> {
   }
   const data = (await res.json()) as LoginResponse
   setAuth({ accessToken: data.accessToken, refreshToken: data.refreshToken, email })
+
+  // Best-effort: claim this browser's guest todos now that we're signed in. A failure
+  // here (offline, server hiccup) shouldn't block sign-in itself.
+  try {
+    await claimAnonTodos(getAnonId())
+    resetAnonId()
+  } catch {
+    // Leave the anon id in place so a later sign-in can retry the claim.
+  }
 }
 
 export function logout(): void {

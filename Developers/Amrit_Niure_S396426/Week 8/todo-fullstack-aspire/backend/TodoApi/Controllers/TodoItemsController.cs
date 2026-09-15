@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TodoApi.Data;
@@ -105,5 +106,23 @@ public class TodoItemsController : OwnedResourceController
         await _db.SaveChangesAsync();
 
         return NoContent();
+    }
+
+    // POST: api/todoitems/claim-anon
+    [HttpPost("claim-anon")]
+    [Authorize]
+    public async Task<IActionResult> ClaimAnon(ClaimAnonRequest request)
+    {
+        if (!Guid.TryParse(request.AnonId, out _))
+        {
+            return BadRequest("Invalid AnonId.");
+        }
+
+        var anonOwnerId = $"anon:{request.AnonId}";
+        var claimed = await _db.TodoItems
+            .Where(t => t.UserId == anonOwnerId)
+            .ExecuteUpdateAsync(setters => setters.SetProperty(t => t.UserId, OwnerId));
+
+        return Ok(new { claimed });
     }
 }

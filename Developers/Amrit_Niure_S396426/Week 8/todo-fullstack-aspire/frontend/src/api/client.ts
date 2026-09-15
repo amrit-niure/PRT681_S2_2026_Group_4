@@ -58,7 +58,7 @@ export function onAuthChange(fn: (auth: Auth | null) => void): () => void {
  * Lets people use the app without an account; signing up just adds email reminders.
  */
 let sessionAnonId: string | null = null
-function getAnonId(): string {
+export function getAnonId(): string {
   try {
     let id = localStorage.getItem(ANON_ID_KEY)
     if (!id) {
@@ -70,6 +70,16 @@ function getAnonId(): string {
     // Storage unavailable (private mode etc.) - fall back to one id for this session.
     sessionAnonId ??= crypto.randomUUID()
     return sessionAnonId
+  }
+}
+
+/** Starts a fresh anonymous id, e.g. once the current one's todos have been claimed. */
+export function resetAnonId(): void {
+  sessionAnonId = null
+  try {
+    localStorage.removeItem(ANON_ID_KEY)
+  } catch {
+    // Ignore storage failures; getAnonId() will fall back to a session id anyway.
   }
 }
 
