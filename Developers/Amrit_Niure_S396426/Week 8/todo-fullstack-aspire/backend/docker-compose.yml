@@ -36,7 +36,6 @@ services:
         condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Production
-      ASPNETCORE_URLS: http://+:8080
       ConnectionStrings__tododb: Host=postgres;Port=5432;Database=tododb;Username=${POSTGRES_USER:-postgres};Password=${POSTGRES_PASSWORD}
       ConnectionStrings__seq: http://seq:5341
       Cors__AllowedOrigins__0: ${FRONTEND_URL:-http://localhost:5173}
