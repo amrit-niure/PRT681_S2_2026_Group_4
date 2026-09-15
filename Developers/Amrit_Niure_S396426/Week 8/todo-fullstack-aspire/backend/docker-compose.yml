@@ -2,14 +2,14 @@ services:
   postgres:
     image: postgres:17
     restart: unless-stopped
+    env_file:
+      - .env
     environment:
-      POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
       POSTGRES_DB: tododb
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d tododb"]
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d tododb"]
       interval: 5s
       timeout: 5s
       retries: 10
@@ -34,11 +34,10 @@ services:
         condition: service_healthy
       seq:
         condition: service_started
+    env_file:
+      - .env
     environment:
-      ASPNETCORE_ENVIRONMENT: Production
-      ConnectionStrings__tododb: Host=postgres;Port=5432;Database=tododb;Username=${POSTGRES_USER:-postgres};Password=${POSTGRES_PASSWORD}
       ConnectionStrings__seq: http://seq:5341
-      Cors__AllowedOrigins__0: ${FRONTEND_URL:-http://localhost:5173}
     volumes:
       - todoapi_dpkeys:/app/dp-keys
     ports:
