@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 using Serilog;
 using TodoApi.Data;
 using TodoApi.Notifications;
@@ -55,6 +57,13 @@ builder.Services.AddHostedService<DueTaskReminderService>();
 
 var app = builder.Build();
 
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto,
+    KnownIPNetworks = { },
+    KnownProxies = { }
+});
+
 app.UseSerilogRequestLogging();
 
 app.MapDefaultEndpoints();
@@ -65,12 +74,9 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 
-
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
-
+app.MapOpenApi();
+app.MapScalarApiReference();
+app.MapGet("/", () => Results.Redirect("/scalar/v1"));
 
 app.UseCors(FrontendCorsPolicy);
 
@@ -82,7 +88,7 @@ if (!app.Environment.IsDevelopment())
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Identity endpoints: POST /api/auth/register, /api/auth/login, /api/auth/refresh, ...
+
 app.MapGroup("/api/auth").MapIdentityApi<IdentityUser>();
 
 app.MapControllers();
