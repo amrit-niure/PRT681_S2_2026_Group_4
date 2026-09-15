@@ -22,23 +22,38 @@ interface TodoListProps {
   onDelete: (id: number) => void
 }
 
-/** Formats a due date for display, e.g. "15 Sep 2026". */
+/**
+ * The API sends DueDate as a naive UTC timestamp (no "Z"/offset, since it's stored
+ * as "timestamp without time zone"). Append "Z" so the browser parses it as UTC
+ * instead of misreading it as local time.
+ */
+function parseUtc(iso: string): Date {
+  return new Date(/[Zz]|[+-]\d\d:\d\d$/.test(iso) ? iso : `${iso}Z`)
+}
+
+/** Formats a due date for display, e.g. "15 Sep 2026, 2:30 pm". */
 function formatDueDate(iso: string): string {
-  return new Date(iso).toLocaleDateString(undefined, {
+  return parseUtc(iso).toLocaleString(undefined, {
     day: 'numeric',
     month: 'short',
     year: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
   })
 }
 
-/** A task is overdue when it has a past due date and isn't done yet. */
+/** Describes when the reminder fires relative to the due date, e.g. "30 min before". */
+function formatReminder(minutesBefore: number): string {
+  if (minutesBefore === 0) return 'at due time'
+  if (minutesBefore % 1440 === 0) return `${minutesBefore / 1440}d before`
+  if (minutesBefore % 60 === 0) return `${minutesBefore / 60}h before`
+  return `${minutesBefore}min before`
+}
+
+/** A task is overdue when its due date/time has passed and isn't done yet. */
 function isOverdue(item: TodoItem): boolean {
   if (!item.dueDate || item.isComplete) return false
-  const due = new Date(item.dueDate)
-  due.setHours(0, 0, 0, 0)
-  const today = new Date()
-  today.setHours(0, 0, 0, 0)
-  return due < today
+  return parseUtc(item.dueDate) < new Date()
 }
 
 /** Renders the list of tasks with a checkbox to toggle and a button to delete. */
@@ -80,6 +95,8 @@ export function TodoList({ items, onToggle, onDelete }: TodoListProps) {
                     <CalendarClock className="size-3" />
                     Due {formatDueDate(item.dueDate)}
                     {overdue && ' · overdue'}
+                    {item.reminderMinutesBefore !== null &&
+                      ` · reminder ${formatReminder(item.reminderMinutesBefore)}`}
                   </span>
                 )}
               </span>

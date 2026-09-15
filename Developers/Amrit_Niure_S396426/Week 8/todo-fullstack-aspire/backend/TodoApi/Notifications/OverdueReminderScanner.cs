@@ -6,9 +6,10 @@ using TodoApi.Models;
 namespace TodoApi.Notifications;
 
 /// <summary>
-/// Finds tasks that are due (today or earlier) and still not done, then emails each
-/// owner a reminder digest at their account email address and marks those tasks so
-/// they are not reported again. Used by the background job and the manual trigger.
+/// Finds tasks whose reminder time (due date minus each task's own lead time) has
+/// passed and are still not done, then emails each owner a reminder digest at their
+/// account email address and marks those tasks so they are not reported again. Used
+/// by the background job and the manual trigger.
 /// </summary>
 public class OverdueReminderScanner
 {
@@ -71,12 +72,19 @@ public class OverdueReminderScanner
         return await SendDigestAsync(userId, email, dueTasks, cancellationToken);
     }
 
-    /// <summary>Incomplete tasks whose due day is today or earlier and not yet reminded.</summary>
+    /// <summary>
+    /// Incomplete tasks with a reminder configured whose lead time has elapsed
+    /// (now &gt;= DueDate - ReminderMinutesBefore) and haven't been reminded yet.
+    /// </summary>
     private IQueryable<TodoItem> DueQuery()
     {
-        var cutoff = DateTime.UtcNow.Date.AddDays(1);
+        var now = DateTime.UtcNow;
         return _db.TodoItems
-            .Where(t => !t.IsComplete && t.DueDate != null && t.DueDate < cutoff && !t.ReminderSent)
+            .Where(t => !t.IsComplete
+                && t.DueDate != null
+                && t.ReminderMinutesBefore != null
+                && !t.ReminderSent
+                && t.DueDate.Value.AddMinutes(-t.ReminderMinutesBefore.Value) <= now)
             .OrderBy(t => t.DueDate);
     }
 
@@ -85,17 +93,17 @@ public class OverdueReminderScanner
     {
         if (string.IsNullOrWhiteSpace(email))
         {
-            _logger.LogWarning("User {UserId} has {Count} overdue task(s) but no email address; skipping.",
+            _logger.LogWarning("User {UserId} has {Count} task reminder(s) due but no email address; skipping.",
                 userId, tasks.Count);
             return 0;
         }
 
         var body = new StringBuilder();
-        body.AppendLine("The following task(s) are due and not done yet:");
+        body.AppendLine("The following task(s) are due soon and not done yet:");
         body.AppendLine();
         foreach (var task in tasks)
         {
-            body.AppendLine($"  - {task.Title} (due {task.DueDate!.Value:d})");
+            body.AppendLine($"  - {task.Title} (due {task.DueDate!.Value:g} UTC)");
         }
         body.AppendLine();
         body.AppendLine("— Todo App");
@@ -112,7 +120,7 @@ public class OverdueReminderScanner
         }
         await _db.SaveChangesAsync(cancellationToken);
 
-        _logger.LogInformation("Sent overdue reminder to {Email} for {Count} task(s).", email, tasks.Count);
+        _logger.LogInformation("Sent task reminder to {Email} for {Count} task(s).", email, tasks.Count);
         return tasks.Count;
     }
 }

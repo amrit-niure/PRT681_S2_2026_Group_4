@@ -14,12 +14,19 @@ public class TodoItem
 
     public bool IsComplete { get; set; }
 
-    /// <summary>Optional date the task is due. Null means no deadline.</summary>
+    /// <summary>Optional date/time the task is due. Null means no deadline.</summary>
     public DateTime? DueDate { get; set; }
 
     /// <summary>
-    /// True once an overdue reminder email has been sent for this task. Reset when the
-    /// due date moves or the task is reopened, so a fresh reminder can go out.
+    /// How long before <see cref="DueDate"/> to send the reminder email, e.g. 30 for
+    /// "30 minutes before". Null means no reminder for this task, even with a due date.
+    /// Meaningless when <see cref="DueDate"/> is null.
+    /// </summary>
+    public int? ReminderMinutesBefore { get; set; }
+
+    /// <summary>
+    /// True once the reminder email has been sent for this task. Reset when the due
+    /// date, reminder lead time, or completion state changes, so a fresh reminder can go out.
     /// </summary>
     public bool ReminderSent { get; set; }
 

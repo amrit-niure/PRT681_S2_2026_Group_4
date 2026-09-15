@@ -59,6 +59,7 @@ public class TodoItemsController : OwnedResourceController
             Title = request.Title.Trim(),
             IsComplete = request.IsComplete,
             DueDate = request.DueDate,
+            ReminderMinutesBefore = request.ReminderMinutesBefore,
             CreatedAt = DateTime.UtcNow
         };
 
@@ -78,8 +79,10 @@ public class TodoItemsController : OwnedResourceController
             return NotFound();
         }
 
-        // A moved deadline or a reopened task should trigger a fresh reminder.
-        if (item.DueDate != request.DueDate || (item.IsComplete && !request.IsComplete))
+        // A moved deadline, changed lead time, or reopened task should trigger a fresh reminder.
+        if (item.DueDate != request.DueDate
+            || item.ReminderMinutesBefore != request.ReminderMinutesBefore
+            || (item.IsComplete && !request.IsComplete))
         {
             item.ReminderSent = false;
         }
@@ -87,6 +90,7 @@ public class TodoItemsController : OwnedResourceController
         item.Title = request.Title.Trim();
         item.IsComplete = request.IsComplete;
         item.DueDate = request.DueDate;
+        item.ReminderMinutesBefore = request.ReminderMinutesBefore;
         await _db.SaveChangesAsync();
 
         return NoContent();

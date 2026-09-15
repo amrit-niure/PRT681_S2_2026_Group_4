@@ -13,6 +13,13 @@ public class SaveTodoItemRequest
 
     public bool IsComplete { get; set; }
 
-    /// <summary>Optional due date. Omit or send null for no deadline.</summary>
+    /// <summary>Optional due date/time. Omit or send null for no deadline.</summary>
     public DateTime? DueDate { get; set; }
+
+    /// <summary>
+    /// Minutes before <see cref="DueDate"/> to send a reminder (0 = at the due time).
+    /// Null means no reminder for this task. Ignored when <see cref="DueDate"/> is null.
+    /// </summary>
+    [Range(0, 43_200)] // up to 30 days
+    public int? ReminderMinutesBefore { get; set; }
 }

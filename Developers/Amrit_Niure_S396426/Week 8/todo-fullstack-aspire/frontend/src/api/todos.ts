@@ -7,6 +7,7 @@ export interface TodoItem {
   title: string
   isComplete: boolean
   dueDate: string | null
+  reminderMinutesBefore: number | null
   createdAt: string
 }
 
@@ -14,6 +15,7 @@ export interface SaveTodoItem {
   title: string
   isComplete: boolean
   dueDate: string | null
+  reminderMinutesBefore: number | null
 }
 
 export function getTodos(): Promise<TodoItem[]> {

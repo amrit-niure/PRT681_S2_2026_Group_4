@@ -36,8 +36,12 @@ function TasksScreen() {
       .finally(() => setLoading(false))
   }, [])
 
-  async function handleAdd(title: string, dueDate: string | null) {
-    const created = await addTodo({ title, isComplete: false, dueDate })
+  async function handleAdd(
+    title: string,
+    dueDate: string | null,
+    reminderMinutesBefore: number | null,
+  ) {
+    const created = await addTodo({ title, isComplete: false, dueDate, reminderMinutesBefore })
     setItems((prev) => [created, ...prev])
   }
 
@@ -46,6 +50,7 @@ function TasksScreen() {
       title: item.title,
       isComplete: !item.isComplete,
       dueDate: item.dueDate,
+      reminderMinutesBefore: item.reminderMinutesBefore,
     }
     await updateTodo(item.id, next)
     setItems((prev) => prev.map((t) => (t.id === item.id ? { ...t, ...next } : t)))

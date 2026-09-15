@@ -15,7 +15,7 @@ public class RemindersController : OwnedResourceController
     }
 
     // POST: api/reminders/run
-    // Emails the signed-in user their overdue tasks now, instead of waiting for the timer.
+    // Emails the signed-in user their due tasks now, instead of waiting for the timer.
     // Anonymous callers have no account/email on file, so the scanner just reports 0.
     [HttpPost("run")]
     public async Task<IActionResult> Run(CancellationToken cancellationToken)
