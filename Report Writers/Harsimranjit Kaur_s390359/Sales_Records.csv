@@ -1,0 +1,201 @@
+OrderID,OrderDate,State,City,ProductCode,SalesRep,Quantity,UnitPrice,TotalSales
+SR1001,2/02/2026,Victoria,Melbourne,PR104,James Clark,1,69,69
+SR1002,3/02/2026,Victoria,Geelong,PR102,Olivia White,2,249.99,499.98
+SR1003,4/02/2026,Tasmania,Hobart,PR102,James Clark,1,9.99,9.99
+SR1004,5/02/2026,South Australia,Adelaide,PR104,Noah Wilson,9,9.99,89.91
+SR1005,6/02/2026,Tasmania,Hobart,PR105,Emma Lee,4,189,756
+SR1006,7/02/2026,Victoria,Geelong,PR105,James Clark,7,79.99,559.93
+SR1007,8/02/2026,South Australia,Adelaide,PR102,Daniel Smith,6,15.5,93
+SR1008,9/02/2026,Victoria,Melbourne,PR105,Emma Lee,6,79.99,479.94
+SR1009,10/02/2026,New South Wales,Sydney,PR107,Emma Lee,9,15.5,139.5
+SR1010,11/02/2026,Western Australia,Perth,PR104,Noah Wilson,10,79.99,799.9
+SR1011,12/02/2026,Victoria,Melbourne,PR105,Emma Lee,1,49.95,49.95
+SR1012,13/02/2026,South Australia,Adelaide,PR105,Daniel Smith,2,129,258
+SR1013,14/02/2026,Northern Territory,Darwin,PR106,James Clark,3,79.99,239.97
+SR1014,15/02/2026,Western Australia,Perth,PR104,James Clark,2,18.75,37.5
+SR1015,16/02/2026,New South Wales,Sydney,PR104,Noah Wilson,7,69,483
+SR1016,17/02/2026,Northern Territory,Darwin,PR101,Sarah Brown,1,49.95,49.95
+SR1017,18/02/2026,Tasmania,Hobart,PR104,Olivia White,5,15.5,77.5
+SR1018,19/02/2026,Northern Territory,Darwin,PR107,Noah Wilson,4,189,756
+SR1019,20/02/2026,New South Wales,Sydney,PR103,James Clark,3,69,207
+SR1020,21/02/2026,Western Australia,Perth,PR107,Sarah Brown,10,129,1290
+SR1021,22/02/2026,South Australia,Adelaide,PR108,Emma Lee,3,249.99,749.97
+SR1022,23/02/2026,Queensland,Brisbane,PR103,Noah Wilson,2,18.75,37.5
+SR1023,24/02/2026,Tasmania,Hobart,PR107,Daniel Smith,10,15.5,155
+SR1024,25/02/2026,New South Wales,Sydney,PR101,Noah Wilson,9,69,621
+SR1025,26/02/2026,Victoria,Melbourne,PR106,Emma Lee,9,69,621
+SR1026,27/02/2026,Western Australia,Perth,PR108,Emma Lee,7,18.75,131.25
+SR1027,28/02/2026,Western Australia,Perth,PR102,Noah Wilson,9,18.75,168.75
+SR1028,1/03/2026,Western Australia,Perth,PR103,Sarah Brown,9,49.95,449.55
+SR1029,2/03/2026,Victoria,Geelong,PR101,Olivia White,9,249.99,2249.91
+SR1030,3/03/2026,Northern Territory,Darwin,PR102,Sarah Brown,8,9.99,79.92
+SR1031,4/03/2026,Western Australia,Perth,PR104,Olivia White,4,9.99,39.96
+SR1032,5/03/2026,Victoria,Melbourne,PR102,Olivia White,2,189,378
+SR1033,6/03/2026,Victoria,Geelong,PR103,Sarah Brown,3,189,567
+SR1034,7/03/2026,Tasmania,Hobart,PR104,Noah Wilson,4,249.99,999.96
+SR1035,8/03/2026,Western Australia,Perth,PR108,Olivia White,7,79.99,559.93
+SR1036,9/03/2026,New South Wales,Sydney,PR104,Emma Lee,2,49.95,99.9
+SR1037,10/03/2026,Northern Territory,Darwin,PR104,Olivia White,1,249.99,249.99
+SR1038,11/03/2026,South Australia,Adelaide,PR101,James Clark,1,15.5,15.5
+SR1039,12/03/2026,Victoria,Melbourne,PR102,Olivia White,1,79.99,79.99
+SR1040,13/03/2026,South Australia,Adelaide,PR104,Olivia White,5,189,945
+SR1041,14/03/2026,Victoria,Geelong,PR104,Daniel Smith,10,189,1890
+SR1042,15/03/2026,Tasmania,Hobart,PR102,Noah Wilson,4,15.5,62
+SR1043,16/03/2026,Tasmania,Hobart,PR107,Daniel Smith,6,129,774
+SR1044,17/03/2026,Queensland,Brisbane,PR107,Noah Wilson,2,9.99,19.98
+SR1045,18/03/2026,Northern Territory,Darwin,PR104,James Clark,2,49.95,99.9
+SR1046,19/03/2026,New South Wales,Sydney,PR103,Sarah Brown,3,129,387
+SR1047,20/03/2026,New South Wales,Sydney,PR108,Olivia White,4,15.5,62
+SR1048,21/03/2026,Victoria,Melbourne,PR101,Emma Lee,1,249.99,249.99
+SR1049,22/03/2026,South Australia,Adelaide,PR108,Daniel Smith,3,129,387
+SR1050,23/03/2026,South Australia,Adelaide,PR103,Daniel Smith,7,9.99,69.93
+SR1051,24/03/2026,Queensland,Brisbane,PR108,Sarah Brown,7,69,483
+SR1052,25/03/2026,Tasmania,Hobart,PR103,James Clark,9,189,1701
+SR1053,26/03/2026,Western Australia,Perth,PR101,Noah Wilson,4,9.99,39.96
+SR1054,27/03/2026,Northern Territory,Darwin,PR108,Olivia White,1,9.99,9.99
+SR1055,28/03/2026,Victoria,Geelong,PR102,James Clark,1,249.99,249.99
+SR1056,29/03/2026,Victoria,Melbourne,PR104,Daniel Smith,10,15.5,155
+SR1057,30/03/2026,Victoria,Melbourne,PR101,Olivia White,10,49.95,499.5
+SR1058,31/03/2026,Victoria,Melbourne,PR106,Sarah Brown,7,249.99,1749.93
+SR1059,1/04/2026,South Australia,Adelaide,PR105,Daniel Smith,6,49.95,299.7
+SR1060,1/02/2026,Victoria,Geelong,PR106,Emma Lee,5,189,945
+SR1061,2/02/2026,Queensland,Brisbane,PR102,Olivia White,8,15.5,124
+SR1062,3/02/2026,South Australia,Adelaide,PR103,Sarah Brown,9,69,621
+SR1063,4/02/2026,Victoria,Melbourne,PR105,James Clark,4,79.99,319.96
+SR1064,5/02/2026,New South Wales,Sydney,PR101,Noah Wilson,9,69,621
+SR1065,6/02/2026,Western Australia,Perth,PR105,Emma Lee,2,18.75,37.5
+SR1066,7/02/2026,Victoria,Melbourne,PR105,Sarah Brown,9,18.75,168.75
+SR1067,8/02/2026,South Australia,Adelaide,PR105,Olivia White,6,49.95,299.7
+SR1068,9/02/2026,New South Wales,Sydney,PR102,Noah Wilson,5,9.99,49.95
+SR1069,10/02/2026,Tasmania,Hobart,PR101,Sarah Brown,5,9.99,49.95
+SR1070,11/02/2026,Victoria,Geelong,PR108,Olivia White,5,18.75,93.75
+SR1071,12/02/2026,Tasmania,Hobart,PR102,Emma Lee,9,9.99,89.91
+SR1072,13/02/2026,Victoria,Geelong,PR106,Olivia White,9,9.99,89.91
+SR1073,14/02/2026,Victoria,Geelong,PR101,Sarah Brown,7,18.75,131.25
+SR1074,15/02/2026,Northern Territory,Darwin,PR104,Noah Wilson,1,79.99,79.99
+SR1075,16/02/2026,South Australia,Adelaide,PR107,Olivia White,2,79.99,159.98
+SR1076,17/02/2026,Victoria,Geelong,PR103,Daniel Smith,4,18.75,75
+SR1077,18/02/2026,Queensland,Brisbane,PR107,Noah Wilson,3,79.99,239.97
+SR1078,19/02/2026,South Australia,Adelaide,PR102,Daniel Smith,5,18.75,93.75
+SR1079,20/02/2026,Queensland,Brisbane,PR104,Daniel Smith,8,49.95,399.6
+SR1080,21/02/2026,Northern Territory,Darwin,PR104,Emma Lee,5,49.95,249.75
+SR1081,22/02/2026,South Australia,Adelaide,PR105,Emma Lee,7,79.99,559.93
+SR1082,23/02/2026,Western Australia,Perth,PR107,Noah Wilson,6,249.99,1499.94
+SR1083,24/02/2026,Northern Territory,Darwin,PR105,James Clark,1,15.5,15.5
+SR1084,25/02/2026,Western Australia,Perth,PR107,Sarah Brown,1,15.5,15.5
+SR1085,26/02/2026,Northern Territory,Darwin,PR102,Daniel Smith,7,249.99,1749.93
+SR1086,27/02/2026,South Australia,Adelaide,PR107,Emma Lee,5,9.99,49.95
+SR1087,28/02/2026,South Australia,Adelaide,PR102,Noah Wilson,6,129,774
+SR1088,1/03/2026,Northern Territory,Darwin,PR102,Noah Wilson,10,79.99,799.9
+SR1089,2/03/2026,Western Australia,Perth,PR107,Sarah Brown,9,69,621
+SR1090,3/03/2026,Tasmania,Hobart,PR103,James Clark,5,249.99,1249.95
+SR1091,4/03/2026,Tasmania,Hobart,PR105,Daniel Smith,7,18.75,131.25
+SR1092,5/03/2026,Queensland,Brisbane,PR104,Daniel Smith,5,69,345
+SR1093,6/03/2026,Northern Territory,Darwin,PR108,Noah Wilson,8,189,1512
+SR1094,7/03/2026,South Australia,Adelaide,PR103,Noah Wilson,9,189,1701
+SR1095,8/03/2026,Victoria,Melbourne,PR106,Emma Lee,5,249.99,1249.95
+SR1096,9/03/2026,South Australia,Adelaide,PR104,James Clark,5,49.95,249.75
+SR1097,10/03/2026,Queensland,Brisbane,PR108,Olivia White,1,49.95,49.95
+SR1098,11/03/2026,Victoria,Melbourne,PR104,Noah Wilson,8,129,1032
+SR1099,12/03/2026,Tasmania,Hobart,PR104,James Clark,8,129,1032
+SR1100,13/03/2026,Queensland,Brisbane,PR104,James Clark,2,129,258
+SR1101,14/03/2026,New South Wales,Sydney,PR104,Emma Lee,1,249.99,249.99
+SR1102,15/03/2026,New South Wales,Sydney,PR106,Daniel Smith,3,189,567
+SR1103,16/03/2026,Tasmania,Hobart,PR103,Noah Wilson,9,189,1701
+SR1104,17/03/2026,New South Wales,Sydney,PR104,Noah Wilson,8,69,552
+SR1105,18/03/2026,Western Australia,Perth,PR104,Sarah Brown,9,189,1701
+SR1106,19/03/2026,New South Wales,Sydney,PR104,Sarah Brown,2,69,138
+SR1107,20/03/2026,Northern Territory,Darwin,PR102,James Clark,6,249.99,1499.94
+SR1108,21/03/2026,Victoria,Geelong,PR103,Noah Wilson,4,129,516
+SR1109,22/03/2026,South Australia,Adelaide,PR107,Sarah Brown,2,129,258
+SR1110,23/03/2026,New South Wales,Sydney,PR104,Daniel Smith,7,9.99,69.93
+SR1111,24/03/2026,Tasmania,Hobart,PR107,Daniel Smith,10,9.99,99.9
+SR1112,25/03/2026,Queensland,Brisbane,PR107,Daniel Smith,6,69,414
+SR1113,26/03/2026,South Australia,Adelaide,PR105,Daniel Smith,8,49.95,399.6
+SR1114,27/03/2026,New South Wales,Sydney,PR106,Noah Wilson,1,129,129
+SR1115,28/03/2026,Tasmania,Hobart,PR103,Olivia White,3,189,567
+SR1116,29/03/2026,Queensland,Brisbane,PR102,Noah Wilson,7,9.99,69.93
+SR1117,30/03/2026,Tasmania,Hobart,PR103,Emma Lee,3,189,567
+SR1118,31/03/2026,Western Australia,Perth,PR104,Daniel Smith,7,79.99,559.93
+SR1119,1/04/2026,Northern Territory,Darwin,PR105,Daniel Smith,6,129,774
+SR1120,1/02/2026,Western Australia,Perth,PR101,Noah Wilson,2,189,378
+SR1121,2/02/2026,Queensland,Brisbane,PR102,Noah Wilson,6,49.95,299.7
+SR1122,3/02/2026,Queensland,Brisbane,PR104,Emma Lee,1,49.95,49.95
+SR1123,4/02/2026,Victoria,Geelong,PR108,Noah Wilson,4,18.75,75
+SR1124,5/02/2026,Victoria,Melbourne,PR108,Noah Wilson,10,49.95,499.5
+SR1125,6/02/2026,Western Australia,Perth,PR102,James Clark,6,18.75,112.5
+SR1126,7/02/2026,Western Australia,Perth,PR105,Olivia White,2,9.99,19.98
+SR1127,8/02/2026,Tasmania,Hobart,PR102,Olivia White,7,49.95,349.65
+SR1128,9/02/2026,South Australia,Adelaide,PR102,Olivia White,2,69,138
+SR1129,10/02/2026,Queensland,Brisbane,PR107,Noah Wilson,6,249.99,1499.94
+SR1130,11/02/2026,Northern Territory,Darwin,PR106,Emma Lee,2,249.99,499.98
+SR1131,12/02/2026,Tasmania,Hobart,PR107,Sarah Brown,8,15.5,124
+SR1132,13/02/2026,New South Wales,Sydney,PR103,Noah Wilson,3,129,387
+SR1133,14/02/2026,Western Australia,Perth,PR108,Daniel Smith,10,249.99,2499.9
+SR1134,15/02/2026,Tasmania,Hobart,PR106,James Clark,10,69,690
+SR1135,16/02/2026,Victoria,Melbourne,PR104,Daniel Smith,5,189,945
+SR1136,17/02/2026,Tasmania,Hobart,PR108,Sarah Brown,6,9.99,59.94
+SR1137,18/02/2026,Victoria,Geelong,PR106,Sarah Brown,8,49.95,399.6
+SR1138,19/02/2026,Northern Territory,Darwin,PR101,Olivia White,5,69,345
+SR1139,20/02/2026,South Australia,Adelaide,PR107,Daniel Smith,2,49.95,99.9
+SR1140,21/02/2026,South Australia,Adelaide,PR108,Emma Lee,8,189,1512
+SR1141,22/02/2026,Victoria,Melbourne,PR107,Noah Wilson,5,49.95,249.75
+SR1142,23/02/2026,South Australia,Adelaide,PR108,Olivia White,5,79.99,399.95
+SR1143,24/02/2026,Northern Territory,Darwin,PR106,Sarah Brown,7,249.99,1749.93
+SR1144,25/02/2026,New South Wales,Sydney,PR105,James Clark,5,69,345
+SR1145,26/02/2026,Victoria,Melbourne,PR102,Noah Wilson,4,79.99,319.96
+SR1146,27/02/2026,Victoria,Geelong,PR108,Sarah Brown,4,49.95,199.8
+SR1147,28/02/2026,Western Australia,Perth,PR105,James Clark,2,49.95,99.9
+SR1148,1/03/2026,Northern Territory,Darwin,PR101,Noah Wilson,3,69,207
+SR1149,2/03/2026,Victoria,Geelong,PR101,Olivia White,5,9.99,49.95
+SR1150,3/03/2026,Western Australia,Perth,PR102,Emma Lee,3,189,567
+SR1151,4/03/2026,Western Australia,Perth,PR108,Sarah Brown,8,189,1512
+SR1152,5/03/2026,Victoria,Geelong,PR108,Emma Lee,1,69,69
+SR1153,6/03/2026,Victoria,Melbourne,PR102,Olivia White,7,189,1323
+SR1154,7/03/2026,Queensland,Brisbane,PR105,Emma Lee,3,18.75,56.25
+SR1155,8/03/2026,South Australia,Adelaide,PR107,Olivia White,2,249.99,499.98
+SR1156,9/03/2026,South Australia,Adelaide,PR108,Daniel Smith,9,129,1161
+SR1157,10/03/2026,Western Australia,Perth,PR105,Olivia White,10,129,1290
+SR1158,11/03/2026,Queensland,Brisbane,PR104,Noah Wilson,10,15.5,155
+SR1159,12/03/2026,South Australia,Adelaide,PR103,James Clark,5,15.5,77.5
+SR1160,13/03/2026,Victoria,Geelong,PR103,Emma Lee,9,15.5,139.5
+SR1161,14/03/2026,Tasmania,Hobart,PR105,Emma Lee,8,189,1512
+SR1162,15/03/2026,South Australia,Adelaide,PR108,Emma Lee,5,69,345
+SR1163,16/03/2026,South Australia,Adelaide,PR107,Emma Lee,5,49.95,249.75
+SR1164,17/03/2026,South Australia,Adelaide,PR103,Emma Lee,3,69,207
+SR1165,18/03/2026,Queensland,Brisbane,PR105,Daniel Smith,3,69,207
+SR1166,19/03/2026,Victoria,Melbourne,PR107,Sarah Brown,8,69,552
+SR1167,20/03/2026,New South Wales,Sydney,PR101,Daniel Smith,8,15.5,124
+SR1168,21/03/2026,Northern Territory,Darwin,PR101,Emma Lee,10,69,690
+SR1169,22/03/2026,South Australia,Adelaide,PR105,Olivia White,10,9.99,99.9
+SR1170,23/03/2026,Queensland,Brisbane,PR108,Sarah Brown,3,189,567
+SR1171,24/03/2026,Victoria,Geelong,PR108,Emma Lee,10,129,1290
+SR1172,25/03/2026,New South Wales,Sydney,PR106,Sarah Brown,6,129,774
+SR1173,26/03/2026,Victoria,Melbourne,PR107,Noah Wilson,3,79.99,239.97
+SR1174,27/03/2026,New South Wales,Sydney,PR101,Daniel Smith,5,129,645
+SR1175,28/03/2026,Victoria,Melbourne,PR106,Emma Lee,6,69,414
+SR1176,29/03/2026,Tasmania,Hobart,PR108,Daniel Smith,9,9.99,89.91
+SR1177,30/03/2026,Queensland,Brisbane,PR106,Olivia White,4,249.99,999.96
+SR1178,31/03/2026,New South Wales,Sydney,PR104,Sarah Brown,8,9.99,79.92
+SR1179,1/04/2026,Victoria,Geelong,PR108,Emma Lee,5,189,945
+SR1180,1/02/2026,Queensland,Brisbane,PR103,Sarah Brown,10,49.95,499.5
+SR1181,2/02/2026,Queensland,Brisbane,PR102,James Clark,9,129,1161
+SR1182,3/02/2026,Victoria,Melbourne,PR103,Daniel Smith,8,15.5,124
+SR1183,4/02/2026,Western Australia,Perth,PR107,Daniel Smith,9,69,621
+SR1184,5/02/2026,New South Wales,Sydney,PR103,Daniel Smith,4,189,756
+SR1185,6/02/2026,South Australia,Adelaide,PR103,Emma Lee,10,249.99,2499.9
+SR1186,7/02/2026,Western Australia,Perth,PR105,Emma Lee,7,79.99,559.93
+SR1187,8/02/2026,Western Australia,Perth,PR103,Daniel Smith,5,189,945
+SR1188,9/02/2026,New South Wales,Sydney,PR107,Daniel Smith,6,79.99,479.94
+SR1189,10/02/2026,Northern Territory,Darwin,PR107,James Clark,4,49.95,199.8
+SR1190,11/02/2026,Tasmania,Hobart,PR108,Noah Wilson,1,79.99,79.99
+SR1191,12/02/2026,Tasmania,Hobart,PR108,Emma Lee,7,18.75,131.25
+SR1192,13/02/2026,Victoria,Geelong,PR102,Daniel Smith,9,79.99,719.91
+SR1193,14/02/2026,Victoria,Melbourne,PR101,Noah Wilson,9,189,1701
+SR1194,15/02/2026,Victoria,Geelong,PR102,Daniel Smith,7,18.75,131.25
+SR1195,16/02/2026,Western Australia,Perth,PR102,Sarah Brown,6,129,774
+SR1196,17/02/2026,Tasmania,Hobart,PR101,Olivia White,6,189,1134
+SR1197,18/02/2026,Victoria,Melbourne,PR104,Noah Wilson,4,69,276
+SR1198,19/02/2026,Victoria,Melbourne,PR102,Daniel Smith,7,15.5,108.5
+SR1199,20/02/2026,Victoria,Geelong,PR101,Sarah Brown,5,9.99,49.95
+SR1200,21/02/2026,Queensland,Brisbane,PR106,Daniel Smith,5,79.99,399.95
