@@ -26,7 +26,7 @@ services:
 
   todoapi:
     build:
-      context: .
+      context: Developers/Amrit_Niure_S396426/Week 8/todo-fullstack-aspire/backend
       dockerfile: Dockerfile
     restart: unless-stopped
     depends_on:
