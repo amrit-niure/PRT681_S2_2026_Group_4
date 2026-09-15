@@ -3,7 +3,7 @@ services:
     image: postgres:17
     restart: unless-stopped
     env_file:
-      - .env
+      - Developers/Amrit_Niure_S396426/Week 8/todo-fullstack-aspire/backend/.env
     environment:
       POSTGRES_DB: tododb
     volumes:
@@ -35,7 +35,7 @@ services:
       seq:
         condition: service_started
     env_file:
-      - .env
+      - Developers/Amrit_Niure_S396426/Week 8/todo-fullstack-aspire/backend/.env
     environment:
       ConnectionStrings__seq: http://seq:5341
     volumes:
