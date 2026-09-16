@@ -1,0 +1,119 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1700,
+  "model": {
+    "culture": "en-IN",
+    "dataSources": [
+      {
+        "type": "structured",
+        "name": "File/C:\\Users\\DELL\\Documents\\Sales_Data_70_Rows xlsx",
+        "connectionDetails": {
+          "protocol": "file",
+          "address": {
+            "path": "C:\\Users\\DELL\\Documents\\Sales_Data_70_Rows.xlsx"
+          },
+          "authentication": null,
+          "query": null
+        },
+        "credential": {
+          "AuthenticationKind": "ServiceAccount",
+          "kind": "File",
+          "path": "c:\\users\\dell\\documents\\sales_data_70_rows.xlsx"
+        },
+        "contextExpression": [
+          "let",
+          "    #\"0001\" = Excel.Workbook(..., null, true)",
+          "in",
+          "    #\"0001\""
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "Sales Data",
+        "columns": [
+          {
+            "name": "S.No",
+            "dataType": "int64",
+            "sourceColumn": "S.No"
+          },
+          {
+            "name": "Name",
+            "dataType": "string",
+            "sourceColumn": "Name"
+          },
+          {
+            "name": "Category",
+            "dataType": "string",
+            "sourceColumn": "Category"
+          },
+          {
+            "name": "Product Name",
+            "dataType": "string",
+            "sourceColumn": "Product Name"
+          },
+          {
+            "name": "Region",
+            "dataType": "string",
+            "sourceColumn": "Region"
+          },
+          {
+            "name": "City",
+            "dataType": "string",
+            "sourceColumn": "City"
+          },
+          {
+            "name": "State",
+            "dataType": "string",
+            "sourceColumn": "State"
+          },
+          {
+            "name": "Gender",
+            "dataType": "string",
+            "sourceColumn": "Gender"
+          },
+          {
+            "name": "Quantity",
+            "dataType": "int64",
+            "sourceColumn": "Quantity"
+          },
+          {
+            "name": "Rate",
+            "dataType": "int64",
+            "sourceColumn": "Rate"
+          },
+          {
+            "name": "Amount",
+            "dataType": "int64",
+            "sourceColumn": "Amount"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Partition",
+            "dataView": "full",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #\"File/C:\\Users\\DELL\\Documents\\Sales_Data_70_Rows xlsx\",",
+                "    #\"Sales Data_Sheet\" = Source{[Item=\"Sales Data\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Sales Data_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"S.No\", Int64.Type}, {\"Name\", type text}, {\"Category\", type any}, {\"Product Name\", type text}, {\"Region\", type text}, {\"City\", type text}, {\"State\", type text}, {\"Gender\", type text}, {\"Quantity\", Int64.Type}, {\"Rate\", Int64.Type}, {\"Amount\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "800"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}
