@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Kendo UI license key (personal, never commit)
+kendo-ui-license.txt
