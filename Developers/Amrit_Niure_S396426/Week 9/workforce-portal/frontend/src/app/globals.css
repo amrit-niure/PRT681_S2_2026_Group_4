@@ -142,3 +142,7 @@ body {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.toolbar__action {
+  margin-left: auto;
+}

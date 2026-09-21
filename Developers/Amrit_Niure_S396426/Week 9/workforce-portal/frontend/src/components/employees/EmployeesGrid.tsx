@@ -1,16 +1,22 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { Grid, GridColumn, type GridCustomCellProps, type GridPageChangeEvent, type GridSortChangeEvent } from "@progress/kendo-react-grid";
+import { Button } from "@progress/kendo-react-buttons";
 import { Input } from "@progress/kendo-react-inputs";
 import { DropDownList } from "@progress/kendo-react-dropdowns";
 import { Loader } from "@progress/kendo-react-indicators";
+import { pencilIcon, plusIcon, trashIcon } from "@progress/kendo-svg-icons";
 import type { SortDescriptor } from "@progress/kendo-data-query";
 import { clientApi } from "@/lib/api/client";
+import { ApiError } from "@/lib/api/http";
 import type { Department, Employee, EmployeeQuery, PagedResult } from "@/lib/api/types";
 import { formatCurrency, formatDate } from "@/lib/format";
 import { useDebouncedValue } from "@/lib/useDebouncedValue";
+import { ConfirmDialog } from "@/components/ConfirmDialog";
 import { useToast } from "@/components/Toaster";
+import { EmployeeFormDialog } from "./EmployeeFormDialog";
 import { EMPLOYEE_DEFAULT_SORT, EMPLOYEE_PAGE_SIZE } from "./constants";
 
 type StatusFilter = "all" | "active" | "inactive";
@@ -38,6 +44,32 @@ const StatusCell = ({ tdProps, dataItem }: GridCustomCellProps) => (
   </td>
 );
 
+// Grid cells are rendered by Kendo, so they can't take extra props; the row buttons reach the grid's
+// handlers through context instead.
+const RowActionsContext = createContext<{ onEdit: (employee: Employee) => void; onDelete: (employee: Employee) => void }>({
+  onEdit: () => {},
+  onDelete: () => {},
+});
+
+const ActionsCell = ({ tdProps, dataItem }: GridCustomCellProps) => {
+  const { onEdit, onDelete } = useContext(RowActionsContext);
+  const name = `${dataItem.firstName} ${dataItem.lastName}`;
+  return (
+    <td {...tdProps}>
+      <Button svgIcon={pencilIcon} fillMode="flat" size="small" title={`Edit ${name}`} aria-label={`Edit ${name}`} onClick={() => onEdit(dataItem)} />
+      <Button
+        svgIcon={trashIcon}
+        fillMode="flat"
+        size="small"
+        themeColor="error"
+        title={`Delete ${name}`}
+        aria-label={`Delete ${name}`}
+        onClick={() => onDelete(dataItem)}
+      />
+    </td>
+  );
+};
+
 interface EmployeesGridProps {
   /** First page, fetched on the server during SSR; shown immediately and reused until the query changes. */
   initialData: PagedResult<Employee>;
@@ -50,6 +82,13 @@ interface EmployeesGridProps {
  */
 export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) {
   const { notify } = useToast();
+  const router = useRouter();
+
+  const [editing, setEditing] = useState<Employee | "new" | null>(null);
+  const [deleting, setDeleting] = useState<Employee | null>(null);
+  const [deleteBusy, setDeleteBusy] = useState(false);
+  // Bumped after a save/delete so the grid re-queries even though page, sort and filters haven't changed.
+  const [refreshCount, setRefreshCount] = useState(0);
 
   const [searchText, setSearchText] = useState("");
   const [departmentId, setDepartmentId] = useState<number | null>(null);
@@ -77,9 +116,10 @@ export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) 
     sortDir: EMPLOYEE_DEFAULT_SORT.dir,
     skip: 0,
     take: EMPLOYEE_PAGE_SIZE,
+    refresh: 0,
   });
   const [loaded, setLoaded] = useState({ key: initialKey, data: initialData });
-  const queryKey = JSON.stringify(apiQuery);
+  const queryKey = JSON.stringify({ ...apiQuery, refresh: refreshCount });
   const loading = loaded.key !== queryKey;
 
   useEffect(() => {
@@ -119,8 +159,42 @@ export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) 
 
   const departmentOptions = useMemo(() => departments.map(({ id, name }) => ({ id, name })), [departments]);
 
+  // Re-query the grid, and re-run the server component so the page-level headline count is fresh too.
+  const refreshAfterChange = () => {
+    setRefreshCount((count) => count + 1);
+    router.refresh();
+  };
+
+  const onSaved = (result: "created" | "updated") => {
+    setEditing(null);
+    notify("success", result === "created" ? "Employee added." : "Employee updated.");
+    refreshAfterChange();
+  };
+
+  const confirmDelete = async () => {
+    if (!deleting) {
+      return;
+    }
+
+    setDeleteBusy(true);
+    try {
+      await clientApi.employees.remove(deleting.id);
+      notify("success", `${deleting.firstName} ${deleting.lastName} was deleted.`);
+      // Deleting the only row on the last page would leave an empty page, so step back one page.
+      if (loaded.data.items.length === 1 && paging.skip > 0) {
+        setPaging((current) => ({ ...current, skip: Math.max(0, current.skip - current.take) }));
+      }
+      setDeleting(null);
+      refreshAfterChange();
+    } catch (error) {
+      notify("error", error instanceof ApiError ? error.message : "Could not delete the employee.");
+    } finally {
+      setDeleteBusy(false);
+    }
+  };
+
   return (
-    <>
+    <RowActionsContext value={{ onEdit: setEditing, onDelete: setDeleting }}>
       <div className="toolbar">
         <Input
           className="toolbar__search"
@@ -158,6 +232,9 @@ export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) 
             resetToFirstPage();
           }}
         />
+        <Button className="toolbar__action" svgIcon={plusIcon} themeColor="primary" onClick={() => setEditing("new")}>
+          Add employee
+        </Button>
       </div>
 
       <div className={`data-panel${loading ? " data-panel--loading" : ""}`}>
@@ -180,9 +257,33 @@ export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) 
           <GridColumn field="hireDate" title="Hired" width="130px" cells={{ data: HireDateCell }} />
           <GridColumn field="salary" title="Salary" width="120px" cells={{ data: SalaryCell }} />
           <GridColumn field="isActive" title="Status" width="110px" cells={{ data: StatusCell }} />
+          <GridColumn title="Actions" width="110px" sortable={false} cells={{ data: ActionsCell }} />
         </Grid>
         {loading && <Loader className="data-panel__loader" size="large" type="converging-spinner" />}
       </div>
-    </>
+
+      {editing && (
+        <EmployeeFormDialog
+          employee={editing === "new" ? null : editing}
+          departments={departments}
+          onClose={() => setEditing(null)}
+          onSaved={onSaved}
+        />
+      )}
+
+      {deleting && (
+        <ConfirmDialog
+          title="Delete employee"
+          message={
+            <>
+              Delete <strong>{deleting.firstName} {deleting.lastName}</strong>? Their shifts will be removed too. This can&apos;t be undone.
+            </>
+          }
+          busy={deleteBusy}
+          onConfirm={confirmDelete}
+          onCancel={() => setDeleting(null)}
+        />
+      )}
+    </RowActionsContext>
   );
 }
