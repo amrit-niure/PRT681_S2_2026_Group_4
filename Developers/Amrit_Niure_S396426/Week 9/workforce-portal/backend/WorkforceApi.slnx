@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="WorkforceApi/WorkforceApi.csproj" />
+  <Project Path="WorkforceApi.AppHost/WorkforceApi.AppHost.csproj" />
+  <Project Path="WorkforceApi.ServiceDefaults/WorkforceApi.ServiceDefaults.csproj" />
+</Solution>
