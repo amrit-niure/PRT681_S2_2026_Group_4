@@ -3,6 +3,7 @@ import { Geist } from "next/font/google";
 import "@progress/kendo-theme-default/dist/all.css";
 import "./globals.css";
 import { AppShell } from "@/components/AppShell";
+import { ToastProvider } from "@/components/Toaster";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +22,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={geistSans.variable}>
       <body>
-        <AppShell>{children}</AppShell>
+        <ToastProvider>
+          <AppShell>{children}</AppShell>
+        </ToastProvider>
       </body>
     </html>
   );
