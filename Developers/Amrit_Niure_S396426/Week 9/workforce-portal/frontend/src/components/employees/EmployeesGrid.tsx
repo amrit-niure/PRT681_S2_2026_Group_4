@@ -14,6 +14,7 @@ import { ApiError } from "@/lib/api/http";
 import type { Department, Employee, EmployeeQuery, PagedResult } from "@/lib/api/types";
 import { formatCurrency, formatDate } from "@/lib/format";
 import { useDebouncedValue } from "@/lib/useDebouncedValue";
+import { useMediaQuery } from "@/lib/useMediaQuery";
 import { ConfirmDialog } from "@/components/ConfirmDialog";
 import { useToast } from "@/components/Toaster";
 import { EmployeeFormDialog } from "./EmployeeFormDialog";
@@ -159,6 +160,21 @@ export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) 
 
   const departmentOptions = useMemo(() => departments.map(({ id, name }) => ({ id, name })), [departments]);
 
+  // Kendo's own responsive pager swaps its page buttons for a page-number input by measuring the
+  // viewport before hydration finishes, which never matches the server HTML on a phone. Choosing
+  // the layout here instead (server and first client render both assume "narrow") hydrates cleanly.
+  const isDesktop = useMediaQuery("(min-width: 992px)");
+  const pager = useMemo(
+    () => ({
+      type: isDesktop ? ("numeric" as const) : ("input" as const),
+      responsive: false,
+      buttonCount: 5,
+      info: isDesktop,
+      pageSizes: [10, 20, 50],
+    }),
+    [isDesktop],
+  );
+
   // Re-query the grid, and re-run the server component so the page-level headline count is fresh too.
   const refreshAfterChange = () => {
     setRefreshCount((count) => count + 1);
@@ -244,7 +260,7 @@ export function EmployeesGrid({ initialData, departments }: EmployeesGridProps) 
           skip={paging.skip}
           take={paging.take}
           dataItemKey="id"
-          pageable={{ pageSizes: [10, 20, 50], buttonCount: 5, info: true }}
+          pageable={pager}
           sortable={{ mode: "single", allowUnsort: false }}
           sort={sort}
           onPageChange={onPageChange}
