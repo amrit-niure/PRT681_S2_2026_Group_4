@@ -36,11 +36,12 @@ public class DashboardController : ControllerBase
             .Select(d => new HeadcountByDepartment(d.Name, d.Employees.Count(e => e.IsActive)))
             .ToListAsync();
 
-        var hires = await employees
+        var hireCounts = await employees
             .GroupBy(e => e.HireDate.Year)
-            .Select(g => new HiresByYear(g.Key, g.Count()))
-            .OrderBy(h => h.Year)
+            .OrderBy(g => g.Key)
+            .Select(g => new { Year = g.Key, Count = g.Count() })
             .ToListAsync();
+        var hires = hireCounts.Select(h => new HiresByYear(h.Year, h.Count)).ToList();
 
         // Next seven days of scheduled hours, one point per day so the chart has no gaps.
         var windowStart = DateTime.UtcNow.Date;
