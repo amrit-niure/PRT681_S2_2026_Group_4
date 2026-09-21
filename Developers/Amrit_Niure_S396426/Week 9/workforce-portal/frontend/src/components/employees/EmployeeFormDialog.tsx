@@ -5,8 +5,8 @@ import { Dialog } from "@progress/kendo-react-dialogs";
 import { Field, Form, FormElement } from "@progress/kendo-react-form";
 import { Button } from "@progress/kendo-react-buttons";
 import { clientApi } from "@/lib/api/client";
-import { ApiError } from "@/lib/api/http";
 import type { Department, Employee, EmployeeInput } from "@/lib/api/types";
+import { toFormErrors, withoutError } from "@/lib/formErrors";
 import { fromDateOnly, toDateOnly } from "@/lib/format";
 import { combine, email, maxLength, minLength, notBefore, notInFuture, range, required } from "@/lib/validators";
 import {
@@ -98,18 +98,9 @@ export function EmployeeFormDialog({ employee, departments, onClose, onSaved }: 
       }
       onSaved(employee ? "updated" : "created");
     } catch (error) {
-      if (error instanceof ApiError) {
-        const fieldMessages = Object.fromEntries(
-          Object.entries(error.fieldErrors)
-            .filter(([field]) => FIELD_NAMES.includes(field))
-            .map(([field, messages]) => [field, messages[0]]),
-        );
-        setServerErrors(fieldMessages);
-        // Only fall back to a general message when nothing can be pinned on a specific field.
-        setFormError(Object.keys(fieldMessages).length > 0 ? null : error.message);
-      } else {
-        setFormError("Could not reach the server. Check your connection and try again.");
-      }
+      const { fieldErrors, formError } = toFormErrors(error, FIELD_NAMES);
+      setServerErrors(fieldErrors);
+      setFormError(formError);
     } finally {
       setSaving(false);
     }
@@ -120,11 +111,7 @@ export function EmployeeFormDialog({ employee, departments, onClose, onSaved }: 
       <Form
         initialValues={employee ? toFormValues(employee) : blankValues}
         errors={serverErrors}
-        onChange={(fieldName) =>
-          setServerErrors((current) =>
-            Object.fromEntries(Object.entries(current).filter(([field]) => field !== fieldName)),
-          )
-        }
+        onChange={(fieldName) => setServerErrors((current) => withoutError(current, fieldName))}
         onSubmit={submit}
         render={() => (
           <FormElement style={{ maxWidth: "none" }}>
