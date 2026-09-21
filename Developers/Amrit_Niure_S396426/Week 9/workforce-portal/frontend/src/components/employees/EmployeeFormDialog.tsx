@@ -8,7 +8,7 @@ import { clientApi } from "@/lib/api/client";
 import { ApiError } from "@/lib/api/http";
 import type { Department, Employee, EmployeeInput } from "@/lib/api/types";
 import { fromDateOnly, toDateOnly } from "@/lib/format";
-import { combine, email, maxLength, minLength, notInFuture, range, required } from "@/lib/validators";
+import { combine, email, maxLength, minLength, notBefore, notInFuture, range, required } from "@/lib/validators";
 import {
   FormDatePicker,
   FormDropDown,
@@ -28,7 +28,10 @@ interface EmployeeFormValues {
   isActive: boolean;
 }
 
-const FIELD_NAMES = ["firstName", "lastName", "email", "jobTitle", "departmentId", "hireDate", "salary", "isActive"];
+// Same floor as SaveEmployeeRequest.MinHireDate on the API.
+const MIN_HIRE_DATE = new Date(1950, 0, 1);
+
+const FIELD_NAMES =["firstName", "lastName", "email", "jobTitle", "departmentId", "hireDate", "salary", "isActive"];
 
 const blankValues: EmployeeFormValues = {
   firstName: "",
@@ -171,7 +174,12 @@ export function EmployeeFormDialog({ employee, departments, onClose, onSaved }: 
                 name="hireDate"
                 label="Hire date"
                 component={FormDatePicker}
-                validator={combine(required("Hire date is required."), notInFuture)}
+                min={MIN_HIRE_DATE}
+                validator={combine(
+                  required("Hire date is required."),
+                  notBefore(MIN_HIRE_DATE, "Hire date can't be before 1950."),
+                  notInFuture,
+                )}
               />
               <Field
                 name="salary"

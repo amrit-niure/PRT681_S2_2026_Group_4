@@ -114,8 +114,8 @@ export function FormNumericInput(props: CommonProps & { format?: string; min?: n
   );
 }
 
-export function FormDatePicker(props: CommonProps & { max?: Date }) {
-  const { name, value, onChange, onBlur, onFocus, valid, label, hint, optional, max } = props;
+export function FormDatePicker(props: CommonProps & { min?: Date; max?: Date }) {
+  const { name, value, onChange, onBlur, onFocus, valid, label, hint, optional, min, max } = props;
   const id = `field-${name}`;
   return (
     <FieldShell id={id} label={label} valid={valid} optional={optional} hint={hint} error={visibleError(props)}>
@@ -124,6 +124,7 @@ export function FormDatePicker(props: CommonProps & { max?: Date }) {
         name={name}
         value={value ?? null}
         valid={valid}
+        min={min}
         max={max}
         format="dd/MM/yyyy"
         placeholder="dd/mm/yyyy"

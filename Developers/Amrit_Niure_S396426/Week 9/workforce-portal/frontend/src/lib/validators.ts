@@ -47,6 +47,12 @@ export const notInFuture: FieldValidatorType = (value) => {
   return value > endOfToday ? "Date can't be in the future." : undefined;
 };
 
+/** A date that must not be before `earliest`; catches mistyped years such as 0024 or 1824. */
+export const notBefore =
+  (earliest: Date, message: string): FieldValidatorType =>
+  (value) =>
+    value instanceof Date && value < earliest ? message : undefined;
+
 /** Runs validators in order and returns the first message, so each field shows one clear error. */
 export const combine =
   (...validators: FieldValidatorType[]): FieldValidatorType =>
