@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using Serilog;
 using WorkforceApi.Data;
@@ -31,6 +32,12 @@ var app = builder.Build();
 app.UseSerilogRequestLogging();
 
 app.MapDefaultEndpoints();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<WorkforceDbContext>();
+    db.Database.Migrate();
+}
 
 app.MapOpenApi();
 app.MapScalarApiReference();
