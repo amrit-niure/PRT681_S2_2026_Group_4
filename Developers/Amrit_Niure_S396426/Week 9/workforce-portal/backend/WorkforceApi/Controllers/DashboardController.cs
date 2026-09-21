@@ -18,10 +18,14 @@ public class DashboardController : ControllerBase
         _db = db;
     }
 
-    // GET: api/dashboard/summary
+    // GET: api/dashboard/summary?utcOffsetMinutes=570
+    // The offset (minutes ahead of UTC, e.g. 570 for Darwin) decides which local calendar day a shift
+    // counts towards, so a Monday-morning shift isn't charted under Sunday.
     [HttpGet("summary")]
-    public async Task<ActionResult<DashboardSummaryDto>> GetSummary()
+    public async Task<ActionResult<DashboardSummaryDto>> GetSummary([FromQuery] int utcOffsetMinutes = 0)
     {
+        var offset = TimeSpan.FromMinutes(Math.Clamp(utcOffsetMinutes, -14 * 60, 14 * 60));
+
         var employees = _db.Employees.AsNoTracking();
 
         var totalEmployees = await employees.CountAsync();
@@ -44,7 +48,8 @@ public class DashboardController : ControllerBase
         var hires = hireCounts.Select(h => new HiresByYear(h.Year, h.Count)).ToList();
 
         // Next seven days of scheduled hours, one point per day so the chart has no gaps.
-        var windowStart = DateTime.UtcNow.Date;
+        var firstLocalDay = (DateTime.UtcNow + offset).Date;
+        var windowStart = DateTime.SpecifyKind(firstLocalDay - offset, DateTimeKind.Utc);
         var windowEnd = windowStart.AddDays(ShiftWindowDays);
         var shifts = await _db.Shifts.AsNoTracking()
             .Where(s => s.Start >= windowStart && s.Start < windowEnd)
@@ -52,11 +57,11 @@ public class DashboardController : ControllerBase
             .ToListAsync();
 
         var hoursByDay = Enumerable.Range(0, ShiftWindowDays)
-            .Select(offset =>
+            .Select(dayIndex =>
             {
-                var day = windowStart.AddDays(offset);
+                var day = firstLocalDay.AddDays(dayIndex);
                 var hours = shifts
-                    .Where(s => s.Start.Date == day)
+                    .Where(s => (s.Start + offset).Date == day)
                     .Sum(s => (s.End - s.Start).TotalHours);
                 return new ShiftHoursByDay(DateOnly.FromDateTime(day), Math.Round(hours, 1));
             })
