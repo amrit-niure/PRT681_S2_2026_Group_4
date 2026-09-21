@@ -1,5 +1,6 @@
 using Scalar.AspNetCore;
 using Serilog;
+using WorkforceApi.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ const string FrontendCorsPolicy = "frontend";
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+
+builder.AddNpgsqlDbContext<WorkforceDbContext>("workforcedb");
 
 var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
                      ?? ["http://localhost:3000"];
