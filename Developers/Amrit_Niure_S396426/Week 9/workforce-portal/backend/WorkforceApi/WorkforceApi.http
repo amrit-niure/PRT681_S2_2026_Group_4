@@ -1,0 +1,111 @@
+@WorkforceApi_HostAddress = http://localhost:5280
+
+### Departments
+GET {{WorkforceApi_HostAddress}}/api/departments
+
+###
+POST {{WorkforceApi_HostAddress}}/api/departments
+Content-Type: application/json
+
+{
+  "name": "Legal",
+  "description": "Contracts and compliance."
+}
+
+###
+PUT {{WorkforceApi_HostAddress}}/api/departments/1
+Content-Type: application/json
+
+{
+  "name": "Engineering",
+  "description": "Software development and platform teams."
+}
+
+### 409 while the department still has employees
+DELETE {{WorkforceApi_HostAddress}}/api/departments/1
+
+### Employees: page 1, sorted by salary, filtered by search text
+GET {{WorkforceApi_HostAddress}}/api/employees?search=engineer&isActive=true&sortBy=salary&sortDir=desc&skip=0&take=10
+
+###
+GET {{WorkforceApi_HostAddress}}/api/employees/1
+
+###
+POST {{WorkforceApi_HostAddress}}/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "Jamie",
+  "lastName": "Lee",
+  "email": "jamie.lee@workforce.example",
+  "jobTitle": "Software Engineer",
+  "departmentId": 1,
+  "hireDate": "2024-03-01",
+  "salary": 110000,
+  "isActive": true
+}
+
+### 400 with a per-field error for every rule that fails
+POST {{WorkforceApi_HostAddress}}/api/employees
+Content-Type: application/json
+
+{
+  "firstName": "",
+  "lastName": "Lee",
+  "email": "not-an-email",
+  "jobTitle": "A",
+  "departmentId": 0,
+  "hireDate": "2999-01-01",
+  "salary": -5
+}
+
+###
+PUT {{WorkforceApi_HostAddress}}/api/employees/1
+Content-Type: application/json
+
+{
+  "firstName": "Jamie",
+  "lastName": "Lee",
+  "email": "jamie.lee@workforce.example",
+  "jobTitle": "Senior Engineer",
+  "departmentId": 1,
+  "hireDate": "2024-03-01",
+  "salary": 125000,
+  "isActive": true
+}
+
+###
+DELETE {{WorkforceApi_HostAddress}}/api/employees/41
+
+### Shifts: everything overlapping a window
+GET {{WorkforceApi_HostAddress}}/api/shifts?from=2026-09-21T00:00:00Z&to=2026-09-28T00:00:00Z
+
+###
+POST {{WorkforceApi_HostAddress}}/api/shifts
+Content-Type: application/json
+
+{
+  "employeeId": 1,
+  "title": "Day shift",
+  "start": "2026-10-05T23:30:00Z",
+  "end": "2026-10-06T07:30:00Z",
+  "isAllDay": false,
+  "notes": "Cover the front desk."
+}
+
+### 400 when the end is before the start
+POST {{WorkforceApi_HostAddress}}/api/shifts
+Content-Type: application/json
+
+{
+  "employeeId": 1,
+  "title": "Bad shift",
+  "start": "2026-10-05T10:00:00Z",
+  "end": "2026-10-05T09:00:00Z"
+}
+
+###
+DELETE {{WorkforceApi_HostAddress}}/api/shifts/1
+
+### Dashboard: offset is minutes ahead of UTC (570 = Darwin)
+GET {{WorkforceApi_HostAddress}}/api/dashboard/summary?utcOffsetMinutes=570
