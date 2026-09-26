@@ -1,0 +1,74 @@
+# Full stack without Aspire: docker compose up --build
+# (Aspire is the other option: run the TicketingApi.AppHost project.)
+services:
+  postgres:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ticketingdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d ticketingdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  seq:
+    image: datalust/seq:latest
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: "Y"
+      # Newer Seq refuses to start without an admin password or an explicit opt-out.
+      # Fine for local use; set SEQ_FIRSTRUN_ADMINPASSWORD instead if you expose this.
+      SEQ_FIRSTRUN_NOAUTHENTICATION: "true"
+    volumes:
+      - seq_data:/data
+    ports:
+      - "8081:80"
+
+  temporal:
+    image: temporalio/temporal:latest
+    restart: unless-stopped
+    command: ["server", "start-dev", "--ip", "0.0.0.0"]
+    ports:
+      - "7233:7233"
+      - "8233:8233"
+
+  api:
+    build:
+      context: backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      seq:
+        condition: service_started
+      temporal:
+        condition: service_started
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__ticketingdb: Host=postgres;Port=5432;Database=ticketingdb;Username=${POSTGRES_USER:-postgres};Password=${POSTGRES_PASSWORD:-postgres}
+      ConnectionStrings__seq: http://seq:5341
+      Temporal__Address: temporal:7233
+      Cors__AllowedOrigins__0: http://localhost:5177
+      # Lets you hit /api/diagnostics/throw to see an exception land in ELMAH/Seq.
+      Diagnostics__Enabled: "true"
+      Elmah__AllowAnonymous: "true"
+    volumes:
+      - api_dpkeys:/app/dp-keys
+      - api_elmah:/app/elmah-logs
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_data:
+  seq_data:
+  api_dpkeys:
+  api_elmah:

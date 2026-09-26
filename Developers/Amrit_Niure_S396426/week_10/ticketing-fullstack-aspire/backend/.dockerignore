@@ -1,0 +1,8 @@
+**/bin/
+**/obj/
+**/.vs/
+**/dp-keys/
+**/elmah-logs/
+**/*.user
+TicketingApi.AppHost/
+.git/
