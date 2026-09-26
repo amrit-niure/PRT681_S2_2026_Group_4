@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using ElmahCore;
 using ElmahCore.Mvc;
+using Exceptionless;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Temporalio.Extensions.Hosting;
@@ -63,7 +64,20 @@ builder.Services.AddElmah<XmlFileErrorLog>(options =>
         elmahAllowAnonymous || builder.Environment.IsDevelopment() || context.User.Identity?.IsAuthenticated == true;
 });
 
+// Exceptionless: ships unhandled exceptions to an Exceptionless server (cloud or self-hosted).
+// Only active when Exceptionless:ApiKey is set, so local runs work without an account.
+var exceptionlessEnabled = !string.IsNullOrWhiteSpace(builder.Configuration["Exceptionless:ApiKey"]);
+if (exceptionlessEnabled)
+{
+    builder.Services.AddExceptionless(builder.Configuration);
+}
+
 var app = builder.Build();
+
+if (exceptionlessEnabled)
+{
+    app.UseExceptionless();
+}
 
 // One structured "HTTP GET /api/tickets responded 200 in 12 ms" event per request.
 app.UseSerilogRequestLogging();
