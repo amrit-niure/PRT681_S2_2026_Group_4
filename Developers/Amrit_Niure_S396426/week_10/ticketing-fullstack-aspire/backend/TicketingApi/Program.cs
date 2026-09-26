@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Identity;
+using ElmahCore;
+using ElmahCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using Temporalio.Extensions.Hosting;
@@ -49,10 +51,24 @@ builder.Services
     .AddWorkflow<TicketEmailWorkflow>();
 builder.Services.AddSingleton<TicketEmailDispatcher>();
 
+// ELMAH: records every unhandled exception (with request context) and serves a UI at /elmah.
+// The UI is open in Development; elsewhere it needs a signed-in user unless Elmah:AllowAnonymous is set.
+var elmahAllowAnonymous = builder.Configuration.GetValue<bool>("Elmah:AllowAnonymous");
+builder.Services.AddElmah<XmlFileErrorLog>(options =>
+{
+    options.Path = "/elmah";
+    options.LogPath = builder.Configuration["Elmah:LogPath"] ?? "./elmah-logs";
+    options.ApplicationName = "TicketingApi";
+    options.OnPermissionCheck = context =>
+        elmahAllowAnonymous || builder.Environment.IsDevelopment() || context.User.Identity?.IsAuthenticated == true;
+});
+
 var app = builder.Build();
 
 // One structured "HTTP GET /api/tickets responded 200 in 12 ms" event per request.
 app.UseSerilogRequestLogging();
+
+app.UseElmah();
 
 app.MapDefaultEndpoints();
 

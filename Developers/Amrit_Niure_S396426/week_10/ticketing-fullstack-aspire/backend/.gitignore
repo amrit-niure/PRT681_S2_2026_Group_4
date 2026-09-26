@@ -484,3 +484,6 @@ $RECYCLE.BIN/
 *.db
 *.db-shm
 *.db-wal
+
+# ELMAH error logs
+elmah-logs/
