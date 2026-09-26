@@ -10,7 +10,6 @@ interface TicketFormProps {
   onCreate: (input: CreateTicket) => Promise<void>
 }
 
-/** Form for raising a new ticket. Keeps its own input state and hands the trimmed values up. */
 export function TicketForm({ onCreate }: TicketFormProps) {
   const [title, setTitle] = useState('')
   const [description, setDescription] = useState('')

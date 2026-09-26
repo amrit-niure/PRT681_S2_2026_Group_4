@@ -1,12 +1,9 @@
-// Auth API calls against the ASP.NET Core Identity endpoints (mapped at /api/auth).
-
 import { API_URL, setAuth } from './client'
 interface LoginResponse {
   accessToken: string
   refreshToken: string
 }
 
-/** Pulls a readable message out of an Identity error response. */
 async function errorMessage(res: Response, fallback: string): Promise<string> {
   try {
     const body = await res.json()
@@ -16,7 +13,6 @@ async function errorMessage(res: Response, fallback: string): Promise<string> {
       if (Array.isArray(first) && first[0]) return first[0]
     }
   } catch {
-    // fall through
   }
   return fallback
 }

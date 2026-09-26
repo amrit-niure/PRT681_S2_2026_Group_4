@@ -25,11 +25,10 @@ import { selectClassName } from './selectClassName'
 interface TicketDetailProps {
   ticketId: number | null
   onClose: () => void
-  /** Called after a change so the list behind the dialog can refresh. */
+
   onChanged: () => void
 }
 
-/** Dialog showing one ticket (the parent keys it by ticket id so state resets between tickets): description, status/assignee controls and the comment thread. */
 export function TicketDetail({ ticketId, onClose, onChanged }: TicketDetailProps) {
   const [detail, setDetail] = useState<Detail | null>(null)
   const [assignees, setAssignees] = useState<Assignee[]>([])

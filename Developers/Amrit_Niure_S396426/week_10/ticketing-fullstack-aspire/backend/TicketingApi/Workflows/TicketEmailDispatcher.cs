@@ -2,10 +2,6 @@ using Temporalio.Client;
 
 namespace TicketingApi.Workflows;
 
-/// <summary>
-/// Starts <see cref="TicketEmailWorkflow"/> runs. Email is a side effect of the request, not
-/// part of it, so a Temporal outage is logged and swallowed rather than failing the API call.
-/// </summary>
 public class TicketEmailDispatcher
 {
     private readonly ITemporalClient _client;

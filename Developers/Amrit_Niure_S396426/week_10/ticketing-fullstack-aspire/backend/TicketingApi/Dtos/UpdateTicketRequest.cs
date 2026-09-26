@@ -3,7 +3,6 @@ using TicketingApi.Models;
 
 namespace TicketingApi.Dtos;
 
-/// <summary>Payload for editing a ticket's details, status and assignee.</summary>
 public class UpdateTicketRequest
 {
     [Required]
@@ -18,6 +17,5 @@ public class UpdateTicketRequest
 
     public TicketStatus Status { get; set; }
 
-    /// <summary>Id of the user the ticket is assigned to. Null unassigns it.</summary>
     public string? AssignedToUserId { get; set; }
 }

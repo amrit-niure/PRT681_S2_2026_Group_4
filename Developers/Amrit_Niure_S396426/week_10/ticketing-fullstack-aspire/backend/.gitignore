@@ -485,8 +485,6 @@ $RECYCLE.BIN/
 *.db-shm
 *.db-wal
 
-# ELMAH error logs
 elmah-logs/
 
-# Data-protection keys
 dp-keys/

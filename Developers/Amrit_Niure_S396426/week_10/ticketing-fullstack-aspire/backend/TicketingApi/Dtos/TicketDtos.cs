@@ -2,7 +2,6 @@ using TicketingApi.Models;
 
 namespace TicketingApi.Dtos;
 
-/// <summary>Shape returned to the client. Keeps the API contract separate from the EF entity.</summary>
 public record TicketDto(
     int Id,
     string Title,

@@ -23,7 +23,6 @@ const AuthContext = createContext<AuthContextValue | null>(null)
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [email, setEmail] = useState<string | null>(() => getAuth()?.email ?? null)
 
-  // Keep context state in sync with the token store (refresh, expiry, other tabs).
   useEffect(() => onAuthChange((auth) => setEmail(auth?.email ?? null)), [])
 
   const signIn = useCallback(async (e: string, p: string) => {
@@ -45,7 +44,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
 export function useAuth(): AuthContextValue {
   const ctx = useContext(AuthContext)
   if (!ctx) throw new Error('useAuth must be used inside <AuthProvider>')

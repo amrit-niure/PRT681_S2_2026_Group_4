@@ -3,11 +3,6 @@ using Temporalio.Workflows;
 
 namespace TicketingApi.Workflows;
 
-/// <summary>
-/// Durable, asynchronous email dispatch for ticket confirmations and status alerts. The API
-/// only starts the workflow and returns; Temporal owns delivery and retries with backoff,
-/// and the run history survives an API restart.
-/// </summary>
 [Workflow]
 public class TicketEmailWorkflow
 {

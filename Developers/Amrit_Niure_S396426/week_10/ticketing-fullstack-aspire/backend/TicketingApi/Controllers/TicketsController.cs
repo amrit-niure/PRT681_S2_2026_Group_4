@@ -10,10 +10,6 @@ using TicketingApi.Workflows;
 
 namespace TicketingApi.Controllers;
 
-/// <summary>
-/// The ticket queue. Every signed-in user can raise tickets and work the shared queue;
-/// <c>mine=true</c> narrows the list to the tickets the caller raised.
-/// </summary>
 [ApiController]
 [Authorize]
 [Route("api/[controller]")]
@@ -32,7 +28,6 @@ public class TicketsController : ControllerBase
 
     private string CurrentUserId => User.FindFirstValue(ClaimTypes.NameIdentifier)!;
 
-    // GET: api/tickets?status=Open&mine=true
     [HttpGet]
     public async Task<ActionResult<IEnumerable<TicketDto>>> GetAll(TicketStatus? status, bool mine = false)
     {
@@ -46,7 +41,6 @@ public class TicketsController : ControllerBase
             query = query.Where(t => t.CreatedByUserId == CurrentUserId);
         }
 
-        // Open work first, then most urgent, then newest.
         var tickets = await query
             .OrderBy(t => t.Status == TicketStatus.Closed || t.Status == TicketStatus.Resolved)
             .ThenByDescending(t => t.Priority)
@@ -56,7 +50,6 @@ public class TicketsController : ControllerBase
         return Ok(await ToDtosAsync(tickets));
     }
 
-    // GET: api/tickets/5
     [HttpGet("{id:int}")]
     public async Task<ActionResult<TicketDetailDto>> GetById(int id)
     {
@@ -77,7 +70,6 @@ public class TicketsController : ControllerBase
         return Ok(new TicketDetailDto(dto, comments));
     }
 
-    // POST: api/tickets
     [HttpPost]
     public async Task<ActionResult<TicketDto>> Create(CreateTicketRequest request)
     {
@@ -100,7 +92,6 @@ public class TicketsController : ControllerBase
 
         var dto = (await ToDtosAsync([ticket]))[0];
 
-        // Confirmation email, sent asynchronously by the Temporal workflow.
         await NotifyCreatorAsync(ticket, dto.CreatedBy,
             $"[Ticket #{ticket.Id}] We received your request: {ticket.Title}",
             $"Hi,\n\nYour ticket #{ticket.Id} \"{ticket.Title}\" has been logged with {ticket.Priority} priority.\n" +
@@ -109,7 +100,6 @@ public class TicketsController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = ticket.Id }, dto);
     }
 
-    // PUT: api/tickets/5
     [HttpPut("{id:int}")]
     public async Task<IActionResult> Update(int id, UpdateTicketRequest request)
     {
@@ -149,7 +139,6 @@ public class TicketsController : ControllerBase
         return NoContent();
     }
 
-    // DELETE: api/tickets/5
     [HttpDelete("{id:int}")]
     public async Task<IActionResult> Delete(int id)
     {
@@ -159,7 +148,6 @@ public class TicketsController : ControllerBase
             return NotFound();
         }
 
-        // Only the person who raised the ticket may delete it.
         if (ticket.CreatedByUserId != CurrentUserId)
         {
             return Forbid();
@@ -172,7 +160,6 @@ public class TicketsController : ControllerBase
         return NoContent();
     }
 
-    // POST: api/tickets/5/comments
     [HttpPost("{id:int}/comments")]
     public async Task<ActionResult<TicketCommentDto>> AddComment(int id, AddCommentRequest request)
     {
@@ -197,7 +184,6 @@ public class TicketsController : ControllerBase
         return Created($"/api/tickets/{id}", new TicketCommentDto(comment.Id, author, comment.Body, comment.CreatedAt));
     }
 
-    // GET: api/tickets/assignees
     [HttpGet("assignees")]
     public async Task<ActionResult<IEnumerable<object>>> GetAssignees()
     {

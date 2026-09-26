@@ -2,7 +2,6 @@ import { authFetch, readJson } from './client'
 
 const ENDPOINT = '/api/tickets'
 
-// The API serialises enums as their numeric values.
 export const STATUSES = ['Open', 'In progress', 'Resolved', 'Closed'] as const
 export const PRIORITIES = ['Low', 'Medium', 'High', 'Urgent'] as const
 
@@ -92,7 +91,6 @@ export function getAssignees(): Promise<Assignee[]> {
   return authFetch(`${ENDPOINT}/assignees`).then((r) => readJson<Assignee[]>(r))
 }
 
-/** The API sends naive UTC timestamps (no "Z"); append one so the browser reads them as UTC. */
 export function formatTimestamp(iso: string): string {
   const utc = /[Zz]|[+-]\d\d:\d\d$/.test(iso) ? iso : `${iso}Z`
   return new Date(utc).toLocaleString(undefined, {

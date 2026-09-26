@@ -4,7 +4,6 @@ using MimeKit;
 
 namespace TicketingApi.Notifications;
 
-/// <summary>Sends email through an SMTP server (Resend by default) using MailKit.</summary>
 public class SmtpEmailSender : IEmailSender
 {
     private readonly SmtpOptions _options;

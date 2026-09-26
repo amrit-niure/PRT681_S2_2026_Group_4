@@ -3,7 +3,6 @@ using TicketingApi.Models;
 
 namespace TicketingApi.Dtos;
 
-/// <summary>Payload for raising a ticket. Validated automatically by [ApiController].</summary>
 public class CreateTicketRequest
 {
     [Required]

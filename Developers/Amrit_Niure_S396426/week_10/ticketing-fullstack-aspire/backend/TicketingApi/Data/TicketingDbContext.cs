@@ -6,10 +6,6 @@ using TicketingApi.Models;
 
 namespace TicketingApi.Data;
 
-/// <summary>
-/// EF Core unit of work for the ticketing database. Also hosts the ASP.NET Core Identity
-/// tables (AspNetUsers, AspNetRoles, ...). One instance is created per HTTP request.
-/// </summary>
 public class TicketingDbContext : IdentityDbContext<IdentityUser>
 {
     public TicketingDbContext(DbContextOptions<TicketingDbContext> options) : base(options)
@@ -24,8 +20,6 @@ public class TicketingDbContext : IdentityDbContext<IdentityUser>
     {
         base.OnModelCreating(modelBuilder);
 
-        // Npgsql's "timestamp without time zone" mapping rejects DateTime.Kind == Utc
-        // (it wants Unspecified), so strip the Kind on the way in/out.
         var unspecifiedKind = new ValueConverter<DateTime, DateTime>(
             v => DateTime.SpecifyKind(v, DateTimeKind.Unspecified),
             v => DateTime.SpecifyKind(v, DateTimeKind.Unspecified));

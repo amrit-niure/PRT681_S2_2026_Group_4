@@ -3,10 +3,6 @@ using TicketingApi.Notifications;
 
 namespace TicketingApi.Workflows;
 
-/// <summary>
-/// Activities are where side effects live. Temporal retries a failed activity (e.g. the
-/// SMTP server being briefly unreachable) according to the workflow's retry policy.
-/// </summary>
 public class TicketEmailActivities
 {
     private readonly IEmailSender _emailSender;

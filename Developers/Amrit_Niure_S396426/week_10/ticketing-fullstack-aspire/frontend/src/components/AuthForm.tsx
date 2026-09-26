@@ -6,7 +6,6 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { useAuth } from '../auth/AuthContext'
 
-/** Sign-in / sign-up card shown when nobody is authenticated. */
 export function AuthForm() {
   const { signIn, signUp } = useAuth()
   const [mode, setMode] = useState<'login' | 'register'>('login')

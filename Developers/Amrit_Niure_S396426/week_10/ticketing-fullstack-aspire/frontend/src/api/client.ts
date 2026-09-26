@@ -1,6 +1,3 @@
-// Shared HTTP client: knows the API base URL, stores the auth tokens, attaches the
-// bearer header, and transparently refreshes an expired access token once.
-
 export const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:5260'
 
 const STORAGE_KEY = 'ticketing.auth'
@@ -40,12 +37,10 @@ export function setAuth(next: Auth | null): void {
     if (next) localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
     else localStorage.removeItem(STORAGE_KEY)
   } catch {
-    // Ignore storage failures (private mode etc.); state still lives in memory.
   }
   listeners.forEach((fn) => fn(next))
 }
 
-/** Subscribe to sign-in / sign-out. Returns an unsubscribe function. */
 export function onAuthChange(fn: (auth: Auth | null) => void): () => void {
   listeners.add(fn)
   return () => listeners.delete(fn)
@@ -68,10 +63,6 @@ async function tryRefresh(): Promise<boolean> {
   }
 }
 
-/**
- * fetch() with the caller's bearer token attached. Refreshes an expired token once, and
- * signs the user out if the refresh fails.
- */
 export async function authFetch(path: string, init: RequestInit = {}): Promise<Response> {
   const call = () =>
     fetch(`${API_URL}${path}`, {

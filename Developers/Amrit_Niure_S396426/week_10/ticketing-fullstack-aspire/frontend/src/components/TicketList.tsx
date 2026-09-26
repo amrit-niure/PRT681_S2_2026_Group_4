@@ -41,7 +41,6 @@ function Badge({ className, children }: { className: string; children: string })
   )
 }
 
-/** The ticket queue: click a ticket to open it; the person who raised it can delete it. */
 export function TicketList({ tickets, currentEmail, onOpen, onDelete }: TicketListProps) {
   if (tickets.length === 0) {
     return <p className="text-sm text-muted-foreground">No tickets here yet.</p>

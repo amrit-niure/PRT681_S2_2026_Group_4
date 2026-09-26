@@ -108,9 +108,6 @@ public static class Extensions
 
     public static WebApplication MapDefaultEndpoints(this WebApplication app)
     {
-        // Mapped in every environment (not just Development) because container health checks
-        // and orchestrators probe them. They only report status, no internal detail.
-
         // All health checks must pass for app to be considered ready to accept traffic after starting
         app.MapHealthChecks(HealthEndpointPath);
 

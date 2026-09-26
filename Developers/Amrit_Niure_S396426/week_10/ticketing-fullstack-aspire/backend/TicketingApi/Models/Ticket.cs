@@ -1,16 +1,11 @@
 namespace TicketingApi.Models;
 
-/// <summary>
-/// A support ticket. This is the EF Core entity that maps to the Tickets table.
-/// </summary>
 public class Ticket
 {
     public int Id { get; set; }
 
-    /// <summary>Id of the Identity user who raised the ticket (AspNetUsers.Id).</summary>
     public string CreatedByUserId { get; set; } = string.Empty;
 
-    /// <summary>Id of the Identity user working on the ticket. Null means unassigned.</summary>
     public string? AssignedToUserId { get; set; }
 
     public string Title { get; set; } = string.Empty;
