@@ -67,6 +67,20 @@ services:
     ports:
       - "8080:8080"
 
+  frontend:
+    build:
+      context: frontend
+      dockerfile: Dockerfile
+      args:
+        # The browser calls the API directly, so this is the API's *host* address.
+        VITE_API_URL: http://localhost:8080
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "5177:80"
+
 volumes:
   postgres_data:
   seq_data:
