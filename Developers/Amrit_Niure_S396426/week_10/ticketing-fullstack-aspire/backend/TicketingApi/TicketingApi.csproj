@@ -19,6 +19,8 @@
     </PackageReference>
     <PackageReference Include="Temporalio.Extensions.Hosting" Version="1.19.0" />
     <PackageReference Include="Scalar.AspNetCore" Version="2.17.3" />
+    <!-- ElmahCore depends on SqlClient 4.8.2 (known CVEs) for its optional SQL error log; pin the patched one. -->
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
     <PackageReference Include="Serilog.Sinks.Seq" Version="9.1.0" />
   </ItemGroup>
