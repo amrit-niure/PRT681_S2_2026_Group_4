@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using Temporalio.Extensions.Hosting;
 using TicketingApi.Data;
 using TicketingApi.Notifications;
+using TicketingApi.Workflows;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +34,20 @@ builder.Services
 // Outgoing email over SMTP (Resend relay by default).
 builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection(SmtpOptions.SectionName));
 builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>();
+
+// Temporal: the API starts email workflows; an in-process worker executes them.
+var temporal = builder.Configuration.GetSection(TemporalOptions.SectionName).Get<TemporalOptions>() ?? new();
+builder.Services.Configure<TemporalOptions>(builder.Configuration.GetSection(TemporalOptions.SectionName));
+builder.Services.AddTemporalClient(options =>
+{
+    options.TargetHost = temporal.Address;
+    options.Namespace = temporal.Namespace;
+});
+builder.Services
+    .AddHostedTemporalWorker(temporal.TaskQueue)
+    .AddScopedActivities<TicketEmailActivities>()
+    .AddWorkflow<TicketEmailWorkflow>();
+builder.Services.AddSingleton<TicketEmailDispatcher>();
 
 var app = builder.Build();
 

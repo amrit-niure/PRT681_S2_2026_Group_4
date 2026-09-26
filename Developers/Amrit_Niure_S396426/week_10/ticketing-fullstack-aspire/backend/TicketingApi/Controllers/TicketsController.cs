@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using TicketingApi.Data;
 using TicketingApi.Dtos;
 using TicketingApi.Models;
+using TicketingApi.Workflows;
 
 namespace TicketingApi.Controllers;
 
@@ -19,11 +20,13 @@ namespace TicketingApi.Controllers;
 public class TicketsController : ControllerBase
 {
     private readonly TicketingDbContext _db;
+    private readonly TicketEmailDispatcher _emails;
     private readonly ILogger<TicketsController> _logger;
 
-    public TicketsController(TicketingDbContext db, ILogger<TicketsController> logger)
+    public TicketsController(TicketingDbContext db, TicketEmailDispatcher emails, ILogger<TicketsController> logger)
     {
         _db = db;
+        _emails = emails;
         _logger = logger;
     }
 
@@ -96,6 +99,13 @@ public class TicketsController : ControllerBase
             ticket.Id, ticket.CreatedByUserId, ticket.Priority);
 
         var dto = (await ToDtosAsync([ticket]))[0];
+
+        // Confirmation email, sent asynchronously by the Temporal workflow.
+        await NotifyCreatorAsync(ticket, dto.CreatedBy,
+            $"[Ticket #{ticket.Id}] We received your request: {ticket.Title}",
+            $"Hi,\n\nYour ticket #{ticket.Id} \"{ticket.Title}\" has been logged with {ticket.Priority} priority.\n" +
+            "We will let you know when its status changes.\n\n— Ticketing");
+
         return CreatedAtAction(nameof(GetById), new { id = ticket.Id }, dto);
     }
 
@@ -129,6 +139,11 @@ public class TicketsController : ControllerBase
         {
             _logger.LogInformation("Ticket {TicketId} moved from {PreviousStatus} to {Status} by {UserId}.",
                 ticket.Id, previousStatus, ticket.Status, CurrentUserId);
+
+            var creatorEmail = (await EmailsAsync([ticket.CreatedByUserId])).GetValueOrDefault(ticket.CreatedByUserId);
+            await NotifyCreatorAsync(ticket, creatorEmail,
+                $"[Ticket #{ticket.Id}] Status changed to {ticket.Status}",
+                $"Hi,\n\nYour ticket #{ticket.Id} \"{ticket.Title}\" moved from {previousStatus} to {ticket.Status}.\n\n— Ticketing");
         }
 
         return NoContent();
@@ -192,6 +207,11 @@ public class TicketsController : ControllerBase
             .ToListAsync();
         return Ok(users);
     }
+
+    private Task NotifyCreatorAsync(Ticket ticket, string? to, string subject, string body) =>
+        string.IsNullOrWhiteSpace(to) || to == "unknown"
+            ? Task.CompletedTask
+            : _emails.DispatchAsync(new TicketEmailRequest(ticket.Id, to, subject, body));
 
     private async Task<Dictionary<string, string>> EmailsAsync(IEnumerable<string?> userIds)
     {
