@@ -1,8 +1,11 @@
+using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
 using ElmahCore;
 using ElmahCore.Mvc;
 using Exceptionless;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 using Serilog;
 using Temporalio.Extensions.Hosting;
 using TicketingApi.Data;
@@ -22,6 +25,13 @@ builder.Host.UseSerilog((context, services, configuration) => configuration
     .Enrich.WithProperty("Application", "TicketingApi")
     .WriteTo.Console()
     .WriteTo.Seq(context.Configuration.GetConnectionString("seq") ?? "http://localhost:5342"));
+
+const string FrontendCorsPolicy = "frontend";
+
+// Persist data-protection keys (used to sign auth tokens) next to the app so a restart
+// doesn't sign everyone out. In a container, mount a volume at /app/dp-keys.
+var keysDirectory = Directory.CreateDirectory(Path.Combine(builder.Environment.ContentRootPath, "dp-keys"));
+builder.Services.AddDataProtection().PersistKeysToFileSystem(keysDirectory);
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
@@ -72,7 +82,20 @@ if (exceptionlessEnabled)
     builder.Services.AddExceptionless(builder.Configuration);
 }
 
+var allowedOrigins = builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>()
+                     ?? ["http://localhost:5177"];
+builder.Services.AddCors(options =>
+    options.AddPolicy(FrontendCorsPolicy, policy =>
+        policy.WithOrigins(allowedOrigins).AllowAnyHeader().AllowAnyMethod()));
+
 var app = builder.Build();
+
+app.UseForwardedHeaders(new ForwardedHeadersOptions
+{
+    ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto,
+    KnownIPNetworks = { },
+    KnownProxies = { }
+});
 
 if (exceptionlessEnabled)
 {
@@ -93,6 +116,16 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.MapOpenApi();
+app.MapScalarApiReference();
+app.MapGet("/", () => Results.Redirect("/scalar/v1"));
+
+app.UseCors(FrontendCorsPolicy);
+
+// Off by default: behind a TLS-terminating proxy (or a local container) plain HTTP is expected.
+if (app.Configuration.GetValue<bool>("HttpsRedirection:Enabled"))
+{
+    app.UseHttpsRedirection();
+}
 
 app.UseAuthentication();
 app.UseAuthorization();

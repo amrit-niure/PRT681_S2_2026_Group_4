@@ -487,3 +487,6 @@ $RECYCLE.BIN/
 
 # ELMAH error logs
 elmah-logs/
+
+# Data-protection keys
+dp-keys/
