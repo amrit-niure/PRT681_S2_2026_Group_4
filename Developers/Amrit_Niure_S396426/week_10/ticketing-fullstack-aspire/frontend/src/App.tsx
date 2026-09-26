@@ -4,14 +4,17 @@ import {
   STATUSES,
   createTicket,
   deleteTicket,
+  getTicketStats,
   getTickets,
   type CreateTicket,
   type Ticket,
+  type TicketStats as Stats,
 } from './api/tickets'
 import { AuthForm } from './components/AuthForm'
 import { TicketDetail } from './components/TicketDetail'
 import { TicketForm } from './components/TicketForm'
 import { TicketList } from './components/TicketList'
+import { TicketStats } from './components/TicketStats'
 import { selectClassName } from './components/selectClassName'
 import { Button } from '@/components/ui/button'
 import { useAuth } from './auth/AuthContext'
@@ -19,6 +22,7 @@ import { useAuth } from './auth/AuthContext'
 function TicketsScreen() {
   const { email, signOut } = useAuth()
   const [tickets, setTickets] = useState<Ticket[]>([])
+  const [stats, setStats] = useState<Stats | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [mine, setMine] = useState(false)
@@ -26,9 +30,10 @@ function TicketsScreen() {
   const [openId, setOpenId] = useState<number | null>(null)
 
   const load = useCallback(() => {
-    return getTickets({ status, mine })
-      .then((items) => {
+    return Promise.all([getTickets({ status, mine }), getTicketStats()])
+      .then(([items, summary]) => {
         setTickets(items)
+        setStats(summary)
         setError(null)
       })
       .catch((e: unknown) => setError(e instanceof Error ? e.message : 'Failed to load tickets'))
@@ -47,7 +52,7 @@ function TicketsScreen() {
   async function handleDelete(id: number) {
     try {
       await deleteTicket(id)
-      setTickets((prev) => prev.filter((t) => t.id !== id))
+      await load()
     } catch (e: unknown) {
       setError(e instanceof Error ? e.message : 'Could not delete the ticket')
     }
@@ -65,6 +70,8 @@ function TicketsScreen() {
           </Button>
         </div>
       </header>
+
+      {stats && <TicketStats stats={stats} onSelectStatus={setStatus} />}
 
       <TicketForm onCreate={handleCreate} />
 

@@ -101,3 +101,15 @@ export function formatTimestamp(iso: string): string {
     minute: '2-digit',
   })
 }
+
+export interface TicketStats {
+  total: number
+  mine: number
+  unassigned: number
+  byStatus: number[]
+  byPriority: number[]
+}
+
+export function getTicketStats(): Promise<TicketStats> {
+  return authFetch(`${ENDPOINT}/stats`).then((r) => readJson<TicketStats>(r))
+}
