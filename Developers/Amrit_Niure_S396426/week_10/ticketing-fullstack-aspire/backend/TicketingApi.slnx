@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TicketingApi/TicketingApi.csproj" />
+  <Project Path="TicketingApi.AppHost/TicketingApi.AppHost.csproj" />
+  <Project Path="TicketingApi.ServiceDefaults/TicketingApi.ServiceDefaults.csproj" />
+</Solution>

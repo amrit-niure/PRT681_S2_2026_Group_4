@@ -1,0 +1,49 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    env_file:
+      - Developers/Amrit_Niure_S396426/Week 8/todo-fullstack-aspire/backend/.env
+    environment:
+      POSTGRES_DB: tododb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d tododb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  seq:
+    image: datalust/seq:latest
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: "Y"
+    volumes:
+      - seq_data:/data
+    ports:
+      - "8081:80"
+
+  todoapi:
+    build:
+      context: Developers/Amrit_Niure_S396426/Week 8/todo-fullstack-aspire/backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      seq:
+        condition: service_started
+    env_file:
+      - Developers/Amrit_Niure_S396426/Week 8/todo-fullstack-aspire/backend/.env
+    environment:
+      ConnectionStrings__seq: http://seq:5341
+    volumes:
+      - todoapi_dpkeys:/app/dp-keys
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_data:
+  seq_data:
+  todoapi_dpkeys:
