@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 using TicketingApi.Data;
+using TicketingApi.Notifications;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +28,10 @@ builder.Services.AddAuthorization();
 builder.Services
     .AddIdentityApiEndpoints<IdentityUser>()
     .AddEntityFrameworkStores<TicketingDbContext>();
+
+// Outgoing email over SMTP (Resend relay by default).
+builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection(SmtpOptions.SectionName));
+builder.Services.AddSingleton<IEmailSender, SmtpEmailSender>();
 
 var app = builder.Build();
 
