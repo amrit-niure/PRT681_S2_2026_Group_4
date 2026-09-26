@@ -2,15 +2,21 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0-alpine AS build
 WORKDIR /src
 
+ARG TARGETARCH
+
 # Restore first so this layer is cached until a csproj changes.
 COPY TicketingApi.ServiceDefaults/TicketingApi.ServiceDefaults.csproj TicketingApi.ServiceDefaults/
 COPY TicketingApi/TicketingApi.csproj TicketingApi/
-RUN dotnet restore TicketingApi/TicketingApi.csproj
+# Publishing for one runtime (not "any") keeps only that platform's native libraries, e.g.
+# Temporal's, instead of shipping every OS/arch (~200 MB saved).
+RUN RID=linux-musl-$([ "$TARGETARCH" = "arm64" ] && echo arm64 || echo x64) \
+ && dotnet restore TicketingApi/TicketingApi.csproj -r $RID
 
 COPY TicketingApi.ServiceDefaults/ TicketingApi.ServiceDefaults/
 COPY TicketingApi/ TicketingApi/
 WORKDIR /src/TicketingApi
-RUN dotnet publish -c Release -o /app/publish --no-restore
+RUN RID=linux-musl-$([ "$TARGETARCH" = "arm64" ] && echo arm64 || echo x64) \
+ && dotnet publish -c Release -o /app/publish --no-restore -r $RID --self-contained false
 
 # ---- runtime (Alpine keeps the image small) ----
 FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS final
