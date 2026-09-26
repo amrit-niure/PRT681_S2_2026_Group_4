@@ -184,6 +184,33 @@ public class TicketsController : ControllerBase
         return Created($"/api/tickets/{id}", new TicketCommentDto(comment.Id, author, comment.Body, comment.CreatedAt));
     }
 
+    [HttpGet("stats")]
+    public async Task<ActionResult<TicketStatsDto>> GetStats()
+    {
+        var userId = CurrentUserId;
+        var tickets = _db.Tickets.AsNoTracking();
+
+        var statusCounts = await tickets
+            .GroupBy(t => t.Status)
+            .Select(g => new { g.Key, Count = g.Count() })
+            .ToListAsync();
+        var priorityCounts = await tickets
+            .GroupBy(t => t.Priority)
+            .Select(g => new { g.Key, Count = g.Count() })
+            .ToListAsync();
+
+        var byStatus = new int[Enum.GetValues<TicketStatus>().Length];
+        foreach (var row in statusCounts) byStatus[(int)row.Key] = row.Count;
+        var byPriority = new int[Enum.GetValues<TicketPriority>().Length];
+        foreach (var row in priorityCounts) byPriority[(int)row.Key] = row.Count;
+
+        var mine = await tickets.CountAsync(t => t.CreatedByUserId == userId);
+        var unassigned = await tickets.CountAsync(t =>
+            t.AssignedToUserId == null && t.Status != TicketStatus.Closed && t.Status != TicketStatus.Resolved);
+
+        return Ok(new TicketStatsDto(byStatus.Sum(), mine, unassigned, byStatus, byPriority));
+    }
+
     [HttpGet("assignees")]
     public async Task<ActionResult<IEnumerable<object>>> GetAssignees()
     {
